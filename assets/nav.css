@@ -1,0 +1,43 @@
+
+.backLink a {
+    display: block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    position: fixed;
+    left: 1em;
+    bottom: 1em;
+    color: #000;
+    background-color: #fdb414;
+    color: inherit;
+    text-decoration: none;
+    z-index: +9;
+}
+
+.backLink a:hover {
+    color: #fdb414;
+    background-color: #000;
+}
+
+.minsize {
+    display: none;
+}
+
+@media only screen and (max-width: 1199px), only screen and (max-height: 599px) {
+    .minsize {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-family: sans-serif;
+        color: rgb(255,255,255);
+        background-color: rgba(0,0,0,0.85);
+        z-index: +8;
+    }
+    body {
+        overflow: hidden;
+    }
+}
