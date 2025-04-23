@@ -7,9 +7,9 @@ function isGitHubPages() {
 
 function getRelativeRoot() {
   const path = window.location.pathname;
-  const depth = path.split('/').length - 2; // directory depth
+  let depth = path.split('/').length - 2; // directory depth
   let relativeRoot = '';
-  if (isGitHubPages()) depth--
+  if (isGitHubPages()) depth--;
   for (let i = 0; i < depth; i++) {
     relativeRoot += '../';
   }
