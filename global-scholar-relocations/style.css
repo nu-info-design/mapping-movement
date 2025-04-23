@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+    font-family: "Fira Code", monospace;
+}
+
+#intro{
+    background-image: url('images/Frame\ 24.png');
+    background-size: cover; /* 可选值: auto, cover, contain, 或具体像素值如 100px 200px */
+    height: 100vh;
+    padding-top:30vh;
+    padding-left:10vw;
+    padding-bottom: auto;
+    padding-right:10vw;
+}
+
+
+#a {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#b {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+h1 {
+    font-size: 3vw;
+    margin: 0;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h2 {
+    font-size: 1vw;
+    margin: 0;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h3 {
+    font-size: 0.7vw;
+    margin: 0;
+    font-family: "Fira Code", monospace;
+    font-weight: 300;
+    font-style: normal;
+}
+.container{
+    font-size: 16px;
+    gap: 3px;
+    color: #aaa;
+    font-weight: 300;
+}
+
+.description {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-size: 16px;
+    gap: 3px;
+    color: #aaa;
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.stickyNav {
+    position: sticky;
+    top: 0; /* where it will stick */
+    margin: 0 auto;
+    padding: 1em 2em;
+    z-index: 2000;
+    text-align: center;
+    background-color: #121212;
+}
+#globe-container {
+    /* position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    cursor:crosshair;
+    text-align: center; */
+    position: relative;
+    width: 50%;
+    max-width: 50%;
+    cursor: crosshair;
+    text-align: center;
+    flex-shrink: 0; /* 防止 globe-container 宽度被压缩 */
+
+}
+.chart {
+    /* width: calc((100% - 1200px) / 2); */
+    width: calc(75% / 2);
+    position: relative;
+    height: auto; /* 会根据内容自动调整高度 */
+    /* background: #000; */
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+    font-weight: 300;
+}
+
+a:link {
+    color: #aaa;
+  }
+  
+a:visited {
+    color: #777;
+  }
+  
+  /* mouse over link */
+a:hover {
+    color: white;
+  }
+a:active {
+    color: #777;
+  }
+
+.tooltip {
+    opacity: 0;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.85);
+    color:white;
+    padding:12px;
+    border-radius: 6px;
+    pointer-events: none;
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 1000;
+
+}
+
+#reset-button {
+    position: relative;
+    margin: auto;
+    top: 50px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+#reset-button:hover {
+    background-color: #444;
+    color:white;
+}
+
+/* 时间轴容器样式 */
+#timeline-container {
+    position: absolute;
+    bottom: 20px;
+    left: 60%;
+    transform: translateX(-60%);
+    width: 90%;
+    background-color: rgba(20, 20, 20, 0.7);
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.timeline-label {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 16px;
+    width: 90%;
+}
+.slider-container {
+    width: 90%;
+    /* margin: auto; */
+}
+/* 滑块样式 */
+.slider {
+    -webkit-appearance: none;
+    appearance:none;
+    width: 110%;
+    height: 8px;
+    border-radius: 4px;
+    background: #444;
+    outline: none;
+    /* padding: 10px 50px 30px 0; */
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+.slider::-webkit-slider-thumb:hover {
+    background: white;
+}
+.slider::-moz-range-thumb:hover {
+    background: white;
+}
+/* 时间轴刻度样式 */
+.timeline-ticks {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-top: 5px;
+    /* width: 90%; */
+    color:lime;
+}
+.tick {
+    color: white;
+    font-size: 0.5vw;
+    text-align: center;
+    position: relative;
+    flex: 1;
+    /* padding:0 10px 10px 0; */
+}
+/* 当前年份高亮样式 */
+.tick.active {
+    color: white;
+    font-weight: bold;
+}
+/* 添加垂直刻度线 */
+.tick::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 1px;
+    height: 5px;
+    background-color: #666;
+}
+
+.map2 {
+    width: 60%;
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 16px;
+    gap: 3px;
+    color: #aaa;
+  }

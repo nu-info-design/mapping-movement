@@ -513,11 +513,21 @@ allOption.value = "All";
 allOption.text = "All";
 hazardFilter.appendChild(allOption);
 
-Object.entries(hazardColors).forEach(([hazard, color]) => {
+const emojiCircle = {
+  'Flood': '🟠',          // orange
+  'Wildfire': '🟢',       // green
+  'Storm': '🔴',          // red
+  'Earthquake': '🟣',     // purple
+  'Volcanic activity': '🟤', // brown
+  'Drought': '🟡',        // yellow (closest to pink you’re using)
+  'Mass Movement': '⚫️'   // grey/black
+};
+
+Object.keys(hazardColors).forEach(hazard => {
   const option = document.createElement("option");
   option.value = hazard;
-  option.text = `● ${hazard}`;
-  option.style.color = color;
+  // ► Use emoji instead of CSS-coloured bullet
+  option.text = `${emojiCircle[hazard]} ${hazard}`;
   hazardFilter.appendChild(option);
 });
 
@@ -661,12 +671,12 @@ Promise.all([
   ]).then(([world]) => {
     // ... map path and mapGroup setup
 
-    const boxHeight = 80;
-    const boxWidth = 80;
+    const boxHeight = 70;
+    const boxWidth = 70;
 
 
     const infoLayer = mapGroup.append("g").attr("class", "info-layer");
-    const spacing = 40;
+    const spacing = 30;
     const baseY = 430;
     const totalBoxWidth = top5Countries.length * (boxWidth + spacing);
     const startX = 900 / 2 - totalBoxWidth / 2;
@@ -731,26 +741,26 @@ Promise.all([
       .attr("fill", "#1e293b")
       .attr("fill-opacity", 0.25)
       .attr("stroke", "#facc15")
-      .attr("stroke-width", 1.5)
-      .attr("stroke-opacity", 0.6)
+      .attr("stroke-width", 0)
+      .attr("stroke-opacity", 0.4)
       .attr("class", "box-overlay");
 
 
       box.append("text")
         .attr("x", boxWidth / 2)
-        .attr("y", 70)
+        .attr("y", 60)
         .attr("text-anchor", "middle")
         .attr("fill", "white")
-        .style("font-size", "10px")
+        .style("font-size", "9px")
         .text(`${pos.country}`)
         .attr("class", "label-country");
 
       box.append("text")
         .attr("x", boxWidth / 2)
-        .attr("y", 20)
+        .attr("y", 15)
         .attr("text-anchor", "middle")
         .attr("fill", "white")
-        .style("font-size", "7px")
+        .style("font-size", "6px")
         .attr("opacity", 0)
         .attr("class", "label-total")
         .text(`${pos.Total.toLocaleString()} displaced`);
@@ -763,11 +773,11 @@ Promise.all([
           .attr("y", yOffset)
           .attr("text-anchor", "middle")
           .attr("fill", "#facc15")
-          .style("font-size", "7px")
+          .style("font-size", "6px")
           .attr("opacity", 0)
           .attr("class", "label-hazard")
           .text(`${hazard}: ${pos[hazard].toLocaleString()}`);
-        yOffset += 10;
+        yOffset += 8;
       });
     });
 
@@ -789,7 +799,7 @@ Promise.all([
       group.select(".box-overlay")
         .transition().duration(300)
         .attr("fill-opacity", 0.25)
-        .attr("stroke-width", 1.5)
+        .attr("stroke-width", 0)
         .attr("stroke-opacity", 0.6);
       group.select(".label-country").transition().duration(200).attr("opacity", 1);
       group.select(".label-total").transition().duration(200).attr("opacity", 0);
@@ -859,3 +869,52 @@ const legend = d3.select("body")
     });
   }
   
+
+ /* ───────── Hover tooltip for the clustered-bubble chart ───────── */
+(function () {
+
+  // 1. Create one tooltip div (re-uses your .tooltip CSS)
+  const tip = d3.select("body")
+    .append("div")
+    .attr("class", "tooltip")
+    .style("pointer-events", "none")
+    .style("opacity", 0);
+
+  // 2. Helper: attach hover handlers to every bubble
+  function wireHover () {
+    clusterSvg.selectAll("circle")
+      .on("mouseover", (event, d) => {
+
+        // Only show when bubbles are grouped by hazard
+        if (!groupByType) return;
+
+        /* work out hazard & country without editing drawBubbles() */
+        // a. hazard ⇒ from the bubble’s fill colour
+        const hazard = Object.entries(colors)
+          .find(([, col]) => col === d.color)?.[0];
+
+        if (!hazard) return;   // safety
+
+        // b. country ⇒ row index = bubble Y / spacing
+        const row = Math.round(d.cy / clusterSpacing) - 1;
+        const cData = clusterData[row] || {};
+        const count = cData[hazard] || 0;
+
+        // c. show tooltip
+        tip.html(`<strong>
+                  ${hazard}: ${count.toLocaleString()}`)
+           .style("left",  (event.pageX + 12) + "px")
+           .style("top",   (event.pageY + 12) + "px")
+           .style("opacity", 1);
+      })
+      .on("mouseout", () => tip.style("opacity", 0));
+  }
+
+  // 3. Wrap the original drawBubbles so wiring runs every redraw
+  const oldDraw = drawBubbles;
+  drawBubbles = function () {
+    oldDraw();
+    wireHover();              // (re)attach hover each time
+  };
+
+})();  // ← IIFE keeps globals clean

@@ -224,9 +224,9 @@ main {
 .overlay {
   position: absolute;
   top: 0;
-  left: 0;
+  left: calc(50% - 400px);
   min-height: 10px;
-  width: 100%;
+  width: 220px;
 }
 
 

@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  font-family: Impact, Charcoal, sans-serif; 
+}
+.legend-box {
+  position: fixed;
+  top: 50px;
+  left: 10px;
+  width: 200px;    /* 根据你 SVG 的大小适配 */
+  z-index: 1000;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #cccccc;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #4e4e4e;
+  color: white;
+  overflow-y: auto;
+}
+
+.container {
+  top: 100px;
+  display: flex;
+  width: 200vw;
+  height: 100vh;
+  
+  transition: transform 0.8s ease;
+}
+
+.viz-panel {
+  top: 100px;
+  width: 120vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#chart {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+/* ✅ Dashboard 总容器 */
+/* 🎯 Dashboard Container */
+.dashboard {
+  width: 500px;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  position: fixed;
+  top: 0;
+  right: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 15px;
+  transition: right 0.5s ease;
+  z-index: 999;
+}
+
+/* 🟨 Vertical Tab for Show/Hide */
+.dashboard-tab {
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 100px;
+  background-color: #ffffff;
+  color: white;
+  writing-mode: vertical-rl;
+  text-align: center;
+  border-radius: 6px 0 0 6px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* ⬆️ Info Boxes (Top & Bottom) */
+.info-box {
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.info-top {
+  border: 2px solid #ffffff;
+  margin-bottom: 16px;
+}
+
+.info-bottom {
+  border: 2px solid #ffffff;
+}
+
+
+/* ✅ 箭头 */
+.pointer-arrow {
+  position: fixed;
+  top: 59.5%;
+  right: 2000px; /* 根据需要微调位置 */
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 20px solid #F27772;  /* 向左的三角箭头 */
+  z-index: 999;
+  pointer-events: none;
+  display: none;
+}
+
+
+/* ✅ 按钮样式 */
+.floating-btn {
+  position: fixed;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  z-index: 999;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+.right-bottom {
+  bottom: 30px;
+  right: 30px;
+  background-color: #F27772;
+}
+
+.left-top {
+  bottom: 30px;
+  right: 30px;
+  background-color: #6CAE9C;
+}
+
+/* 公共按钮样式 */
+.floating-tab {
+  position: absolute;  /* ✅ 改成 fixed 就不会受 container 移动影响 */
+  top: 90%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #F27772;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  cursor: pointer;
+  z-index: 9999;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+
+/* Learn 按钮样式（颜色可选） */
+.learn-tab {
+  background-color: #F27772;
+}
+.back-tab {
+  background-color: #6CAE9C;
+  right: 40.4%;             /* 固定位置，不动 */
+  opacity: 1;               /* 初始隐藏 */
+  transition: opacity 1s ease;  /* 平滑淡入淡出 */
+}

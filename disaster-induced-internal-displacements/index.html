@@ -3,31 +3,36 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Disaster-Induced Internal Displacements</title>
 
   <!-- D3 & TopoJSON Libraries -->
-  <script src="Assets/d3.v7.min.js"></script>
-  <script src="Assets/topojson.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
 
   <!-- Fonts & CSS -->
   <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <!-- AOS Animation Library -->
-  <link href="Assets/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
   <section class="intro-split" data-aos="fade-up">
     <div class="intro-left">
-      <h1>Disaster-Induced Internal Displacements</h1>
+      <h1>Disaster-Induced</h1>
+      <h1>Internal</h1>
+      <h1>Displacements</h1>
       <h2>in 2023</h2>
     </div>
     <div class="intro-right">
       <p>
-        In 2023, over 24 million people were displaced within their own countries, driven by powerful natural disasters such as floods, storms, earthquakes, and wildfires. The top five most affected countries — China, Türkiye, Philippines, Somalia, and Pakistan — saw the largest movements of people, with millions forced to leave their homes in the wake of these devastating events. This visualization highlights the scale of displacement in these regions, offering insights into how these disasters triggered widespread human movement and impacted communities across the globe.
+        In 2023, over 24 million people were displaced within their own countries, driven by powerful natural disasters
+        such as floods, storms, earthquakes, and wildfires. The top five most affected countries — China, Türkiye,
+        Philippines, Somalia, and Pakistan — saw the largest movements of people, with millions forced to leave their
+        homes in the wake of these devastating events. This visualization highlights the scale of displacement in these
+        regions, offering insights into how these disasters triggered widespread human movement and impacted communities
+        across the globe.
       </p>
     </div>
   </section>
@@ -43,34 +48,67 @@
         <span id="sizeValue">1</span>
       </div>
       <svg id="bubbleMap" viewBox="0 0 900 500" preserveAspectRatio="xMidYMid meet">
-  <g id="sizeLegend" transform="translate(700, 320)"></g>
-        
+        <g id="sizeLegend" transform="translate(700, 320)"></g>
+
       </svg>
       <div id="hoverBox" class="hover-box" style="display:none; position:absolute; pointer-events:none;"></div>
     </div>
   </section>
 
-  <p data-aos="fade-up" data-aos-delay="300" style="
+  <p class="dis" data-aos="fade-up" data-aos-delay="300" style="
     max-width: 1000px; 
-    margin: 3rem auto; 
-    text-align: center; 
+    max-height: 1000px;
+    text-align: left; 
     font-size: 16px; 
     line-height: 1.8; 
     color: #cbd5e1;
     padding: 0 2rem;">
-    While the map offers a sweeping view of disaster-induced displacement across the globe, the visualization below focuses on the <em>most affected countries</em>. It breaks down not just the total number of displaced people, but also the specific hazards — such as floods, storms, earthquakes, wildfires, and droughts — that caused them.
-    <br><br>
-    Each row represents a country, with colored bubbles that reflect the type and scale of disasters endured. Larger clusters signal greater impact, while the colors reveal which hazards are most dominant. By toggling the grouping, you can shift from a randomized spread to a hazard-based arrangement — allowing patterns to emerge and comparisons to be drawn.
-    <br><br>
-    This layered chart moves us from global context to focused insight, helping uncover how different disasters disrupt lives differently across regions.
+    The map you’ve just explored translates those <em>headline figures</em> into geography, scaling each<br>circle to
+    show how many people were uprooted in the year’s <em>five hardest-hit</em><br>nations. Keep scrolling and the story
+    deepens: the <em>bubble clusters</em> that follow unpack<br>the raw numbers, revealing which <em>hazards—floods,
+      storms, earthquakes, wildfires, or droughts</em>—powered each country’s<br>crisis. By shifting the bubbles into
+    <em>hazard groups</em>, you can watch <em>distinct risk</em><br>profiles emerge, moving seamlessly from a
+    <em>panoramic view</em> of displacement to a <em>close-up</em><br>of the forces that made these five countries
+    <em>rise to the top</em>. Use<br>the <em>Disaster Grouping</em> toggle to regroup the bubbles by hazard and see
+    each<br>country's risk profile line up side-by-side
   </p>
 
   <section data-aos="fade-up" data-aos-delay="400">
     <div class="chart-container">
-      <svg id="clusterChart" width="900" height="2000"></svg>
-      
+      <svg id="clusterChart" width="900" height="2200"></svg>
+
     </div>
   </section>
+  <p class="dis" data-aos="fade-up" data-aos-delay="300" style="
+  max-width: 1000px; 
+  max-height: 1000px;
+  text-align: left; 
+  font-size: 16px; 
+  
+  line-height: 1.8; 
+  color: #cbd5e1;
+  padding: 0 2rem;">
+Although earthquakes can trigger sudden, outsized waves of movement, the relentless rhythm of<br><em>floods and storms</em> steadily pushes <em>displacement totals</em> higher year after year.<br>Together, these <em>climate-linked hazards</em> account for <em>three-quarters</em> of all people on<br>the move across the five spotlighted nations.<br>Seen side by side, the visuals reveal not just who was hit hardest<br>in 2023, but why strengthening <em>day-to-day resilience</em> to <em>water- and wind-driven</em><br><em>disasters</em> now matters as much as preparing for the <em>next big quake</em>.</p>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-info">
+        <h3>Data Sources</h3>
+        <p>Data drawn from the Internal Displacement Monitoring Centre (IDMC) <a href="https://www.internal-displacement.org/database"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="color:#facc15; text-decoration:none;">
+         Global Internal Displacement Database
+       </a></p>
+      </div>
+      <div class="footer-data-source">
+        <h3>By Chaitanya Sai Botta</h3>
+      </div>
+    </div>
+    <div class="footer-copyright">
+    </div>
+  </div>
+</footer>
 
   <!-- JS Scripts -->
   <script src="final_script.js"></script>
@@ -83,51 +121,50 @@
       once: true
     });
 
+    /* Modify checkIfChartIsVisible function to properly hide/show legend */
     function checkIfChartIsVisible() {
       const mapElement = document.getElementById("bubbleMap");
       const barChartElement = document.getElementById("clusterChart");
       const legend = document.querySelector(".legend-vertical");
+      const footer = document.querySelector(".footer");
+
+      if (!mapElement || !barChartElement || !legend) return;
 
       const mapRect = mapElement.getBoundingClientRect();
       const barChartRect = barChartElement.getBoundingClientRect();
+      const footerRect = footer ? footer.getBoundingClientRect() : null;
 
       const isMapVisible = mapRect.top < window.innerHeight && mapRect.bottom >= 0;
       const isBarChartVisible = barChartRect.top < window.innerHeight && barChartRect.bottom >= 0;
 
-      if (isMapVisible || isBarChartVisible) {
-        legend.style.visibility = 'visible';
+      // Check if legend would overlap with footer
+      const legendBottom = window.innerHeight / 2 + legend.offsetHeight / 2;
+      const wouldOverlapFooter = footerRect && footerRect.top < legendBottom;
+
+      if ((isMapVisible || isBarChartVisible) && !wouldOverlapFooter) {
+        legend.classList.remove("hidden");
         setTimeout(() => {
           legend.style.opacity = 1;
+          legend.style.visibility = "visible";
         }, 10);
       } else {
+        legend.classList.add("hidden");
         legend.style.opacity = 0;
         setTimeout(() => {
-          legend.style.visibility = 'hidden';
-        }, 1000);
+          legend.style.visibility = "hidden";
+        }, 500);
       }
     }
 
+    // Call this function on scroll and resize
     window.addEventListener('scroll', checkIfChartIsVisible);
-    checkIfChartIsVisible();
+    window.addEventListener('resize', checkIfChartIsVisible);
+    // Also call it on page load
+    document.addEventListener('DOMContentLoaded', checkIfChartIsVisible);
 
-    // Patch for cluster chart animation
-    function animateClusterBubbles() {
-      d3.selectAll("circle")
-        .transition()
-        .duration(100)
-        .attr("cx", d => d.cx)
-        .attr("cy", d => d.cy)
-        .attr("r", d => d.r);
-    }
-    window.toggleGrouping = function() {
-      groupByType = !groupByType;
-      drawBubbles();
-      setTimeout(() => animateClusterBubbles(), 10000000);
-    }
-   
 
   </script>
   <script src="../assets/nav.js"></script>
-
 </body>
+
 </html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Ripples into Silence</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ① 封面页 -->
+  <section id="cover" class="fullscreen cover">
+    <img src="./images/lampedusa_cover.png" alt="Opening Cover" id="cover-image" />
+    <div class="cover-content">
+      <h1>Ripples into Silence</h1>
+      <h2>Lives That Vanished Within Sight of Lampedusa</h2>
+    </div>
+  </section>
+
+  <!-- ② 介绍页 -->
+  <section id="intro" class="section intro">
+    <div class="content">
+      <p class="intro-step">
+        The central Mediterranean has been a crossing point and a graveyard for years.<br>
+        Each journey begins with hope, but not all end in safety.
+      </p>
+
+      <p class="intro-step">
+        Near the island of Lampedusa, the sea carries thousands of untold stories.<br>
+        In 2013, one tragedy alone claimed over 360 lives just offshore.
+      </p>
+
+      <p class="intro-step">
+        More than a decade has passed since that day.<br>
+        Yet boats still arrive — and others still vanish.
+      </p>
+
+      <p class="intro-step">
+        Some disappear far from help.<br>
+        Others make it close, within sight of land, before fading like ripples on the sea.
+      </p>
+
+      <p class="intro-step final">
+        What can these scattered traces tell us?<br>
+        And what stories lie just beneath the surface?
+      </p>
+
+    </div>
+    <img src="./images/lampedusa_shade_dark.png" alt="lampedusa_shade_dark" id="lampedusa_shade_dark" />
+  </section>
+
+  <!-- ③ 导航栏 -->
+  <nav id="main-nav" class="nav hidden">
+    <div class="nav-content">
+      <a href="#intro" class="nav-link">Intro</a>
+      <a href="#section-b" class="nav-link">Details</a>
+      <a href="#section-c" class="nav-link">Reflections</a>
+    </div>
+  </nav>
+
+  <!-- ④ 可视化主区 -->
+  <section id="viz-section" class="section viz">
+    <div class="layout">
+      <div id="left">
+        <div class="label">TOTAL INCIDENTS</div>
+        <div id="incident-count">0</div>
+      </div>
+      <div id="viz"></div>
+      <div id="right">
+        <div class="label">DEAD & MISSING</div>
+        <div id="death-count">0</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ 深入分析 -->
+  <section id="details" class="section">
+    <div class="content">
+      <h2>2024: The Deadliest Year</h2>
+      <p>With the highest recorded number of lives lost within 50km of Lampedusa, 2024 marks a devastating peak in the
+        ongoing migrant crisis. This section breaks it down in detail.</p>
+    </div>
+  </section>
+
+  <!-- ⑥ 反思段 -->
+  <section id="reflection" class="section">
+    <div class="content">
+      <h2>Why This Work Matters</h2>
+      <p>Data alone cannot revive the lost. But by visualizing their final journeys, we hope to preserve their stories
+        and reflect on the larger forces at play.</p>
+    </div>
+  </section>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <script type="module" src="js/main.js"></script>
+
+
+  <!-- 滚动逻辑 -->
+  <script>
+    const steps = document.querySelectorAll('.intro-step');
+    const introContent = document.querySelector('#intro .content');
+    const nav = document.querySelector('#main-nav');
+    const navLinks = document.querySelectorAll('#main-nav .nav-link');
+    const shadeImage = document.querySelector('#lampedusa_shade_dark');
+
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY;
+      const windowH = window.innerHeight;
+
+      // 文字逐步显现
+      const introRect = introContent.getBoundingClientRect();
+      if (introRect.top < windowH * 0.95) {
+        introContent.classList.add('revealed');
+      }
+
+      steps.forEach((step, i) => {
+        const rect = step.getBoundingClientRect();
+        const triggerPoint = windowH * 0.85 - i * 40;
+        if (rect.top < triggerPoint) {
+          step.classList.add('visible');
+        }
+      });
+
+      const navTop = nav.getBoundingClientRect().top;
+      if (navTop < window.innerHeight) {
+        nav.classList.add('visible');
+        navLinks.forEach((link, i) => {
+          setTimeout(() => {
+            link.classList.add('visible');
+          }, i * 150);
+        });
+
+        const introBottom = document.querySelector('#intro').offsetTop + document.querySelector('#intro').offsetHeight;
+        if (scrollY > introBottom - 100) {
+          nav.classList.add('sticky-top');
+        } else {
+          nav.classList.remove('sticky-top');
+        }
+      } else {
+        nav.classList.remove('visible', 'sticky-top');
+        navLinks.forEach(link => link.classList.remove('visible'));
+      }
+
+      const lastStep = document.querySelector('.intro-step.final');
+      if (lastStep.classList.contains('visible')) {
+        setTimeout(() => {
+          shadeImage.classList.add('visible');
+        }, 300);
+      } else {
+        shadeImage.classList.remove('visible');
+      }
+
+    });
+
+    window.dispatchEvent(new Event('scroll'));
+  </script>
+
+
+</body>
+
+</html>

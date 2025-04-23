@@ -1,14 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <title>Vanishing Journeys</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
 
-<h3>Vanishing Journeys: Tragedy and Survival on the Path to the U.S.</h3>
-    
-<script src="../assets/nav.js"></script>
+  <!-- 🌟 页面标题与描述 -->
+  <h1 class="main-title">Vanishing Journeys: Tragedy and Survival on the Path to the U.S in 2024</h1>
+
+  <p class="subtitle">
+    This is a visual elegy for those who never arrived.<br>
+    It sheds light on the unseen tragedies behind border statistics, giving presence to those lost in transit.<br>
+    By turning numbers into stories, we hope viewers not only see, but feel — the weight of silence, the cost of crossing, and the humanity behind every vanished journey.
+  </p>
+
+  <!-- 📌 图例 -->
+  <img src="legend.svg" alt="Legend" class="legend-box" id="legendImage" />
+
+  <!-- 🔄 主容器：可滑动区域 -->
+  <div class="container" id="mainContainer">
+    <!-- 📊 可视化区域 -->
+    <div class="viz-panel">
+      <div class="chart-container">
+        <div id="chart"></div>
+      </div>
+    </div>
+
+    <!-- 📋 Dashboard -->
+    <div class="dashboard">
+      <h3>COUNTRY</h3>
+      <div class="info-box info-top">Top Dashboard</div>
+      <h3>INCIDENT</h3>
+      <div class="info-box info-bottom">Bottom Dashboard</div>
+    </div>
+
+    <!-- ⭐ 中心指针箭头 -->
+    <div class="pointer-arrow"></div>
+  </div>
+
+  <!-- 🧭 按钮区域（在 container 外固定）-->
+  <div class="tab-button-wrapper">
+    <button id="learnMoreBtn" class="floating-tab learn-tab">◀ More</button>
+    <button id="backBtn" class="floating-tab back-tab" style="display: none;">▶ Back</button>
+  </div>
+
+  <!-- 📜 D3 可视化脚本 -->
+  <script src="viz.js"></script>
+  <script src="../assets/nav.js"></script>
 </body>
 </html>
+
+

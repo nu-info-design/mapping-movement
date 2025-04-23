@@ -1,14 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>SVG Paths to Canvas with Filters & Tooltip</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+  <script src="https://unpkg.com/scrollama"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Faustina:ital,wght@0,300..800;1,300..800&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bg-slate-800">
+  
+  <!-- NAV -->
+  <nav class="top-0 sticky flex bg-slate-950 p-3 text-white text-sm align-right z-10">
+    <ul class="">
+      <li class="inline-block link mr-2"><a href="#mapping">Jump to Mapping</a></li>
+      <li class="inline-block link"><a href="https://gabkdejesus.com/" target="_blank">More of my Works</a></li>
+    </ul>
+  </nav> 
 
-<h3>The H-1B Game</h3>
-    
-<script src="../assets/nav.js"></script>
+  <!-- SCROLLY -->
+  <main>
+    <section id="scrolly1">
+      <!-- Image Sticky -->
+      <!-- <div class="sticky-thing" style="background:url('img/bg_cap.svg'); background-size:cover;">
+      </div> -->
+
+      <!-- SVG Sticky -->
+      <div class="sticky-thing">
+        <svg id="vis" class="w-screen h-screen absolute top-0 left-0"></svg>
+      </div>
+      
+
+      <article class="article-body">
+        <div class="step" data-step="1" data-img="img/bg_cap.svg">
+          <p>Every year, thousands of foreign workers apply for an H-1B Visa.</p>
+          </div>
+
+          <div class="step" data-step="2" data-img="img/bg_all.svg" data-caption="">
+            <p>Competition is fierce: In FY 2023, there were 483,927 H-1B applications. In the background, each square 🟦 represents 500 entries.</p>
+          </div>
+
+          <div class="step" data-step="3" data-img="img/bg_all.svg" data-caption="">
+            <p>Visas are limited to 85,000 per year, managed through a lottery. Winners can still be denied at the petition stage.</p>
+          </div>
+
+          <!-- <div class="step" data-step="4" data-img="img/bg_all.svg" data-caption="">
+            <p>The average acceptance ranges from x to y.</p>
+          </div> -->
+          
+          <div class="step" data-step="4" data-img="img/bg_all.svg" data-caption="">
+            <p>Everyone else must try again next year.</p>
+          </div>
+        </article>
+      </section>
+  </main>
+
+  <!-- intro -->
+  <!-- <div id="intro" class="container mx-auto max-w-screen-lg h-screen place-content-center items-center"> -->
+  <div id="intro" class="m-20 mx-auto w-screen h-screen place-content-evenly">
+    <div class="grid grid-cols-2 gap-4">
+      <!-- <div></div> -->
+      <div>
+      </div>
+      <div>
+        <h1 class="text-6xl mb-2 pt-[50vh]">The H-1B Game</h1>
+        <p>Visualizing the process—and your chances—of getting the coveted visa.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 mb-20 max-w-screen-lg">
+    <h2 class="text-3xl mb-2">The H-1B Timeline</h2>
+    <p class="mb-5">The H-1B visa application process has several stages:</p>
+    <ol id="stages" class="list-decimal ml-10 my-2 mb-10">
+      <li><span class="font-bold">Initial Applications</span> <br>Some applicants may have multiple entries if sponsored by different companies.</li>
+      <li><span class="font-bold">Lottery</span> <br>Conducted using random selection, the regular cap has 65,000 visas. An additional 20,000 visas are reserved for advanced degree holders (master's or above). Employees of nonprofits and higher education institutions can skip the lottery.</li>
+      <li><span class="font-bold">Petitions</span> <br>Applicant qualifications are reviewed, and if approved you get your h-1b visa.</li>
+      <li><span class="font-bold">Petitions Round 2</span> <br>If not enough applicants are accepted to make the cap, a second round of lottery and petitions are conducted.</li>
+    </ol>
+  </div>
+
+  <!-- Simple Timeline.js -->
+  <div class="container mx-auto px-4 mb-10 max-w-screen-lg">
+    <div id="simple-timeline"></div>
+  </div>
+
+
+  <div id="mapping" class="container w-screen mx-auto px-4">
+    <h2 class="text-2xl mb-2">How do the entries look over time?</h2>
+    <p class="subtitle">Mapping the status of entries based on the selected month below.</p>
+    <div class="grid grid-cols-3 gap-4">
+      <!-- Hover Timeline -->
+      <div class="col-span-2">
+        <button id="toggle-layout" style="">Toggle Beeswarm Layout</button>
+        <button id="toggle-cluster" style="">Toggle Cluster Layout</button>
+         <div class="" id="timeline-container"></div>
+
+        <!-- <div class="" id="chart-container"></div> -->
+      </div>
+      <!-- Total Entries -->
+       
+      <div class="col-span-1 mt-10">
+        <h3 class="text-xl" id="total-entries"><span class="text-4xl mr-1">781,000</span> Total Entries</h3>
+        
+        <div class="w-60 my-5 border-[0.5px] border-solid border-white"></div>
+
+        <p class="mb-5"><span class="subtitle">Selected Date: </span><span id="current-date"></span></p>
+
+        <div class="accepted mb-5">
+          <h3 class="text-xl"><span id="accepted-percent" class="text-3xl mr-1">70%</span> Accepted</h3>
+          <p id="accepted-entries" class="subtitle">(243,000 Entries)</p>
+        </div>
+
+        <div class="legend">
+          <div class="industry">
+            <h4 class='legend-item one text-xl'> STEM</h4>
+            <p id="stem-entries" class="subtitle">40,000 (60%)</p>
+          </div>
+          <div class="industry">
+            <h4 class='legend-item two text-xl'>Social Sciences and Law</h4>
+            <p id="socscilaw-entries" class="subtitle">8,000 (10%)</p>
+          </div>
+          <div class="industry">
+            <h4 class='legend-item three text-xl'>Medicine, Health and Education</h4>
+            <p id="meded-entries" class="subtitle">4,000 (5%)</p>
+          </div>
+          <div class="industry">
+            <h4 class='legend-item four text-xl'>Arts, Media and Culture</h4>
+            <p id="arts-entries" class="subtitle">4,000 (5%)</p>
+          </div>
+          <div class="industry">
+            <h4 class='legend-item five text-xl'>Business, Administration and Management</h4>
+            <p id="business-entries" class="subtitle">4,000 (5%)</p>
+          </div>
+          <div class="industry">
+            <h4 class='legend-item six text-xl'>Religion and Theology</h4>
+            <p id="religion-entries" class="subtitle">4,000 (5%)</p>
+          </div>
+          <div class="industry">
+            <h4 class='legend-item seven text-xl'>Miscellaneous</h4>
+            <p id="misc-entries" class="subtitle">4,000 (5%)</p>
+          </div>
+           
+          <div class="w-60 my-5 border-[0.5px] border-solid border-white"></div>
+
+          <div class="accepted mb-5">
+            <h3 class="text-xl"><span id="denied-percent" class="text-3xl mr-1"></span> Denied</h3>
+            <p id="denied-entries" class="subtitle"></p>
+          </div>
+        </div>   
+      </div>
+    </div>
+  </div>
+
+  <div class="container w-screen mx-auto mb-20 px-4">
+    <p style="color: rgb(194, 194, 194);">Data Source: <a href="https://github.com/BloombergGraphics/2024-h1b-immigration-data" target="_blank" class="underline">US H-1B Visa Lottery and Petition Data FY 2021 - FY 2024</a></p>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="scrolly-for-d3.js"></script>
+  <script src="sphere.js"></script>
+  <script src="simple-timeline.js"></script>
+  <script src="../assets/nav.js"></script>
 </body>
 </html>

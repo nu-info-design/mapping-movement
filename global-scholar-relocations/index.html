@@ -3,12 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-<h3>Global Scholar Relocations</h3>
+    <title>Global Scholar Relocations: Information Design Studio 2 Final Project Haolan Z</title>
+    <link rel="stylesheet" href="style.css">
 
-<script src="../assets/nav.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <script src="https://unpkg.com/versor@0.2/dist/versor.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="intro">
+            <h2>A Visualization of </h2>
+            <h1>Global Scholar Relocations</h1>
+            <h3>Academic communication is largely made possible by the mobility of scholars around the world. Over the last century, more than 10,000,000 scholars have moved from place to place for their own reasons, emerging countless patterns and phenomena of different dimensions. Inspired by MPIDR's Scholarly Migration Database and the dataset it collected in 2023, this project presents an interactive visualization focused on the relocation flows of scholars worldwide, offering you the opportunity to explore this sophisticated database in a much more tangible way.</h3>
+    </div>
+    <nav class="stickyNav">
+        <div class="content">
+            <p><a href="#">Introduction</a> | <a href="#a">Exploration</a> | <a href="#b">Data Experience</a> 
+        </div>
+    </nav>
+    <div class="description">
+        <p width="1200px" padding-top="50px">This map shows the flow of relocated scholars between 1998 and 2018. The weight of the lines is influenced by the number of scholars relocated in each year, and the centroids of each country are the locations of the capital cities. You can hover on a country to see the detailed charts about it. You can drag the globe to explore the world. Hover on a country or a flow curve to see its detailed information.</p>
+    </div>
+
+    <div id="a", class="container">
+        <div id="chart-left" class="chart"></div>
+
+        <div id="globe-container">
+            <button id="reset-button">Try Dragging</button>
+            <div id="timeline-container">
+                <div class="timeline-label">Year: <span id="year-label">All Time</span></div>
+                <div class="slider-container">
+                    <input type="range" min="0" max="100" value="0" class="slider" id="year-slider">
+                </div>
+                <div class="timeline-ticks"></div>
+            </div>
+        </div>
+
+        <div id="chart-right" class="chart"></div>
+    </div>
+
+    <div id="b", class="container">
+        <div id="map2">
+            <h3>Azimuthal Projection</h3>
+            <p>In an azimuthal projection map, one point on the globe is chosen as the "center" in the sense that mapped distances and azimuths from that point to any other point will be correct. Although the countries at the most distant points will be distorted, the azimuthal projection can map the equidistant flow curves, which is essential for this project. It also makes all the countries of the world visible in one frame.</p>
+        </div>  
+    </div>
+
+    <footer>
+        <p>Data source: <a href="https://www.scholarlymigration.org/index.html">Scholarly Migration Database</a> | Instructor: Todd Linkner | Created with D3.js</p>
+    </footer>
+
+
+    <script src="script2.js"></script>
+    <script src="lib/ScrollMagic.min.js"></script>
+    <script src="../assets/nav.js"></script>
+
 </body>
 </html>
