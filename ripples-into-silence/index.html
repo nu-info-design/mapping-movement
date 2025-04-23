@@ -32,6 +32,13 @@
         <h1>Ripples into Silence</h1>
         <h2>Lives That Vanished Within Sight of Lampedusa</h2>
       </div>
+      <!-- 底部滚动提示 -->
+      <div class="scroll-icon">
+        <div class="arrow-bounce-wrapper">
+    <div class="arrow">↓</div>
+  </div>
+  <div class="scroll-text"><span class="highlight">Scroll</span> to View</div>
+</div>
     </section>
 
     <!-- ② 介绍页 -->
@@ -151,7 +158,7 @@
   <!-- <section id="trends-section">
     <div id="year-grid">
       4+4+3 年份发射容器（必须与 JS 中 ID 一致） -->
-      <!-- <canvas class="year-canvas" data-year="2014"></canvas>
+  <!-- <canvas class="year-canvas" data-year="2014"></canvas>
       <canvas class="year-canvas" data-year="2015"></canvas>
       <canvas class="year-canvas" data-year="2016"></canvas>
       <canvas class="year-canvas" data-year="2017"></canvas>
@@ -167,25 +174,33 @@
     </div> -->
   <!-- </section> -->
 
-    <!-- ⑤ 深入分析2 -->
-    <section id="details" class="section">
-      <section class="section" id="chart-section">
-      </section>
+  <!-- ⑤ 深入分析2 -->
+  <section id="details" class="section">
+    <section class="section" id="chart-section">
+    </section>
+    <div class="content">
+      <h2>A Decade of Lives Lost</h2>
+      <p>From 2014 to 2024, the number of deaths near Lampedusa increased from 85 to 206, showing an overall upward
+        trend over the decade. While 2017 saw a temporary decline, numbers began to rise again from 2018 onward. In
+        recent years, increased departures from Tunisia, coupled with limited rescue capacity and shifting EU policies,
+        have led to more frequent and deadlier incidents. The year 2024 marked the highest toll on record, underscoring
+        the growing desperation—and danger—faced by those attempting to reach Europe. These were not distant tragedies.
+        Many happened within sight of land, a reminder of how close hope can be, and how easily it can vanish.</p>
+      <div id="death-chart-container"></div>
       <div class="content">
-        <h2>A Decade of Lives Lost</h2>
-        <p>From 2014 to 2024, the number of deaths near Lampedusa increased from 85 to 206, showing an overall upward trend over the decade. While 2017 saw a temporary decline, numbers began to rise again from 2018 onward. In recent years, increased departures from Tunisia, coupled with limited rescue capacity and shifting EU policies, have led to more frequent and deadlier incidents. The year 2024 marked the highest toll on record, underscoring the growing desperation—and danger—faced by those attempting to reach Europe. These were not distant tragedies. Many happened within sight of land, a reminder of how close hope can be, and how easily it can vanish.</p>
-        <div id="death-chart-container"></div>
-        <div class="content">
-          <h2>Even 206 Lives Matter</h2>
-          <p>In 2024, more than 45,000 migrants reached Lampedusa. But 206 never made it. Most lost their lives to drowning; others to engine failure, exhaustion, or illness during the journey. The number may seem small in contrast—but each of those 206 was a person with a future, a family, and a reason to hope. They were lost quietly, like ripples fading into the sea.</p>
-        </div>
-        <!-- <div class="isotype-column" style="color: #fbc900">
+        <h2>Even 206 Lives Matter</h2>
+        <p>In 2024, more than 45,000 migrants reached Lampedusa. But 206 never made it. Most lost their lives to
+          drowning; others to engine failure, exhaustion, or illness during the journey. The number may seem small in
+          contrast—but each of those 206 was a person with a future, a family, and a reason to hope. They were lost
+          quietly, like ripples fading into the sea.</p>
+      </div>
+      <!-- <div class="isotype-column" style="color: #fbc900">
           <div class="isotype-grid">
             2 full blocks -->
-            <!-- <div class="isotype-block"></div>
+      <!-- <div class="isotype-block"></div>
             <div class="isotype-block"></div>
             1 faded block for 6% -->
-            <!-- <div class="isotype-block" style="opacity: 0.2"></div>
+      <!-- <div class="isotype-block" style="opacity: 0.2"></div>
           </div>
           <div class="label">Dead</div>
         </div>
@@ -193,12 +208,12 @@
         <div class="isotype-column" style="color: #87cefa">
           <div class="isotype-grid">
             example: 100 blocks shown, actual 460 -->
-            <!-- <div class="isotype-block"></div>
+      <!-- <div class="isotype-block"></div>
             repeat 100 times -->
-          <!-- </div>
+      <!-- </div>
           <div class="label">Arrived (out of 45997)</div>
         </div>         -->
-    </section>
+  </section>
 
 
   <!-- 7 2024年-->
@@ -260,6 +275,29 @@ z-index: 100;
   <script src="https://d3js.org/d3.v7.min.js"></script>
 
   <script type="module" src="js/main.js"></script>
+
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const scrollIcon = document.querySelector(".scroll-icon");
+      if (!scrollIcon) return;
+  
+      setTimeout(() => {
+        scrollIcon.style.opacity = "1";     // 淡入
+        scrollIcon.style.pointerEvents = "auto"; // 可交互（如果你之后有需要）
+      }, 1000); // 延迟 1 秒
+    });
+  </script>
+
+  <script>
+    window.addEventListener("scroll", function () {
+      const scrollIcon = document.querySelector(".scroll-icon");
+      if (window.scrollY > 50) {  // 用户往下滑动超过50px
+        scrollIcon.style.opacity = "0"; // 渐隐
+      } else {
+        scrollIcon.style.opacity = "1"; // 滚回顶部时再出现
+      }
+    });
+  </script>  
 
   <!-- 滚动逻辑 -->
   <script>
@@ -323,11 +361,18 @@ z-index: 100;
 
     window.dispatchEvent(new Event('scroll'));
   </script>
-<script src="../assets/nav.js"></script>
+  <script src="../assets/nav.js"></script>
+
 </body>
 
 <footer id="footer-credit">
-  Designed by Zhuoqi Liu
+  <p>Designed by Zhuoqi Liu</p>
+  <p>
+    Data Source: 
+    <a href="https://missingmigrants.iom.int/downloads" target="_blank" rel="noopener noreferrer">
+      Missing Migrants Project, IOM
+    </a>
+  </p>
 </footer>
 
 </html>

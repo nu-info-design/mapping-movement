@@ -65,7 +65,7 @@ export function startLinearProgressBar(duration = totalDuration) {
                 activeLabel.classed("active", false).classed("inactive", true);
             }
             setTimeout(() => {
-                // ✅ 添加淡出 class
+                // 添加淡出 class
                 d3.select("#year-progress-fill").classed("fade-out", true);
               }, 1000); // 动画结束后延迟 1s 开始淡出
               

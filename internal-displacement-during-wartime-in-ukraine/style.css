@@ -1,0 +1,275 @@
+/***** TOP-LEVEL *****/
+/***** TOP-LEVEL *****/
+/***** TOP-LEVEL *****/
+
+body {
+    background-color: #DFE6F2;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+}
+
+
+#title-image {
+  width: 230px;
+  height: 90px;
+  object-fit: contain;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  transition: opactiy 1s ease-in-out;
+}
+
+#title-image:hover{
+  content: url('Title-Ukraine.png');
+}
+
+#round-summary,
+.legend {
+  color: #073763;
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+}
+
+#round-summary {
+  margin-top: 20px;
+  position: relative;
+}
+
+.legend {
+  margin-bottom: 30px;
+}
+
+.dot{
+  font-size: 18px;
+  color: #6681EA;
+}
+
+
+/***** FONTS *****/
+/***** FONTS *****/
+/***** FONTS *****/
+
+@font-face {
+  font-family: 'NAMU Style Pro';
+  src: url('NAMU-Pro.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Misto does not work :(
+@font-face {
+  font-family: 'Misto';
+  src: url('Misto.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+
+/***** TIMELINE *****/
+/***** TIMELINE *****/
+/***** TIMELINE *****/
+
+#timeline {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.timeline-tick {
+  width: 20px;
+  height: 22px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.timeline-tick:hover {
+  background-color: #F8FF7F;
+}
+
+.tick-line{
+  width: 2px;
+  height: 14px;
+  border-radius: 2px;
+  background-color: #073763;
+  transition: all 0.2s ease-in-out;
+}
+
+.tick-label {
+  position: absolute;
+  font-family: 'Oswald';
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+  display: none;
+}
+
+.timeline-tick.selected .tick-label {
+  background-color: #6681EA;
+  color: #F8FF7F;
+  bottom: 24px;
+  font-size: 14px;
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.timeline-tick.selected .tick-line {
+  width: 15px;
+  background-color: #6681EA;
+}
+
+#timeline-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+#timeline-controls button {
+  background-color:  #6681EA;
+  color: #FFFFFF;
+  border: none;
+  width: 18px;
+  height: 18px;
+  font-size: 9px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1
+}
+
+#timeline-controls button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+  
+
+/***** TOP-RIGHT ICONS *****/
+/***** TOP-RIGHT ICONS *****/
+/***** TOP-RIGHT ICONS *****/
+
+
+/* WRAPPERS & POSITION */
+
+#info-wrapper,
+#iom-wrapper,
+#databio-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+#info-wrapper,
+#iom-wrapper,
+#databio-wrapper {
+  position: fixed;
+  top: 65px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#info-wrapper {
+  right: 50px;
+}
+
+#iom-wrapper {
+  right: 90px;
+}
+
+#databio-wrapper {
+  right: 135px;
+}
+
+/* TOOLTIPS */
+
+#info-wrapper:hover .info-tooltip, 
+#iom-wrapper:hover .iom-tooltip,
+#databio-wrapper:hover .databio-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.info-tooltip,
+.iom-tooltip,
+.databio-tooltip{
+  pointer-events: auto;
+  font-family: 'Oswald';
+  font-weight: 300;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 35px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1.4;
+  white-space: normal;
+  transition: opacity 0.2s ease;
+  z-index: 1000;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.info-tooltip {
+  background-color: #073763;
+  color: #fff;
+}
+
+.info-tooltip {
+  width: 250px;
+}
+
+.iom-tooltip,
+.databio-tooltip {
+  color: #073763;
+  width: 50px;
+}
+
+/* ICONS */
+
+#info-icon,
+#iom-icon,
+#databio-icon {
+  display: block;
+}
+
+#info-icon {
+  width: 20px; 
+  height: 20px;
+}
+
+#info-icon:hover{
+  content: url('info-hover.png');
+}
+
+#iom-icon {
+  width: 24px;
+  height: 20px;
+}
+
+#databio-icon {
+  width: 19px;
+  height: 19px;
+  margin-top: 1.5px;
+}

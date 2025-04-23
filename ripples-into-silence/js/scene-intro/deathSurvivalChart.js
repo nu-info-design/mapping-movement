@@ -26,9 +26,9 @@ const lineGroup = svg.append("g")
 const lineWidth = width * 0.5;
 const chartHeight = height - margin.top - margin.bottom;
 
-// ✅ 给 xScale 两边加 padding：用 domain 扩展
+//
 const xScale = d3.scaleLinear()
-  .domain([2013.5, 2024.5])  // ← 左右各延伸0.5年
+  .domain([2013.5, 2024.5])  // 左右各延伸0.5年
   .range([0, lineWidth]);
 
 const yScale = d3.scaleLinear()

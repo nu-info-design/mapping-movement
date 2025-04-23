@@ -40,6 +40,34 @@ img {
   margin: 0 auto;
 }
 
+/* 默认隐藏提示 */
+.minsize {
+  display: none;
+}
+
+/* 当浏览器太小（宽度 < 1200px 或高度 < 600px）时显示 */
+@media only screen and (max-width: 1199px), only screen and (max-height: 599px) {
+  .minsize {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 9999;
+    text-align: center;
+    padding: 20px;
+  }
+
+  body {
+    overflow: hidden;
+  }
+}
+
 #main-nav {
   position: sticky;
   top: 0;
@@ -101,7 +129,7 @@ img {
     rgba(15, 26, 50, 0.6),   /* 顶部颜色，较浅 */
     rgba(10, 18, 35, 0.8),
     rgba(5, 14, 35, 0.92),
-    rgba(5, 14, 35, 1.0)     /* ✅ 精确等同于 #050E23 */
+    rgba(5, 14, 35, 1.0)     /* 精确等同于 #050E23 */
   );}
 
 #ripple-background.hidden {
@@ -119,8 +147,6 @@ img {
     rgba(5, 14, 35, 1.0)     /* 底部：不透明，与 nav 对接 */
   );
 }
-
-
 
 /* ========== 封面页 ========== */
 #cover {
@@ -179,6 +205,56 @@ img {
     opacity: 0.9;
     transform: translateY(0);
   }
+}
+
+/* ===== 底部滚动提示样式 Scroll Prompt ===== */
+.scroll-icon {
+  display: flex; /* 原来是 none，改成 flex 才会出现 */
+  position: fixed;
+  bottom: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  flex-direction: column;
+  align-items: center;
+  opacity: 0; /* 初始显示为1 */
+  pointer-events: none;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+  text-align: center;
+  transition: opacity 0.6s ease;
+  z-index: 10;
+}
+
+/* 箭头动画包裹 Arrow Wrapper with Bounce */
+.arrow-bounce-wrapper {
+  display: inline-block;
+  margin-bottom: 12px;
+  animation: scroll-bounce 1.5s infinite;
+}
+
+/* 箭头样式 Arrow Style */
+.scroll-icon .arrow {
+  font-size: 24px;
+  opacity: 0.6;
+  line-height: 1;
+  transform: translateX(-2%);
+  transform: translateY(5%);
+}
+
+/* 滚动文字样式 Scroll Label Style */
+.scroll-icon .scroll-text {
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin: 0;
+}
+
+/* 箭头上下弹跳动画 Bouncing Keyframe */
+@keyframes scroll-bounce {
+  0%   { transform: translateY(2px); }
+  50%  { transform: translateY(8px); }
+  100% { transform: translateY(2px); }
 }
 
 /* ========== Intro 区块 ========== */
@@ -872,4 +948,15 @@ svg {
   scroll-margin-top: -50px;  /* 或与导航栏高度一致 */
 }
 
+#footer-credit a {
+  color: #45608b; /* 柔和蓝灰色 */
+}
 
+#footer-credit a:hover {
+  color: #768cba; /* hover 更亮一点 */
+}
+
+@keyframes fadeInOnly {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

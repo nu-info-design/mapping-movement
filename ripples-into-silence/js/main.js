@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded", () => {
 drawDeathSurvivalChart("#death-chart-container");
 
 let animationStarted = false;
-let allowAutoAnimation = true; // ✅ 默认允许动画
+let allowAutoAnimation = true; // 默认允许动画
 
 function lockScroll() {
   document.body.style.overflow = 'hidden';
@@ -156,7 +156,7 @@ function autoScrollAndStartAnimation() {
 // ✅ 页面加载后判断是否顶部，不是则禁用自动动画
 window.addEventListener('load', () => {
   if (window.scrollY > 100) {
-    allowAutoAnimation = false; // ❗ 页面刷新非顶部，禁止自动锁屏动画
+    allowAutoAnimation = false; // 页面刷新非顶部，禁止自动锁屏动画
   }
 
   setTimeout(() => {
@@ -240,26 +240,4 @@ if (scrollySteps.length && imgFront && imgBack && scrollyGraphic) {
     observer.observe(step);
   });
   
-}
-
-function drawIsotypeGrid(containerId, blockCount, color, faded = 0) {
-    const container = document.getElementById(containerId);
-    container.style.color = color;
-  
-    for (let i = 0; i < blockCount; i++) {
-      const block = document.createElement('div');
-      block.classList.add('isotype-block');
-      if (i >= blockCount - faded) {
-        block.style.opacity = '0.2';
-      }
-      container.appendChild(block);
-    }
-  }
-  
-// Draw dead: 206
-drawIsotypeGrid('dead-grid', 206 / 100, '#fbc900');
-
-// Draw arrived: 45997
-drawIsotypeGrid('arrived-grid', 45997 / 100, '#87cefa');
-
-  
+} 
