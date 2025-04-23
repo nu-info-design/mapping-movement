@@ -1,7 +1,15 @@
+function isGitHubPages() {
+  const path = window.location.pathname;
+  const dir = path.split('/');
+  if (dir[1] === "foo") return true
+  else return false
+}
+
 function getRelativeRoot() {
   const path = window.location.pathname;
   const depth = path.split('/').length - 2; // directory depth
   let relativeRoot = '';
+  if (isGitHubPages()) depth--
   for (let i = 0; i < depth; i++) {
     relativeRoot += '../';
   }
