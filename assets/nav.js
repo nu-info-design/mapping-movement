@@ -17,10 +17,7 @@ function getRelativeRoot() {
 }
 
 function isHomePage() {
-    const path = window.location.pathname;
-    const dir = path.split('/');
-    const depth = path.split('/').length - 2;
-    if (depth === 0 || dir[1] === "mapping-movement") {
+    if (getRelativeRoot()==='') {
         return true
     } else {
         return false
