@@ -1,7 +1,7 @@
 function isGitHubPages() {
   const path = window.location.pathname;
   const dir = path.split('/');
-  if (dir[1] === "mapping-migration") return true
+  if (dir[1] === "mapping-movement") return true
   else return false
 }
 
