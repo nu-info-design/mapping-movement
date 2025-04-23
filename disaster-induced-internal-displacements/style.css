@@ -1,0 +1,179 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.filters {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.filters select,
+.filters input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #334155;
+  background-color: #1e293b;
+  color: white;
+  font-size: 1rem;
+}
+
+.filters select option {
+  background-color: #1e293b;
+  color: white;
+}
+
+.filters select:focus,
+.filters input:focus {
+  border-color: #38bdf8;
+  outline: none;
+}
+
+svg,
+#trendChart {
+  background-color: #0f172a;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Title and description block with vertical divider */
+.intro-split {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  gap: 4rem;
+  position: relative;
+}
+
+.intro-left,
+.intro-right {
+  flex: 1;
+  max-width: 600px;
+  text-align: center;
+}
+
+.intro-left {
+  text-align: right;
+  padding-right: 2rem;
+}
+.intro-left h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.intro-left h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+.intro-right {
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.intro-split::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 30%; /* Adjust this value to reduce the height from the top */
+  bottom: 30%; /* Adjust this value to reduce the height from the bottom */
+  width: 1px;  /* Keep the width as is, or adjust as necessary */
+  background-color: #334155;
+  transform: translateX(-50%);
+}
+
+.legend-vertical {
+  position: fixed;
+  top: 50%;
+  left: 1rem; /* Move the legend to the left */
+  transform: translateY(-50%);
+  visibility: hidden; /* Initially hidden */
+  opacity: 0; /* Start hidden for transition */
+  display: flex; /* Always display flex to prevent layout issues */
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1rem;
+  z-index: 999;
+  font-size: 0.9rem;
+  color: #f1f5f9;
+  transition: opacity 1s ease-in-out, visibility 0s 1s; /* Smooth fade-in transition */
+}
+
+.legend-vertical.show {
+  display: flex; /* Show the legend */
+  opacity: 1; /* Fade in */
+}
+
+.legend-vertical div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.legend-vertical span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  fill: white;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 6px;
+  color: #fff;
+  font-size: 13px;
+  pointer-events: none;
+  opacity: 0;
+  text-align: center;
+  max-width: 200px;
+  z-index: 1000;
+}
+
+.chart-button-container {
+  display: flex;
+  justify-content: flex-start; /* ← change from flex-end */
+ 
+  margin-left: 86rem; /* optional spacing */
+}
+
+.fixed-button {
+  padding: 8px 14px;
+  background: #1e293b;
+  color: white;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#clusterChart {
+  max-width: 100%;
+  overflow: visible;
+  padding-right: 5rem;
+}

@@ -1,0 +1,255 @@
+/* style-new.css */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&display=swap');
+
+/* ====== Base Layout ====== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+/* hide warning by default */
+.minsize {
+  display: none;
+}
+/* css to display when the browser is too small  */
+@media only screen and (max-width: 1199px), only screen and (max-height: 599px) {
+  /* display warning on top of content */
+  .minsize {
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color:rgba(0,0,0,0.85);
+      z-index: +9;
+  }
+  /* stop scrolling body */
+  body {
+      overflow: hidden;
+  }
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;  
+  align-items: center;     
+  background-color: #f7f2f0; 
+  box-sizing: border-box;
+}
+
+.intro h1 {
+  margin-top: 0;
+    font-size: 3.5rem;
+    font-weight: normal;
+    text-align: left;
+    color: #bc9ebb;
+}
+
+.intro .content {
+  margin: 0;
+  padding: 0;
+}
+
+.credit-line {
+  font-size: 10px; 
+  font-weight: normal;
+}
+
+/* ====== Sticky Navigation ====== */
+.stickyNav {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+    color: #2E2E2E;
+    background-color: #bc9ebb;
+  }
+
+.stickyNav .content {
+  min-height: 1em;
+}
+
+.stickyNav .nav-container {
+  padding: 1em 0;
+}
+
+.stickyNav a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.stickyNav a + a {
+  margin-left: 1.5em;
+}
+  
+  nav a:first-child {
+    margin-left: 0;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+  .title {
+    font-weight: bold;
+}
+  
+:target::before {
+    content: "";
+    display: block;
+    height: 5em;
+    visibility: hidden;
+}
+
+.nav-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;    
+}
+
+/* ====== Headings & Text ====== */
+h1, h2, h3, p {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: #2E2E2E;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 40px 0 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 40px 0 20px;
+}
+
+h3 {
+    font-size: 14px;
+    margin: 20px 0 10px;
+}
+
+p, .paragraph {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+p + p {
+  margin-top: 20px;
+}
+
+/* ====== Main Sections ====== */
+main {
+    width: 100%;
+}
+
+#countrySelect {
+  margin-left: -1em;
+  margin-bottom: 1.5em;
+}
+
+.key-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.key {
+    width: auto;  
+    height: auto;
+    display: inline-block; 
+}
+
+/* ====== Graph Wrapper ====== */
+#graph-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#graph, #graph svg {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+/* ====== Dropdown ====== */
+#countrySelect {
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #ffffff;
+    width: 200px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* ====== Plot & Caption Flex Layout ====== */
+
+.plot-with-caption {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 60px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 10px;
+  width: 100%;
+}
+
+
+  .plot-caption {
+    margin-top: 20px;         
+    margin-left: 20px;        
+    font-size: 12px;
+    text-align: left;      
+    width: 100%;
+    max-width: 200px;          
+    color: #555;
+    line-height: 1.4;
+    z-index: +1;
+  }
+
+  .plot-visual {
+    width: 100%;
+    position: relative;
+  }
+
+  .plot-visual svg {
+    transform: translateX(0);
+  }
+
+
+  

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 12px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-7 {
+        font-family: HelveticaNeue, 'Helvetica Neue';
+      }
+
+      .cls-8 {
+        fill: #718ec8;
+      }
+
+      .cls-8, .cls-9 {
+        font-family: Helvetica-Bold, Helvetica;
+        font-size: 13.37px;
+      }
+
+      .cls-8, .cls-9, .cls-10, .cls-11 {
+        font-weight: 700;
+      }
+
+      .cls-9, .cls-10 {
+        fill: #1b1464;
+      }
+
+      .cls-10 {
+        font-size: 33px;
+      }
+
+      .cls-10, .cls-11 {
+        font-family: HelveticaNeue-Bold, 'Helvetica Neue';
+      }
+
+      .cls-2, .cls-4, .cls-6 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-11 {
+        font-size: 24px;
+      }
+
+      .cls-7 {
+        font-size: 18px;
+      }
+
+      .cls-12 {
+        fill: #b8c6e4;
+      }
+
+      .cls-3, .cls-4 {
+        opacity: .4;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-16 {
+        fill: #718ec8;
+      }
+
+      .cls-17 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-18 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-19 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-20 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-21 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-22 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-23 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-24 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-25 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-26 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-27 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-29 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        opacity: .5;
+      }
+
+      .cls-30 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-31 {
+        letter-spacing: .02em;
+      }
+
+      .cls-32 {
+        letter-spacing: .02em;
+      }
+    </style>
+  </defs>
+  <g id="ocean_base" data-name="ocean base">
+    <rect class="cls-16" width="1920" height="1080"/>
+  </g>
+  <g id="panel">
+    <rect class="cls-12" x=".35" y=".05" width="446" height="1080"/>
+  </g>
+  <g id="menu_2" data-name="menu 2">
+    <g id="home">
+      <rect class="cls-3" x="93.09" y="271.47" width="264.4" height="42.03"/>
+      <text class="cls-8" transform="translate(110.96 297.51)"><tspan x="0" y="0">HOME</tspan></text>
+    </g>
+    <g id="what">
+      <rect class="cls-3" x="92.91" y="320.67" width="264.4" height="42.03"/>
+      <text class="cls-8" transform="translate(111.91 346.21)"><tspan x="0" y="0">WH</tspan><tspan class="cls-18" x="22.28" y="0">A</tspan><tspan class="cls-14" x="30.95" y="0">T’S HAPPENING?</tspan></text>
+    </g>
+    <g id="islands">
+      <rect class="cls-3" x="93.09" y="408.82" width="264.4" height="42.03"/>
+      <text class="cls-8" transform="translate(111.91 434.86)"><tspan x="0" y="0">THE ISLANDS</tspan></text>
+    </g>
+    <g id="internal">
+      <rect class="cls-3" x="92.16" y="569.3" width="264.4" height="42.03"/>
+      <text class="cls-8" transform="translate(111.23 596.29)"><tspan x="0" y="0">INTERNA</tspan><tspan class="cls-29" x="59.43" y="0">L</tspan><tspan class="cls-14" x="67.36" y="0" xml:space="preserve"> MIGR</tspan><tspan class="cls-17" x="105.99" y="0">A</tspan><tspan x="114.66" y="0">TION</tspan></text>
+    </g>
+    <g id="external">
+      <rect class="cls-3" x="92.16" y="619.64" width="264.4" height="42.03"/>
+      <text class="cls-8" transform="translate(111.23 645.67)"><tspan x="0" y="0">EXTERNA</tspan><tspan class="cls-29" x="63.9" y="0">L</tspan><tspan x="71.83" y="0" xml:space="preserve"> MIGR</tspan><tspan class="cls-17" x="110.46" y="0">A</tspan><tspan x="119.13" y="0">TION</tspan></text>
+    </g>
+    <g id="next">
+      <rect class="cls-5" x="93.09" y="767.8" width="264.4" height="42.03"/>
+      <text class="cls-9" transform="translate(111.91 792.88)"><tspan x="0" y="0">NEXT STEPS</tspan></text>
+    </g>
+    <circle class="cls-4" cx="224.82" cy="509.14" r="3.42"/>
+    <circle class="cls-4" cx="224.82" cy="520.94" r="3.42"/>
+    <circle class="cls-4" cx="224.82" cy="532.74" r="3.42"/>
+    <circle class="cls-4" cx="224.82" cy="544.54" r="3.42"/>
+    <circle class="cls-4" cx="224.82" cy="461.94" r="3.42"/>
+    <circle class="cls-4" cx="224.82" cy="473.74" r="3.42"/>
+    <circle class="cls-4" cx="224.82" cy="485.54" r="3.42"/>
+    <circle class="cls-4" cx="224.82" cy="497.34" r="3.42"/>
+    <circle class="cls-4" cx="224.82" cy="556.34" r="3.42"/>
+    <circle class="cls-2" cx="224.82" cy="719.41" r="3.42"/>
+    <circle class="cls-2" cx="224.82" cy="731.21" r="3.42"/>
+    <circle class="cls-2" cx="224.82" cy="743.01" r="3.42"/>
+    <circle class="cls-2" cx="224.82" cy="754.81" r="3.42"/>
+    <circle class="cls-2" cx="224.82" cy="672.21" r="3.42"/>
+    <circle class="cls-2" cx="224.82" cy="684.01" r="3.42"/>
+    <circle class="cls-2" cx="224.82" cy="695.81" r="3.42"/>
+    <circle class="cls-2" cx="224.82" cy="707.61" r="3.42"/>
+    <circle class="cls-6" cx="224.82" cy="373.13" r="3.42"/>
+    <circle class="cls-6" cx="224.82" cy="384.93" r="3.42"/>
+    <circle class="cls-6" cx="224.82" cy="396.73" r="3.42"/>
+  </g>
+  <g id="text">
+    <g>
+      <text class="cls-5" transform="translate(629.74 282.48)"><tspan class="cls-11"><tspan x="0" y="0">What can I do to help?</tspan></tspan><tspan class="cls-7"><tspan x="0" y="50.4">Lea</tspan><tspan class="cls-31" x="29.34" y="50.4">r</tspan><tspan x="35.66" y="50.4">ning about </tspan><tspan class="cls-21" x="126.36" y="50.4">T</tspan><tspan x="135.04" y="50.4">uvalu is just the beginning. Check out the </tspan><tspan class="cls-25" x="471.81" y="50.4">r</tspan><tspan x="477.48" y="50.4">esou</tspan><tspan class="cls-28" x="516.49" y="50.4">r</tspan><tspan x="522.16" y="50.4">ce </tspan></tspan><tspan class="cls-7"><tspan x="0" y="72">below to take action, follow along with </tspan><tspan class="cls-21" x="313.31" y="72">T</tspan><tspan x="321.98" y="72">uvalu</tspan><tspan class="cls-19" x="364.66" y="72">’</tspan><tspan x="368.33" y="72">s digital transformation, </tspan></tspan><tspan class="cls-7"><tspan x="0" y="93.6">and see what the futu</tspan><tspan class="cls-25" x="174.04" y="93.6">r</tspan><tspan x="179.71" y="93.6">e holds for the people of </tspan><tspan class="cls-20" x="381.08" y="93.6">T</tspan><tspan x="389.75" y="93.6">uvalu.</tspan></tspan></text>
+      <text class="cls-1" transform="translate(629.74 769.28)"><tspan x="0" y="0">Inte</tspan><tspan class="cls-32" x="20" y="0">r</tspan><tspan x="24.22" y="0">national Migrant Stock by Origin, United Nations DESA</tspan><tspan x="0" y="14.4">Sea Level Summary for Funafuti, NASA Sea Level Change Portal</tspan><tspan class="cls-20" x="0" y="28.8">T</tspan><tspan x="5.78" y="28.8">uvalu Country Brief, Australian Gove</tspan><tspan class="cls-32" x="200.02" y="28.8">r</tspan><tspan x="204.23" y="28.8">nment Department of Fo</tspan><tspan class="cls-26" x="335.62" y="28.8">r</tspan><tspan x="339.4" y="28.8">eign A</tspan><tspan class="cls-26" x="373.18" y="28.8">f</tspan><tspan class="cls-13" x="376.51" y="28.8">fairs and </tspan><tspan class="cls-23" x="426.07" y="28.8">T</tspan><tspan x="431.85" y="28.8">rade</tspan><tspan class="cls-20" x="0" y="43.2">T</tspan><tspan x="5.78" y="43.2">uvalu Population, </tspan><tspan class="cls-24" x="101.81" y="43.2">W</tspan><tspan x="112.24" y="43.2">orld Health O</tspan><tspan class="cls-30" x="183.36" y="43.2">r</tspan><tspan x="187.02" y="43.2">ganization</tspan></text>
+    </g>
+  </g>
+  <g id="title">
+    <text id="where_are_Tuvaluans_going_" data-name="where are Tuvaluans  going?" class="cls-10" transform="translate(89.79 181.43) scale(.96 1)"><tspan x="0" y="0">Whe</tspan><tspan class="cls-27" x="69.66" y="0">r</tspan><tspan x="81.9" y="0">e a</tspan><tspan class="cls-27" x="128.96" y="0">r</tspan><tspan class="cls-15" x="141.2" y="0">e </tspan><tspan class="cls-22" x="0" y="31">T</tspan><tspan x="17.13" y="31">uvaluans Going?</tspan></text>
+  </g>
+</svg>

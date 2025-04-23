@@ -1,0 +1,589 @@
+Source,Target,Type,Id,Label,Weight,movement
+Afghanistan,Egypt,Directed,0,,16,Origin to Asylum
+Afghanistan,India,Directed,1,,330,Origin to Asylum
+Afghanistan,Indonesia,Directed,2,,751,Origin to Asylum
+Afghanistan,Iran (Islamic Rep. of),Directed,3,,1403,Origin to Asylum
+Afghanistan,Lebanon,Directed,4,,6,Origin to Asylum
+Afghanistan,Madagascar,Directed,5,,11,Origin to Asylum
+Afghanistan,Malaysia,Directed,6,,428,Origin to Asylum
+Afghanistan,Morocco,Directed,7,,7,Origin to Asylum
+Afghanistan,Nepal,Directed,8,,9,Origin to Asylum
+Afghanistan,Pakistan,Directed,9,,338,Origin to Asylum
+Afghanistan,Sri Lanka,Directed,10,,14,Origin to Asylum
+Afghanistan,Thailand,Directed,11,,21,Origin to Asylum
+Afghanistan,Türkiye,Directed,12,,2963,Origin to Asylum
+Afghanistan,United Arab Emirates,Directed,13,,5,Origin to Asylum
+Algeria,Canada,Directed,14,,93,Asylum to Resettlement
+Algeria,United States of America,Directed,15,,28,Asylum to Resettlement
+Aruba,United States of America,Directed,16,,2,Asylum to Resettlement
+Australia,New Zealand,Directed,17,,94,Asylum to Resettlement
+Australia,United States of America,Directed,18,,17,Asylum to Resettlement
+Bahrain,United States of America,Directed,19,,1,Asylum to Resettlement
+Bangladesh,Canada,Directed,20,,84,Asylum to Resettlement
+Bangladesh,Sweden,Directed,21,,3,Asylum to Resettlement
+Bangladesh,United States of America,Directed,22,,152,Asylum to Resettlement
+Benin,Germany,Directed,23,,4,Asylum to Resettlement
+Benin,Norway,Directed,24,,3,Asylum to Resettlement
+Burundi,Australia,Directed,25,,328,Asylum to Resettlement
+Burundi,Canada,Directed,26,,504,Asylum to Resettlement
+Burundi,Dem. Rep. of the Congo,Directed,27,,8,Origin to Asylum
+Burundi,Ethiopia,Directed,28,,6,Origin to Asylum
+Burundi,Kenya,Directed,29,,31,Origin to Asylum
+Burundi,Malawi,Directed,30,,56,Origin to Asylum
+Burundi,Mozambique,Directed,31,,5,Origin to Asylum
+Burundi,Rwanda,Directed,32,,82,Origin to Asylum
+Burundi,South Africa,Directed,33,,40,Origin to Asylum
+Burundi,Uganda,Directed,34,,72,Origin to Asylum
+Burundi,United Kingdom of Great Britain and Northern Ireland,Directed,35,,13,Asylum to Resettlement
+Burundi,United Rep. of Tanzania,Directed,36,,80,Origin to Asylum
+Burundi,United States of America,Directed,37,,3519,Asylum to Resettlement
+Burundi,Zambia,Directed,38,,14,Origin to Asylum
+Burundi,Zimbabwe,Directed,39,,50,Origin to Asylum
+Cameroon,Australia,Directed,40,,22,Asylum to Resettlement
+Cameroon,Canada,Directed,41,,215,Asylum to Resettlement
+Cameroon,Finland,Directed,42,,3,Asylum to Resettlement
+Cameroon,France,Directed,43,,364,Asylum to Resettlement
+Cameroon,United States of America,Directed,44,,274,Asylum to Resettlement
+Central African Rep.,Algeria,Directed,45,,18,Origin to Asylum
+Central African Rep.,Cameroon,Directed,46,,843,Origin to Asylum
+Central African Rep.,Chad,Directed,47,,655,Origin to Asylum
+Central African Rep.,Dem. Rep. of the Congo,Directed,48,,5,Origin to Asylum
+Central African Rep.,Mauritania,Directed,49,,5,Origin to Asylum
+Central African Rep.,Morocco,Directed,50,,19,Origin to Asylum
+Chad,Australia,Directed,51,,54,Asylum to Resettlement
+Chad,Canada,Directed,52,,13,Asylum to Resettlement
+Chad,Finland,Directed,53,,5,Asylum to Resettlement
+Chad,France,Directed,54,,408,Asylum to Resettlement
+Chad,Norway,Directed,55,,12,Asylum to Resettlement
+Chad,Sweden,Directed,56,,16,Asylum to Resettlement
+Chad,United States of America,Directed,57,,981,Asylum to Resettlement
+China,Canada,Directed,58,,10,Asylum to Resettlement
+China,United States of America,Directed,59,,14,Asylum to Resettlement
+"China, Hong Kong SAR",Canada,Directed,60,,3,Asylum to Resettlement
+Colombia,Australia,Directed,61,,3,Asylum to Resettlement
+Colombia,Canada,Directed,62,,23,Asylum to Resettlement
+Colombia,Curacao,Directed,63,,8,Origin to Asylum
+Colombia,Ecuador,Directed,64,,1032,Origin to Asylum
+Colombia,Peru,Directed,65,,22,Origin to Asylum
+Colombia,United States of America,Directed,66,,634,Asylum to Resettlement
+Congo,Australia,Directed,67,,5,Asylum to Resettlement
+Congo,Canada,Directed,68,,20,Asylum to Resettlement
+Congo,France,Directed,69,,3,Asylum to Resettlement
+Costa Rica,Canada,Directed,70,,8,Asylum to Resettlement
+Costa Rica,United States of America,Directed,71,,391,Asylum to Resettlement
+Cote d'Ivoire,Sweden,Directed,72,,10,Asylum to Resettlement
+Cuba,Colombia,Directed,73,,11,Origin to Asylum
+Cuba,Dominican Rep.,Directed,74,,5,Origin to Asylum
+Cuba,Finland,Directed,75,,1,Asylum to Resettlement
+Cuba,France,Directed,76,,3,Asylum to Resettlement
+Cuba,Peru,Directed,77,,8,Origin to Asylum
+Cuba,Trinidad and Tobago,Directed,78,,76,Origin to Asylum
+Cuba,United States of America,Directed,79,,2,Asylum to Resettlement
+Curacao,Australia,Directed,80,,10,Asylum to Resettlement
+Dem. Rep. of the Congo,Algeria,Directed,81,,6,Origin to Asylum
+Dem. Rep. of the Congo,Burundi,Directed,82,,4290,Origin to Asylum
+Dem. Rep. of the Congo,Cameroon,Directed,83,,12,Origin to Asylum
+Dem. Rep. of the Congo,Canada,Directed,84,,5,Asylum to Resettlement
+Dem. Rep. of the Congo,Ethiopia,Directed,85,,57,Origin to Asylum
+Dem. Rep. of the Congo,Finland,Directed,86,,9,Asylum to Resettlement
+Dem. Rep. of the Congo,France,Directed,87,,2,Asylum to Resettlement
+Dem. Rep. of the Congo,Kenya,Directed,88,,1025,Origin to Asylum
+Dem. Rep. of the Congo,Malawi,Directed,89,,710,Origin to Asylum
+Dem. Rep. of the Congo,Morocco,Directed,90,,18,Origin to Asylum
+Dem. Rep. of the Congo,Mozambique,Directed,91,,129,Origin to Asylum
+Dem. Rep. of the Congo,Namibia,Directed,92,,136,Origin to Asylum
+Dem. Rep. of the Congo,Peru,Directed,93,,5,Origin to Asylum
+Dem. Rep. of the Congo,Rwanda,Directed,94,,7226,Origin to Asylum
+Dem. Rep. of the Congo,Senegal,Directed,95,,6,Origin to Asylum
+Dem. Rep. of the Congo,South Africa,Directed,96,,429,Origin to Asylum
+Dem. Rep. of the Congo,Uganda,Directed,97,,3077,Origin to Asylum
+Dem. Rep. of the Congo,United Rep. of Tanzania,Directed,98,,7747,Origin to Asylum
+Dem. Rep. of the Congo,Zambia,Directed,99,,838,Origin to Asylum
+Dem. Rep. of the Congo,Zimbabwe,Directed,100,,636,Origin to Asylum
+Djibouti,Sweden,Directed,101,,8,Asylum to Resettlement
+Dominican Rep.,Australia,Directed,102,,45,Asylum to Resettlement
+Dominican Rep.,Canada,Directed,103,,36,Asylum to Resettlement
+Dominican Rep.,United States of America,Directed,104,,303,Asylum to Resettlement
+Ecuador,Australia,Directed,105,,4,Asylum to Resettlement
+Ecuador,Canada,Directed,106,,147,Asylum to Resettlement
+Ecuador,New Zealand,Directed,107,,69,Asylum to Resettlement
+Ecuador,United States of America,Directed,108,,1207,Asylum to Resettlement
+Egypt,Australia,Directed,109,,21,Asylum to Resettlement
+Egypt,Belgium,Directed,110,,79,Asylum to Resettlement
+Egypt,Canada,Directed,111,,688,Asylum to Resettlement
+Egypt,Finland,Directed,112,,14,Asylum to Resettlement
+Egypt,France,Directed,113,,172,Asylum to Resettlement
+Egypt,Germany,Directed,114,,1247,Asylum to Resettlement
+Egypt,Netherlands (Kingdom of the),Directed,115,,124,Asylum to Resettlement
+Egypt,Norway,Directed,116,,7,Asylum to Resettlement
+Egypt,Portugal,Directed,117,,90,Asylum to Resettlement
+Egypt,Sweden,Directed,118,,14,Asylum to Resettlement
+Egypt,Switzerland,Directed,119,,10,Asylum to Resettlement
+Egypt,United Kingdom of Great Britain and Northern Ireland,Directed,120,,125,Asylum to Resettlement
+Egypt,United States of America,Directed,121,,1768,Asylum to Resettlement
+El Salvador,Australia,Directed,122,,46,Asylum to Resettlement
+El Salvador,Canada,Directed,123,,11,Asylum to Resettlement
+El Salvador,Guatemala,Directed,124,,43,Origin to Asylum
+El Salvador,Mexico,Directed,125,,6,Origin to Asylum
+El Salvador,United States of America,Directed,126,,782,Asylum to Resettlement
+Eritrea,Egypt,Directed,127,,361,Origin to Asylum
+Eritrea,Ethiopia,Directed,128,,608,Origin to Asylum
+Eritrea,Israel,Directed,129,,373,Origin to Asylum
+Eritrea,Libya,Directed,130,,21,Origin to Asylum
+Eritrea,Niger,Directed,131,,193,Origin to Asylum
+Eritrea,Rwanda,Directed,132,,285,Origin to Asylum
+Eritrea,South Africa,Directed,133,,5,Origin to Asylum
+Eritrea,Sudan,Directed,134,,217,Origin to Asylum
+Eritrea,Tunisia,Directed,135,,6,Origin to Asylum
+Eritrea,Uganda,Directed,136,,13,Origin to Asylum
+Ethiopia,Canada,Directed,137,,268,Asylum to Resettlement
+Ethiopia,Egypt,Directed,138,,181,Origin to Asylum
+Ethiopia,Finland,Directed,139,,1,Asylum to Resettlement
+Ethiopia,France,Directed,140,,214,Asylum to Resettlement
+Ethiopia,Germany,Directed,141,,1,Asylum to Resettlement
+Ethiopia,Indonesia,Directed,142,,24,Origin to Asylum
+Ethiopia,Kenya,Directed,143,,372,Origin to Asylum
+Ethiopia,Lebanon,Directed,144,,8,Origin to Asylum
+Ethiopia,New Zealand,Directed,145,,50,Asylum to Resettlement
+Ethiopia,Niger,Directed,146,,5,Origin to Asylum
+Ethiopia,Norway,Directed,147,,95,Asylum to Resettlement
+Ethiopia,Rwanda,Directed,148,,9,Origin to Asylum
+Ethiopia,South Africa,Directed,149,,47,Origin to Asylum
+Ethiopia,Sudan,Directed,150,,8,Origin to Asylum
+Ethiopia,Sweden,Directed,151,,40,Asylum to Resettlement
+Ethiopia,United States of America,Directed,152,,664,Asylum to Resettlement
+Gambia,Finland,Directed,153,,1,Asylum to Resettlement
+Gambia,Norway,Directed,154,,1,Asylum to Resettlement
+Ghana,United States of America,Directed,155,,108,Asylum to Resettlement
+Grenada,Finland,Directed,156,,1,Asylum to Resettlement
+Grenada,United States of America,Directed,157,,1,Asylum to Resettlement
+Guatemala,Australia,Directed,158,,20,Asylum to Resettlement
+Guatemala,Canada,Directed,159,,34,Asylum to Resettlement
+Guatemala,Mexico,Directed,160,,11,Origin to Asylum
+Guatemala,United States of America,Directed,161,,2246,Asylum to Resettlement
+Guinea,United States of America,Directed,162,,10,Asylum to Resettlement
+Haiti,Dominican Rep.,Directed,163,,121,Origin to Asylum
+Honduras,Australia,Directed,164,,8,Asylum to Resettlement
+Honduras,Canada,Directed,165,,38,Asylum to Resettlement
+Honduras,Guatemala,Directed,166,,38,Origin to Asylum
+Honduras,Mexico,Directed,167,,18,Origin to Asylum
+Honduras,United States of America,Directed,168,,518,Asylum to Resettlement
+India,Australia,Directed,169,,160,Asylum to Resettlement
+India,Canada,Directed,170,,123,Asylum to Resettlement
+India,Finland,Directed,171,,2,Asylum to Resettlement
+India,France,Directed,172,,3,Asylum to Resettlement
+India,Germany,Directed,173,,1,Asylum to Resettlement
+India,Netherlands (Kingdom of the),Directed,174,,1,Asylum to Resettlement
+India,United Kingdom of Great Britain and Northern Ireland,Directed,175,,16,Asylum to Resettlement
+India,United States of America,Directed,176,,226,Asylum to Resettlement
+Indonesia,Australia,Directed,177,,240,Asylum to Resettlement
+Indonesia,Canada,Directed,178,,241,Asylum to Resettlement
+Indonesia,New Zealand,Directed,179,,261,Asylum to Resettlement
+Indonesia,United Kingdom of Great Britain and Northern Ireland,Directed,180,,10,Asylum to Resettlement
+Indonesia,United States of America,Directed,181,,755,Asylum to Resettlement
+Iran (Islamic Rep. of),Australia,Directed,182,,565,Origin to Asylum
+Iran (Islamic Rep. of),Finland,Directed,184,,756,Asylum to Resettlement
+Iran (Islamic Rep. of),Indonesia,Directed,185,,63,Origin to Asylum
+Iran (Islamic Rep. of),Italy,Directed,186,,50,Asylum to Resettlement
+Iran (Islamic Rep. of),Malaysia,Directed,187,,5,Origin to Asylum
+Iran (Islamic Rep. of),New Zealand,Directed,188,,86,Asylum to Resettlement
+Iran (Islamic Rep. of),Papua New Guinea,Directed,189,,16,Origin to Asylum
+Iran (Islamic Rep. of),Sri Lanka,Directed,190,,6,Origin to Asylum
+Iran (Islamic Rep. of),Türkiye,Directed,191,,803,Origin to Asylum
+Iran (Islamic Rep. of),United Kingdom of Great Britain and Northern Ireland,Directed,192,,90,Asylum to Resettlement
+Iraq,Australia,Directed,193,,129,Asylum to Resettlement
+Iraq,Canada,Directed,194,,73,Asylum to Resettlement
+Iraq,Egypt,Directed,195,,6,Origin to Asylum
+Iraq,Finland,Directed,196,,2,Asylum to Resettlement
+Iraq,France,Directed,197,,29,Asylum to Resettlement
+Iraq,Indonesia,Directed,198,,55,Origin to Asylum
+Iraq,Jordan,Directed,199,,282,Origin to Asylum
+Iraq,Lebanon,Directed,200,,345,Origin to Asylum
+Iraq,Malaysia,Directed,201,,7,Origin to Asylum
+Iraq,New Zealand,Directed,202,,34,Asylum to Resettlement
+Iraq,Norway,Directed,203,,164,Asylum to Resettlement
+Iraq,Türkiye,Directed,204,,1466,Origin to Asylum
+Iraq,United Arab Emirates,Directed,205,,25,Origin to Asylum
+Iraq,United Kingdom of Great Britain and Northern Ireland,Directed,206,,90,Asylum to Resettlement
+Iraq,United States of America,Directed,207,,722,Asylum to Resettlement
+Israel,Australia,Directed,208,,6,Asylum to Resettlement
+Israel,Canada,Directed,209,,78,Asylum to Resettlement
+Israel,France,Directed,210,,6,Asylum to Resettlement
+Israel,Norway,Directed,211,,8,Asylum to Resettlement
+Israel,United States of America,Directed,212,,301,Asylum to Resettlement
+Jordan,Australia,Directed,213,,142,Asylum to Resettlement
+Jordan,Belgium,Directed,214,,29,Asylum to Resettlement
+Jordan,Canada,Directed,215,,1242,Asylum to Resettlement
+Jordan,Finland,Directed,216,,1,Asylum to Resettlement
+Jordan,France,Directed,217,,211,Asylum to Resettlement
+Jordan,Germany,Directed,218,,156,Asylum to Resettlement
+Jordan,Ireland,Directed,219,,73,Asylum to Resettlement
+Jordan,Netherlands (Kingdom of the),Directed,220,,145,Asylum to Resettlement
+Jordan,New Zealand,Directed,221,,9,Asylum to Resettlement
+Jordan,Norway,Directed,222,,213,Asylum to Resettlement
+Jordan,Portugal,Directed,223,,6,Asylum to Resettlement
+Jordan,Romania,Directed,224,,25,Asylum to Resettlement
+Jordan,Sweden,Directed,225,,79,Asylum to Resettlement
+Jordan,United Kingdom of Great Britain and Northern Ireland,Directed,226,,47,Asylum to Resettlement
+Jordan,United States of America,Directed,227,,8383,Asylum to Resettlement
+Kenya,Australia,Directed,228,,395,Asylum to Resettlement
+Kenya,Canada,Directed,229,,203,Asylum to Resettlement
+Kenya,France,Directed,230,,15,Asylum to Resettlement
+Kenya,Germany,Directed,231,,239,Asylum to Resettlement
+Kenya,Iceland,Directed,232,,11,Asylum to Resettlement
+Kenya,Netherlands (Kingdom of the),Directed,233,,116,Asylum to Resettlement
+Kenya,Norway,Directed,234,,125,Asylum to Resettlement
+Kenya,Sweden,Directed,235,,8,Asylum to Resettlement
+Kenya,United Kingdom of Great Britain and Northern Ireland,Directed,236,,66,Asylum to Resettlement
+Kenya,United States of America,Directed,237,,1701,Asylum to Resettlement
+Kuwait,Canada,Directed,238,,8,Asylum to Resettlement
+Kuwait,Norway,Directed,239,,1,Asylum to Resettlement
+Kuwait,United States of America,Directed,240,,62,Asylum to Resettlement
+Lao People's Dem. Rep.,Canada,Directed,241,,1,Asylum to Resettlement
+Lebanon,Argentina,Directed,242,,4,Asylum to Resettlement
+Lebanon,Australia,Directed,243,,511,Asylum to Resettlement
+Lebanon,Belgium,Directed,244,,19,Asylum to Resettlement
+Lebanon,Canada,Directed,245,,2410,Asylum to Resettlement
+Lebanon,Finland,Directed,246,,47,Asylum to Resettlement
+Lebanon,France,Directed,247,,700,Asylum to Resettlement
+Lebanon,Germany,Directed,248,,964,Asylum to Resettlement
+Lebanon,Ireland,Directed,249,,57,Asylum to Resettlement
+Lebanon,Italy,Directed,250,,9,Asylum to Resettlement
+Lebanon,Netherlands (Kingdom of the),Directed,251,,255,Asylum to Resettlement
+Lebanon,New Zealand,Directed,252,,198,Asylum to Resettlement
+Lebanon,Norway,Directed,253,,591,Asylum to Resettlement
+Lebanon,Romania,Directed,254,,78,Asylum to Resettlement
+Lebanon,Spain,Directed,255,,641,Asylum to Resettlement
+Lebanon,Sweden,Directed,256,,48,Asylum to Resettlement
+Lebanon,Switzerland,Directed,257,,83,Asylum to Resettlement
+Lebanon,United Kingdom of Great Britain and Northern Ireland,Directed,258,,87,Asylum to Resettlement
+Lebanon,United States of America,Directed,259,,2283,Asylum to Resettlement
+Libya,Canada,Directed,260,,244,Asylum to Resettlement
+Libya,Finland,Directed,261,,13,Asylum to Resettlement
+Libya,Norway,Directed,262,,112,Asylum to Resettlement
+Libya,Sweden,Directed,263,,39,Asylum to Resettlement
+Libya,United Kingdom of Great Britain and Northern Ireland,Directed,264,,1,Asylum to Resettlement
+Madagascar,United States of America,Directed,265,,60,Asylum to Resettlement
+Malawi,Australia,Directed,266,,165,Asylum to Resettlement
+Malawi,Canada,Directed,267,,62,Asylum to Resettlement
+Malawi,Finland,Directed,268,,13,Asylum to Resettlement
+Malawi,Norway,Directed,269,,10,Asylum to Resettlement
+Malawi,United States of America,Directed,270,,537,Asylum to Resettlement
+Malaysia,Australia,Directed,271,,53,Asylum to Resettlement
+Malaysia,Canada,Directed,272,,646,Asylum to Resettlement
+Malaysia,France,Directed,273,,14,Asylum to Resettlement
+Malaysia,Germany,Directed,274,,4,Asylum to Resettlement
+Malaysia,Japan,Directed,275,,47,Asylum to Resettlement
+Malaysia,Netherlands (Kingdom of the),Directed,276,,67,Asylum to Resettlement
+Malaysia,New Zealand,Directed,277,,176,Asylum to Resettlement
+Malaysia,Norway,Directed,278,,13,Asylum to Resettlement
+Malaysia,Rep. of Korea,Directed,279,,10,Asylum to Resettlement
+Malaysia,United Kingdom of Great Britain and Northern Ireland,Directed,280,,23,Asylum to Resettlement
+Malaysia,United States of America,Directed,281,,5621,Asylum to Resettlement
+Mali,France,Directed,282,,2,Asylum to Resettlement
+Malta,United States of America,Directed,283,,19,Asylum to Resettlement
+Mauritania,Canada,Directed,284,,2,Asylum to Resettlement
+Mauritania,United States of America,Directed,285,,100,Asylum to Resettlement
+Mexico,Canada,Directed,286,,31,Asylum to Resettlement
+Mexico,United States of America,Directed,287,,10,Asylum to Resettlement
+Mongolia,Norway,Directed,288,,3,Asylum to Resettlement
+Morocco,Canada,Directed,289,,115,Asylum to Resettlement
+Morocco,United States of America,Directed,290,,161,Asylum to Resettlement
+Mozambique,France,Directed,291,,10,Asylum to Resettlement
+Mozambique,United States of America,Directed,292,,128,Asylum to Resettlement
+Myanmar,Bangladesh,Directed,293,,236,Origin to Asylum
+Myanmar,India,Directed,294,,64,Origin to Asylum
+Myanmar,Indonesia,Directed,295,,97,Origin to Asylum
+Myanmar,Iran (Islamic Rep. of),Directed,296,,34,Origin to Asylum
+Myanmar,Malaysia,Directed,297,,5168,Origin to Asylum
+Myanmar,Thailand,Directed,298,,1250,Origin to Asylum
+Namibia,Canada,Directed,299,,136,Asylum to Resettlement
+Nauru,New Zealand,Directed,300,,15,Asylum to Resettlement
+Nepal,Sweden,Directed,301,,9,Asylum to Resettlement
+Nepal,United States of America,Directed,302,,7,Asylum to Resettlement
+Nicaragua,Costa Rica,Directed,303,,362,Origin to Asylum
+Nicaragua,Guatemala,Directed,304,,29,Origin to Asylum
+Nicaragua,Honduras,Directed,305,,7,Origin to Asylum
+Niger,Canada,Directed,306,,299,Asylum to Resettlement
+Niger,Finland,Directed,307,,15,Asylum to Resettlement
+Niger,France,Directed,308,,11,Asylum to Resettlement
+Niger,Germany,Directed,309,,166,Asylum to Resettlement
+Niger,Netherlands (Kingdom of the),Directed,310,,16,Asylum to Resettlement
+Niger,Norway,Directed,311,,1,Asylum to Resettlement
+Niger,United States of America,Directed,312,,87,Asylum to Resettlement
+Nigeria,Cameroon,Directed,313,,7,Origin to Asylum
+Nigeria,Niger,Directed,314,,150,Origin to Asylum
+Pakistan,Australia,Directed,315,,38,Asylum to Resettlement
+Pakistan,Canada,Directed,316,,206,Asylum to Resettlement
+Pakistan,China,Directed,317,,6,Origin to Asylum
+Pakistan,Indonesia,Directed,318,,54,Origin to Asylum
+Pakistan,Italy,Directed,319,,72,Asylum to Resettlement
+Pakistan,Madagascar,Directed,320,,47,Origin to Asylum
+Pakistan,Malaysia,Directed,321,,560,Origin to Asylum
+Pakistan,Netherlands (Kingdom of the),Directed,322,,3,Asylum to Resettlement
+Pakistan,New Zealand,Directed,323,,2,Asylum to Resettlement
+Pakistan,Norway,Directed,324,,3,Asylum to Resettlement
+Pakistan,Sri Lanka,Directed,325,,112,Origin to Asylum
+Pakistan,Thailand,Directed,326,,193,Origin to Asylum
+Pakistan,Türkiye,Directed,327,,13,Origin to Asylum
+Pakistan,United Kingdom of Great Britain and Northern Ireland,Directed,328,,11,Asylum to Resettlement
+Pakistan,United States of America,Directed,329,,11,Asylum to Resettlement
+Palestinian,Egypt,Directed,330,,5,Origin to Asylum
+Palestinian,Iraq,Directed,331,,58,Origin to Asylum
+Palestinian,Malaysia,Directed,332,,5,Origin to Asylum
+Palestinian,Thailand,Directed,333,,22,Origin to Asylum
+Palestinian,Türkiye,Directed,334,,18,Origin to Asylum
+Papua New Guinea,New Zealand,Directed,335,,34,Asylum to Resettlement
+Papua New Guinea,United States of America,Directed,336,,2,Asylum to Resettlement
+Peru,Australia,Directed,337,,11,Asylum to Resettlement
+Peru,Canada,Directed,338,,47,Asylum to Resettlement
+Peru,United States of America,Directed,339,,504,Asylum to Resettlement
+Qatar,United States of America,Directed,340,,8,Asylum to Resettlement
+Rwanda,Australia,Directed,341,,125,Asylum to Resettlement
+Rwanda,Belgium,Directed,342,,154,Asylum to Resettlement
+Rwanda,Canada,Directed,343,,1168,Asylum to Resettlement
+Rwanda,Denmark,Directed,344,,152,Asylum to Resettlement
+Rwanda,Finland,Directed,345,,74,Asylum to Resettlement
+Rwanda,France,Directed,346,,286,Asylum to Resettlement
+Rwanda,Kenya,Directed,347,,6,Origin to Asylum
+Rwanda,Malawi,Directed,348,,12,Origin to Asylum
+Rwanda,Netherlands (Kingdom of the),Directed,349,,5,Asylum to Resettlement
+Rwanda,New Zealand,Directed,350,,80,Asylum to Resettlement
+Rwanda,Norway,Directed,351,,606,Asylum to Resettlement
+Rwanda,South Africa,Directed,352,,20,Origin to Asylum
+Rwanda,Uganda,Directed,353,,39,Origin to Asylum
+Rwanda,United States of America,Directed,354,,5176,Asylum to Resettlement
+Rwanda,Zimbabwe,Directed,355,,36,Origin to Asylum
+Saudi Arabia,Canada,Directed,356,,34,Asylum to Resettlement
+Saudi Arabia,United States of America,Directed,357,,53,Asylum to Resettlement
+Senegal,Australia,Directed,358,,1,Asylum to Resettlement
+Senegal,Canada,Directed,359,,2,Asylum to Resettlement
+Senegal,Finland,Directed,360,,9,Asylum to Resettlement
+Senegal,France,Directed,361,,1,Asylum to Resettlement
+Senegal,Sweden,Directed,362,,2,Asylum to Resettlement
+Singapore,Canada,Directed,363,,5,Asylum to Resettlement
+Somalia,Australia,Directed,364,,14,Origin to Asylum
+Somalia,Djibouti,Directed,365,,5,Origin to Asylum
+Somalia,Egypt,Directed,366,,71,Origin to Asylum
+Somalia,Ethiopia,Directed,367,,371,Origin to Asylum
+Somalia,Finland,Directed,368,,1,Asylum to Resettlement
+Somalia,India,Directed,369,,87,Origin to Asylum
+Somalia,Indonesia,Directed,370,,122,Origin to Asylum
+Somalia,Jordan,Directed,371,,76,Origin to Asylum
+Somalia,Kenya,Directed,372,,705,Origin to Asylum
+Somalia,Kuwait,Directed,373,,34,Origin to Asylum
+Somalia,Malaysia,Directed,374,,251,Origin to Asylum
+Somalia,Malta,Directed,375,,16,Origin to Asylum
+Somalia,Niger,Directed,376,,5,Origin to Asylum
+Somalia,Rwanda,Directed,377,,11,Origin to Asylum
+Somalia,South Africa,Directed,378,,306,Origin to Asylum
+Somalia,Thailand,Directed,379,,5,Origin to Asylum
+Somalia,Uganda,Directed,380,,141,Origin to Asylum
+Somalia,United Rep. of Tanzania,Directed,381,,9,Origin to Asylum
+Somalia,Zambia,Directed,382,,8,Origin to Asylum
+South Africa,Canada,Directed,383,,128,Asylum to Resettlement
+South Africa,New Zealand,Directed,384,,37,Asylum to Resettlement
+South Africa,Sweden,Directed,385,,5,Asylum to Resettlement
+South Africa,United States of America,Directed,386,,722,Asylum to Resettlement
+South Sudan,Egypt,Directed,387,,312,Origin to Asylum
+South Sudan,Ethiopia,Directed,388,,97,Origin to Asylum
+South Sudan,Finland,Directed,389,,4,Asylum to Resettlement
+South Sudan,Kenya,Directed,390,,510,Origin to Asylum
+South Sudan,Uganda,Directed,391,,135,Origin to Asylum
+South Sudan,United Rep. of Tanzania,Directed,392,,6,Origin to Asylum
+Sri Lanka,Australia,Directed,393,,43,Asylum to Resettlement
+Sri Lanka,Canada,Directed,394,,10,Asylum to Resettlement
+Sri Lanka,New Zealand,Directed,395,,60,Asylum to Resettlement
+Sri Lanka,United Kingdom of Great Britain and Northern Ireland,Directed,396,,5,Asylum to Resettlement
+Sri Lanka,United States of America,Directed,397,,123,Asylum to Resettlement
+Sudan,Algeria,Directed,398,,6,Origin to Asylum
+Sudan,Australia,Directed,399,,6,Asylum to Resettlement
+Sudan,Canada,Directed,400,,214,Asylum to Resettlement
+Sudan,Chad,Directed,401,,822,Origin to Asylum
+Sudan,Egypt,Directed,402,,1155,Origin to Asylum
+Sudan,Ethiopia,Directed,403,,55,Origin to Asylum
+Sudan,Ghana,Directed,404,,99,Origin to Asylum
+Sudan,Indonesia,Directed,405,,77,Origin to Asylum
+Sudan,Jordan,Directed,406,,343,Origin to Asylum
+Sudan,Kenya,Directed,407,,133,Origin to Asylum
+Sudan,Lebanon,Directed,408,,130,Origin to Asylum
+Sudan,Libya,Directed,409,,243,Origin to Asylum
+Sudan,Malaysia,Directed,410,,14,Origin to Asylum
+Sudan,Niger,Directed,411,,164,Origin to Asylum
+Sudan,Rwanda,Directed,412,,188,Origin to Asylum
+Sudan,Sri Lanka,Directed,413,,5,Origin to Asylum
+Sudan,Sweden,Directed,414,,17,Asylum to Resettlement
+Sudan,Tunisia,Directed,415,,18,Origin to Asylum
+Sudan,Türkiye,Directed,416,,9,Origin to Asylum
+Sudan,United States of America,Directed,417,,4,Asylum to Resettlement
+Syrian Arab Rep.,Algeria,Directed,418,,12,Origin to Asylum
+Syrian Arab Rep.,Australia,Directed,419,,1,Asylum to Resettlement
+Syrian Arab Rep.,Canada,Directed,420,,4,Asylum to Resettlement
+Syrian Arab Rep.,Egypt,Directed,421,,2047,Origin to Asylum
+Syrian Arab Rep.,Finland,Directed,422,,1,Asylum to Resettlement
+Syrian Arab Rep.,Iraq,Directed,423,,1137,Origin to Asylum
+Syrian Arab Rep.,Jordan,Directed,424,,9511,Origin to Asylum
+Syrian Arab Rep.,Kuwait,Directed,425,,15,Origin to Asylum
+Syrian Arab Rep.,Lebanon,Directed,426,,8295,Origin to Asylum
+Syrian Arab Rep.,Libya,Directed,427,,84,Origin to Asylum
+Syrian Arab Rep.,Malaysia,Directed,428,,28,Origin to Asylum
+Syrian Arab Rep.,Morocco,Directed,429,,6,Origin to Asylum
+Syrian Arab Rep.,Norway,Directed,430,,1,Asylum to Resettlement
+Syrian Arab Rep.,Saudi Arabia,Directed,431,,82,Origin to Asylum
+Syrian Arab Rep.,Thailand,Directed,432,,7,Origin to Asylum
+Syrian Arab Rep.,Trinidad and Tobago,Directed,433,,6,Origin to Asylum
+Syrian Arab Rep.,Türkiye,Directed,434,,8286,Origin to Asylum
+Syrian Arab Rep.,United Arab Emirates,Directed,435,,54,Origin to Asylum
+Syrian Arab Rep.,United Kingdom of Great Britain and Northern Ireland,Directed,436,,11,Asylum to Resettlement
+Syrian Arab Rep.,United States of America,Directed,437,,1,Asylum to Resettlement
+Tajikistan,Norway,Directed,438,,2,Asylum to Resettlement
+Thailand,Australia,Directed,439,,172,Asylum to Resettlement
+Thailand,Canada,Directed,440,,95,Asylum to Resettlement
+Thailand,Finland,Directed,441,,1,Asylum to Resettlement
+Thailand,New Zealand,Directed,442,,28,Asylum to Resettlement
+Thailand,United Kingdom of Great Britain and Northern Ireland,Directed,443,,10,Asylum to Resettlement
+Thailand,United States of America,Directed,444,,1411,Asylum to Resettlement
+Togo,United States of America,Directed,445,,3,Asylum to Resettlement
+Trinidad and Tobago,Australia,Directed,446,,46,Asylum to Resettlement
+Trinidad and Tobago,Canada,Directed,447,,61,Asylum to Resettlement
+Trinidad and Tobago,United States of America,Directed,448,,299,Asylum to Resettlement
+Tunisia,Canada,Directed,449,,13,Asylum to Resettlement
+Tunisia,France,Directed,450,,7,Asylum to Resettlement
+Tunisia,United States of America,Directed,451,,45,Asylum to Resettlement
+Türkiye,Australia,Directed,452,,828,Asylum to Resettlement
+Türkiye,Belgium,Directed,453,,6,Asylum to Resettlement
+Türkiye,Bulgaria,Directed,454,,9,Asylum to Resettlement
+Türkiye,Canada,Directed,455,,2857,Asylum to Resettlement
+Türkiye,Finland,Directed,456,,173,Asylum to Resettlement
+Türkiye,France,Directed,457,,528,Asylum to Resettlement
+Türkiye,Germany,Directed,458,,2098,Asylum to Resettlement
+Türkiye,Italy,Directed,459,,51,Asylum to Resettlement
+Türkiye,Malta,Directed,460,,1,Asylum to Resettlement
+Türkiye,Netherlands (Kingdom of the),Directed,461,,1,Asylum to Resettlement
+Türkiye,Norway,Directed,462,,93,Asylum to Resettlement
+Türkiye,Portugal,Directed,463,,145,Asylum to Resettlement
+Türkiye,Romania,Directed,464,,51,Asylum to Resettlement
+Türkiye,Slovenia,Directed,465,,23,Asylum to Resettlement
+Türkiye,Spain,Directed,466,,302,Asylum to Resettlement
+Türkiye,Sweden,Directed,467,,11,Asylum to Resettlement
+Türkiye,Switzerland,Directed,468,,247,Asylum to Resettlement
+Türkiye,United Kingdom of Great Britain and Northern Ireland,Directed,469,,108,Asylum to Resettlement
+Türkiye,United States of America,Directed,470,,6392,Asylum to Resettlement
+Uganda,Australia,Directed,471,,1,Asylum to Resettlement
+Uganda,Canada,Directed,472,,46,Asylum to Resettlement
+Uganda,Norway,Directed,473,,33,Asylum to Resettlement
+Uganda,Sweden,Directed,474,,157,Asylum to Resettlement
+Uganda,United States of America,Directed,475,,3254,Asylum to Resettlement
+United Arab Emirates,Canada,Directed,476,,80,Asylum to Resettlement
+United Arab Emirates,Finland,Directed,477,,8,Asylum to Resettlement
+United Arab Emirates,Germany,Directed,478,,1,Asylum to Resettlement
+United Arab Emirates,Norway,Directed,479,,1,Asylum to Resettlement
+United Arab Emirates,Sweden,Directed,480,,1,Asylum to Resettlement
+United Arab Emirates,United States of America,Directed,481,,7,Asylum to Resettlement
+United Rep. of Tanzania,Australia,Directed,482,,40,Asylum to Resettlement
+United Rep. of Tanzania,Canada,Directed,483,,370,Asylum to Resettlement
+United Rep. of Tanzania,Finland,Directed,484,,5,Asylum to Resettlement
+United Rep. of Tanzania,France,Directed,485,,5,Asylum to Resettlement
+United Rep. of Tanzania,United States of America,Directed,486,,7426,Asylum to Resettlement
+Unknown,Algeria,Directed,487,,79,Origin to Asylum
+Unknown,Aruba,Directed,488,,2,Origin to Asylum
+Unknown,Australia,Directed,489,,39,Origin to Asylum
+Unknown,Bahrain,Directed,490,,1,Origin to Asylum
+Unknown,Bangladesh,Directed,491,,3,Origin to Asylum
+Unknown,Benin,Directed,492,,7,Origin to Asylum
+Unknown,Burundi,Directed,493,,74,Origin to Asylum
+Unknown,Cameroon,Directed,494,,16,Origin to Asylum
+Unknown,Chad,Directed,495,,7,Origin to Asylum
+Unknown,China,Directed,496,,18,Origin to Asylum
+Unknown,"China, Hong Kong SAR",Directed,497,,3,Origin to Asylum
+Unknown,Colombia,Directed,498,,45,Origin to Asylum
+Unknown,Congo,Directed,499,,28,Origin to Asylum
+Unknown,Costa Rica,Directed,500,,3,Origin to Asylum
+Unknown,Cote d'Ivoire,Directed,501,,10,Origin to Asylum
+Unknown,Cuba,Directed,502,,6,Origin to Asylum
+Unknown,Curacao,Directed,503,,2,Origin to Asylum
+Unknown,Dem. Rep. of the Congo,Directed,504,,3,Origin to Asylum
+Unknown,Djibouti,Directed,505,,3,Origin to Asylum
+Unknown,Dominican Rep.,Directed,506,,28,Origin to Asylum
+Unknown,Ecuador,Directed,507,,50,Origin to Asylum
+Unknown,Egypt,Directed,508,,172,Origin to Asylum
+Unknown,El Salvador,Directed,509,,839,Origin to Asylum
+Unknown,Ethiopia,Directed,510,,139,Origin to Asylum
+Unknown,Gambia,Directed,511,,2,Origin to Asylum
+Unknown,Ghana,Directed,512,,9,Origin to Asylum
+Unknown,Grenada,Directed,513,,2,Origin to Asylum
+Unknown,Guatemala,Directed,514,,2169,Origin to Asylum
+Unknown,Guinea,Directed,515,,10,Origin to Asylum
+Unknown,Honduras,Directed,516,,552,Origin to Asylum
+Unknown,India,Directed,517,,51,Origin to Asylum
+Unknown,Indonesia,Directed,518,,249,Origin to Asylum
+Unknown,Iran (Islamic Rep. of),Directed,519,,52,Origin to Asylum
+Unknown,Iraq,Directed,520,,48,Origin to Asylum
+Unknown,Israel,Directed,521,,26,Origin to Asylum
+Unknown,Jordan,Directed,522,,294,Origin to Asylum
+Unknown,Kenya,Directed,523,,97,Origin to Asylum
+Unknown,Kuwait,Directed,524,,22,Origin to Asylum
+Unknown,Lao People's Dem. Rep.,Directed,525,,1,Origin to Asylum
+Unknown,Lebanon,Directed,526,,201,Origin to Asylum
+Unknown,Libya,Directed,527,,61,Origin to Asylum
+Unknown,Madagascar,Directed,528,,2,Origin to Asylum
+Unknown,Malawi,Directed,529,,9,Origin to Asylum
+Unknown,Malaysia,Directed,530,,196,Origin to Asylum
+Unknown,Mali,Directed,531,,2,Origin to Asylum
+Unknown,Malta,Directed,532,,3,Origin to Asylum
+Unknown,Mauritania,Directed,533,,90,Origin to Asylum
+Unknown,Mexico,Directed,534,,6,Origin to Asylum
+Unknown,Mongolia,Directed,535,,3,Origin to Asylum
+Unknown,Morocco,Directed,536,,226,Origin to Asylum
+Unknown,Mozambique,Directed,537,,4,Origin to Asylum
+Unknown,Nauru,Directed,538,,15,Origin to Asylum
+Unknown,Nepal,Directed,539,,7,Origin to Asylum
+Unknown,Niger,Directed,540,,78,Origin to Asylum
+Unknown,Pakistan,Directed,541,,8,Origin to Asylum
+Unknown,Papua New Guinea,Directed,542,,20,Origin to Asylum
+Unknown,Peru,Directed,543,,36,Origin to Asylum
+Unknown,Qatar,Directed,544,,8,Origin to Asylum
+Unknown,Rwanda,Directed,545,,25,Origin to Asylum
+Unknown,Saudi Arabia,Directed,546,,5,Origin to Asylum
+Unknown,Senegal,Directed,547,,9,Origin to Asylum
+Unknown,Singapore,Directed,548,,5,Origin to Asylum
+Unknown,Somalia,Directed,549,,1,Origin to Asylum
+Unknown,South Africa,Directed,550,,45,Origin to Asylum
+Unknown,South Sudan,Directed,551,,4,Origin to Asylum
+Unknown,Sri Lanka,Directed,552,,104,Origin to Asylum
+Unknown,Sudan,Directed,553,,16,Origin to Asylum
+Unknown,Syrian Arab Rep.,Directed,554,,19,Origin to Asylum
+Unknown,Tajikistan,Directed,555,,2,Origin to Asylum
+Unknown,Thailand,Directed,556,,95,Origin to Asylum
+Unknown,Togo,Directed,557,,3,Origin to Asylum
+Unknown,Trinidad and Tobago,Directed,558,,66,Origin to Asylum
+Unknown,Tunisia,Directed,559,,41,Origin to Asylum
+Unknown,Türkiye,Directed,560,,366,Origin to Asylum
+Unknown,Uganda,Directed,561,,14,Origin to Asylum
+Unknown,United Arab Emirates,Directed,562,,14,Origin to Asylum
+Unknown,United Rep. of Tanzania,Directed,563,,4,Origin to Asylum
+Unknown,Yemen,Directed,564,,8,Origin to Asylum
+Unknown,Zambia,Directed,565,,18,Origin to Asylum
+Unknown,Zimbabwe,Directed,566,,24,Origin to Asylum
+Venezuela (Bolivarian Republic of),Colombia,Directed,567,,604,Origin to Asylum
+Venezuela (Bolivarian Republic of),Costa Rica,Directed,568,,34,Origin to Asylum
+Venezuela (Bolivarian Republic of),Dominican Rep.,Directed,569,,230,Origin to Asylum
+Venezuela (Bolivarian Republic of),Ecuador,Directed,570,,345,Origin to Asylum
+Venezuela (Bolivarian Republic of),Guatemala,Directed,571,,21,Origin to Asylum
+Venezuela (Bolivarian Republic of),Honduras,Directed,572,,5,Origin to Asylum
+Venezuela (Bolivarian Republic of),Peru,Directed,573,,491,Origin to Asylum
+Venezuela (Bolivarian Republic of),Trinidad and Tobago,Directed,574,,258,Origin to Asylum
+Viet Nam,Thailand,Directed,575,,124,Origin to Asylum
+Yemen,Canada,Directed,576,,4,Asylum to Resettlement
+Yemen,Chad,Directed,577,,5,Origin to Asylum
+Yemen,Egypt,Directed,578,,33,Origin to Asylum
+Yemen,Finland,Directed,579,,4,Asylum to Resettlement
+Yemen,Indonesia,Directed,580,,15,Origin to Asylum
+Yemen,Jordan,Directed,581,,255,Origin to Asylum
+Yemen,Malaysia,Directed,582,,12,Origin to Asylum
+Yemen,Mauritania,Directed,583,,7,Origin to Asylum
+Zambia,Finland,Directed,584,,167,Asylum to Resettlement
+Zambia,Sweden,Directed,585,,30,Asylum to Resettlement
+Zambia,United States of America,Directed,586,,681,Asylum to Resettlement
+Zimbabwe,France,Directed,587,,9,Asylum to Resettlement
+Zimbabwe,United States of America,Directed,588,,737,Asylum to Resettlement

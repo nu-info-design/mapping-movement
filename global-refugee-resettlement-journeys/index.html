@@ -1,14 +1,93 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Global Refugee Resettlement Journeys</title>
+  <link rel="stylesheet" href="style-new.css" />
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"
+    integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
 </head>
 <body>
 
-<h3>Global Refugee Resettlement Journeys: 2023</h3>
-    
-<script src="../assets/nav.js"></script>
+  <section id="about" class="intro">
+    <div class="content">
+      <h1>Global Refugee<br>Resettlement<br>Journeys</h1>
+      <p>Refugee resettlement is a process in which refugees who have fled conflict, persecution, or violence are relocated from the country where they initially sought asylum to a third country that has agreed to provide them with legal protection and a permanent home. Resettlement typically occurs when refugees are unable to find safety, have specific needs that cannot be met in the country where they first sought refuge, or are unable to return to their country of origin due to ongoing conflict, persecution, or violence. In these cases, UNHCR assists them in relocating to a third country.</p>
+      <p>In 2023, the United Nations High Commissioner for Refugees (UNHCR) assisted in resettling 96,311 refugees across various nations. However, the resettlement process remains slow-moving and limited, with less than 1% of refugees resettled each year. <b>This analysis focuses on the pathways followed by refugees, including their country of origin, the country of asylum where they initially sought refuge, and the country where they are ultimately resettled.</b></p>
+      <p class="credit-line">By Jordan Gilardi; Data source: UNHCR Refugee Data Finder</p>
+    </div>
+  </section>
+
+  <nav class="stickyNav">
+    <div class="content">
+      <div class="nav-container">
+        <div class="title">Global Refugee Resettlement Journeys</div>
+        <dv class="links">
+          <a href="#about">About</a>
+          <a href="#web">Web of Refugee Resettlement</a>
+          <a href="#individual-journeys">Individual Journeys</a>
+        </dv>
+      </div>
+    </div>
+  </nav>
+
+  
+  <main>
+    <section id="web">
+      <div class="content">
+        <h2>The Intricate Web of Refugee Resettlement</h2>
+        <p class="paragraph">This network diagram visualizes the global movement of refugees in 2023, with each circle representing a country involved in the resettlement process. The <b>green lines</b> show the journey from the <b>country of origin to a country of asylum</b>, while the <b>purple lines</b> depict the movement from <b>country of asylum to country of resettlement.</b> </p>
+        <p class="paragraph">Each line represents the journey of anywhere from 1 to approximately 9,500 refugees, with thicker lines representing routes with larger numbers of refugees. This network highlights the complex and connected paths of refugee journeys around the world.</p>
+        <p>&nbsp;</p>
+      </div>
+    </section>
+
+    <section id="graph-wrapper">
+      <div id="graph"></div>
+    </section>
+    <script src="gephi.js"></script>
+
+    <section id="individual-journeys">
+      <div class="content">
+        <h2>Individual Journeys from a Common Country of Origin</h2>
+        <p class="paragraph"><b>Each resettlement journey is unique,</b> shaped by a variety of factors like personal circumstances, geopolitical events, and available pathways. These journeys typically start with a search for safety, followed by a complex asylum process, and then a second complex resettlement process. Below is a visual representation of data showing how refugees moved from their countries of origin, through countries of asylum, and to their resettlement destinations in 2023. As refugees move through the resettlement process, their new location becomes increasingly permanent, and the distance from their country of origin continues to grow.</p>
+        <p class="paragraph">Refer to the key below for a guide to each visualization. The key highlights three distinct country categories: <b>country of origin, country of asylum, and country of resettlement, each scaled according to the relative volume of refugee resettlement movement through the country in 2023.</b></p>
+        <img class="key" src="keys/key country.svg" style="width:332px; height: 62px;" alt="Key representing countries" />
+        <p>&nbsp;</p>
+        <p class="paragraph">The connection between <b>origin and asylum</b> is represented in <b>green</b>, while the connection between <b>asylum and resettlement</b> is shown in <b>purple.</b></p>
+        <img class="key" src="keys/key line color.svg" style="width:332px; height: 53px;" alt="Key representing line colors" />
+        <p>&nbsp;</p>
+        <p class="paragraph">Each line is scaled according to the <b>number of refugees</b> for that specific segment of the journey. <b>Hovering</b> over a line or country <b>reveals the number of resettled refugees</b> associated with that movement. Additionally, hovering over a country will highlight multipe journeys connected to that location.</p>
+        <img class="key" src="keys/key line scale.svg" style="width:201px; height: 117px;" alt="Key representing line scales" />
+        <p>&nbsp;</p>
+        <p class="paragraph">Select a country from the dropdown menu below to explore the collective refugee resettlement journey from a shared country of origin, as well as the unique circumstances related to fleeing a particular country.</p>
+        <p>&nbsp;</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="plot-container" class="plot-with-caption">
+      <div id="plot" class="plot-visual"></div>
+      <div class="overlay">
+        <div class="content">
+          <div class="plot-caption">
+              <select id="countrySelect"></select>
+              <div id="caption">
+                Select a country to see refugee resettlement journeys.
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script-new.js"></script>
+  <script src="../assets/nav.js"></script>
 </body>
 </html>

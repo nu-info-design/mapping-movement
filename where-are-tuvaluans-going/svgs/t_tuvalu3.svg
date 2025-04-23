@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: Helvetica-Bold, Helvetica;
+        font-size: 13.37px;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        font-weight: 700;
+      }
+
+      .cls-3, .cls-7 {
+        fill: #718ec8;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #1b1464;
+      }
+
+      .cls-8 {
+        fill: #bbddac;
+        stroke: #bbddac;
+      }
+
+      .cls-8, .cls-9, .cls-10 {
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-11 {
+        font-size: 18px;
+      }
+
+      .cls-11, .cls-12, .cls-9, .cls-13, .cls-10 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        font-family: HelveticaNeue-Bold, 'Helvetica Neue';
+        font-size: 33px;
+      }
+
+      .cls-14 {
+        fill: #b8c6e4;
+      }
+
+      .cls-12, .cls-9 {
+        opacity: .4;
+      }
+
+      .cls-15, .cls-16 {
+        isolation: isolate;
+      }
+
+      .cls-16 {
+        fill: #663f64;
+        font-family: ArialUnicodeMS, 'Arial Unicode MS';
+        font-size: 17.82px;
+      }
+
+      .cls-17 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9, .cls-10 {
+        stroke: #fff;
+      }
+
+      .cls-19 {
+        fill: rgba(255, 255, 255, .8);
+        fill-rule: evenodd;
+      }
+
+      .cls-20, .cls-10 {
+        opacity: .5;
+      }
+
+      .cls-21 {
+        letter-spacing: 0em;
+      }
+
+      .cls-22 {
+        fill: #718ec8;
+      }
+
+      .cls-6 {
+        font-family: HelveticaNeue-BoldItalic, 'Helvetica Neue';
+        font-style: italic;
+      }
+
+      .cls-23 {
+        font-family: HelveticaNeue, 'Helvetica Neue';
+      }
+
+      .cls-24 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-25 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-26 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-27 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-29 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-30 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-31 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-32 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-33 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2 {
+        stroke: #835283;
+        stroke-linejoin: bevel;
+        stroke-width: 1.5px;
+      }
+
+      .cls-34 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="410" y="0" width="1111" height="1074"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="415" y="-50.23" width="1103.13" height="1264.19"/>
+    </clipPath>
+  </defs>
+  <g id="ocean_base" data-name="ocean base">
+    <rect class="cls-22" width="1920" height="1080"/>
+  </g>
+  <g id="basemaps">
+    <g class="cls-34">
+      <g class="cls-17">
+        <g id="OpenStreetMap">
+          <rect class="cls-1" x="1092.62" y="-169.22" width="425.68" height="437.46"/>
+          <path class="cls-7" d="M1518.3,268.23h-425.68V-169.22h425.68v437.46Z"/>
+          <rect class="cls-1" x="1092.62" y="-169.22" width="425.68" height="437.46"/>
+          <rect class="cls-1" x="1092.62" y="-169.22" width="425.68" height="437.46"/>
+          <rect class="cls-1" x="1092.62" y="-169.22" width="425.68" height="437.46"/>
+          <rect class="cls-1" x="1092.62" y="-169.22" width="425.68" height="437.46"/>
+          <rect class="cls-1" x="1092.62" y="-169.22" width="425.68" height="437.46"/>
+          <rect class="cls-1" x="1092.62" y="-169.22" width="425.68" height="437.46"/>
+          <rect class="cls-1" x="1092.62" y="268.23" width="425.68" height="701.99"/>
+          <path class="cls-7" d="M1518.3,970.22h-425.68V268.23h425.68v701.99Z"/>
+          <rect class="cls-1" x="1092.62" y="268.23" width="425.68" height="701.99"/>
+          <rect class="cls-1" x="1092.62" y="268.23" width="425.68" height="701.99"/>
+          <rect class="cls-1" x="1092.62" y="268.23" width="425.68" height="701.99"/>
+          <rect class="cls-1" x="1092.62" y="268.23" width="425.68" height="701.99"/>
+          <rect class="cls-1" x="1092.62" y="268.23" width="425.68" height="701.99"/>
+          <rect class="cls-1" x="1092.62" y="268.23" width="425.68" height="701.99"/>
+          <rect class="cls-1" x="1092.62" y="268.23" width="425.68" height="701.99"/>
+          <rect class="cls-1" x="1092.62" y="268.23" width="425.68" height="701.99"/>
+          <rect class="cls-1" x="1092.62" y="970.22" width="425.68" height="368.73"/>
+          <path class="cls-7" d="M1092.62,1338.95v-368.73h425.68v368.73h-425.68Z"/>
+          <rect class="cls-1" x="1092.62" y="970.22" width="425.68" height="368.73"/>
+          <rect class="cls-1" x="1092.62" y="970.22" width="425.68" height="368.73"/>
+          <rect class="cls-1" x="1092.62" y="970.22" width="425.68" height="368.73"/>
+          <rect class="cls-1" x="1092.62" y="970.22" width="425.68" height="368.73"/>
+          <rect class="cls-1" x="1092.62" y="970.22" width="425.68" height="368.73"/>
+          <rect class="cls-1" x="1092.62" y="970.22" width="425.68" height="368.73"/>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <path class="cls-7" d="M1092.62-169.22v437.46H413.28V-169.22h679.34Z"/>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <path class="cls-7" d="M1092.62,268.23v701.99H413.28V268.23h679.34Z"/>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <rect class="cls-1" x="413.28" y="970.22" width="679.34" height="368.73"/>
+          <path class="cls-7" d="M1092.62,970.22v368.73H413.28v-368.73h679.34Z"/>
+          <rect class="cls-1" x="413.28" y="970.22" width="679.34" height="368.73"/>
+          <rect class="cls-1" x="413.28" y="970.22" width="679.34" height="368.73"/>
+          <rect class="cls-1" x="413.28" y="970.22" width="679.34" height="368.73"/>
+          <rect class="cls-1" x="413.28" y="970.22" width="679.34" height="368.73"/>
+          <rect class="cls-1" x="413.28" y="970.22" width="679.34" height="368.73"/>
+          <rect class="cls-1" x="413.28" y="970.22" width="679.34" height="368.73"/>
+          <rect class="cls-1" x="1092.62" y="268.23" width="425.68" height="701.99"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="1092.62" y="268.23" width="425.68" height="701.99"/>
+            <path class="cls-2" d="M1092.62,767.99l.35-.34.17-.34.35-.17.17-.17.17-.17.35-.34.35-.34.17-.34.35-.17v-.17l.35-.34.17-.34.35-.34.35-.34.17-.34.35-.51.17-.34.35-.34.17-.34.35-.51.17-.34.17-.34.17-.51.17-.17.17-.34.17-.34.17-.34.17-.51.17-.34.17-.17v-.34l.17-.51.17-.34.17-.34v-.17l.17-.34.17-.51.17-.34v-.51l.17-.34v-.34l.17-.51.17-.34v-.51l.17-.34v-.69l.17-.34v-.69l.17-.51v-.51l.17-.34v-2.4l.17-.51v-.86l-.17-.34v-2.06l-.17-.51v-.69l-.17-.51v-.69l-.17-.34v-.34l-.17-.51v-.34l-.17-.17v-.34l-.17-.17v-.51l-.17-.34-.17-.51v-.34l-.17-.51-.17-.34-.35-.69-.17-.34-.17-.51-.17-.34-.17-.51-.35-.86-.17-.34-.17-.34-.35-.51-.17-.34-.17-.34-.17-.34-.35-.34-3.11-5.14-.17-.17-.17-.17-.17-.34-.17-.34-.17-.34-.17-.34-.35-.51v45.25"/>
+          </g>
+          <rect class="cls-1" x="1092.62" y="970.22" width="425.68" height="368.73"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="1092.62" y="970.22" width="425.68" height="368.73"/>
+          </g>
+          <rect class="cls-1" x="1092.62" y="970.22" width="425.68" height="368.73"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="1092.62" y="970.22" width="425.68" height="368.73"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+            <path class="cls-2" d="M572.57,278.52v.69"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+            <path class="cls-2" d="M633.35,279.2l-2.76-10.97-6.91-12.34-6.22-4.8-13.81-4.8-9.67-.69-11.74,4.11-6.22,6.17-4.83,12.34,1.38,10.28"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="-169.22" width="679.34" height="437.46"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+            <path class="cls-2" d="M572.57,278.52l4.14,9.6,18.65,14.4,8.98,2.74,9.67-.69,10.36-5.48,6.91-9.6,2.07-13.03-2.76-8.23-6.22-10.97"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+            <path class="cls-2" d="M575.33,257.26l-4.14,10.97,1.38,10.28"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+            <path class="cls-2" d="M616.08,329.25l9.67-4.11h8.98l8.98,3.43,8.98,8.91,3.45,10.28-.69,12.34-4.14,8.91-8.29,7.54-11.74,3.43-11.74-2.06-12.43-11.65-3.45-9.6v-7.54l3.45-10.28,8.98-9.6"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+            <path class="cls-2" d="M708.63,478.69l-1.38-15.08,2.07-8.23,12.43-13.03,6.22-2.06,17.27,2.06,10.36,8.23,4.14,7.54,2.07,8.91-2.07,17.14-8.29,10.28-6.22,3.43-15.19,1.37-10.36-4.11-7.6-7.54-3.45-8.91"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+            <path class="cls-2" d="M736.94,345.01l5.53,6.17,11.05,4.8,13.12-.69,8.29-4.11,5.53-5.48,4.83-11.65-.69-10.97-3.45-7.54-7.6-7.54-11.74-4.11-11.05.69-9.67,4.8-5.53,6.17-4.14,12.34.69,8.23,4.83,8.91"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+            <path class="cls-2" d="M889.57,612.37l69.75,55.53,98.76,101.46,10.36,4.8,9.67.69,7.6-2.06,6.91-4.8v-45.25l-89.78-121.34-95.31-61.7-11.05-5.48-13.12-.69-7.6,2.74-12.43,11.65-8.98,17.82v11.65l4.83,10.28,30.39,24.68"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+            <path class="cls-2" d="M902.7,514.34l-3.45-8.91.69-13.03,4.14-8.23,8.98-7.54,10.36-2.74,10.36,1.37,7.6,4.11,11.74,14.4v18.51l-4.14,7.54-10.36,8.23-6.91,2.06-14.5-1.37-10.36-7.54-4.14-6.86"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="268.23" width="679.34" height="701.99"/>
+            <path class="cls-2" d="M1000.08,924.29l.69-10.97,4.14-8.23,5.53-5.48,11.74-4.8,11.74.69,8.29,4.11,6.22,6.17,4.14,10.28v9.6l-4.83,10.97-6.91,6.17-11.74,4.11-13.12-2.06-7.6-4.8-6.22-8.23-2.07-7.54"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="970.22" width="679.34" height="368.73"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="970.22" width="679.34" height="368.73"/>
+          </g>
+          <rect class="cls-1" x="413.28" y="970.22" width="679.34" height="368.73"/>
+          <g class="cls-20">
+            <rect class="cls-1" x="413.28" y="970.22" width="679.34" height="368.73"/>
+          </g>
+          <path class="cls-19" d="M949.57,638.45l-1.04-.28-.76-.75-.28-1.03v-8.91h-2.16l-1.04-.28-.76-.75-.28-1.03v-1.37l.28-1.03.76-.75,1.04-.28h10.19l1.04.28.76.75.28,1.03v.69h1.49l1.04.28.76.75.28,1.03v5.14l.02.34.24-.77v-4.71l.28-1.03.76-.75,1.04-.28h1.58l1.04.28.02.02.02-.02,1.04-.28h1.66l1.04.28.76.75.17.36.66,1.91.67-1.92.16-.36.76-.75,1.04-.28h1.62l1.04.28.76.75.08.3.45-.41.59-.23,2.91-.64.45-.05.43.04,2.46.51.61.23.59.51.51.65v-2.63l.28-1.03.76-.75,1.04-.28h1.58l1.04.28.76.75.28,1.03v.94l.97-.26h1.58l1.04.28.76.75.28,1.03v5.14l.02.34.24-.77v-4.71l.28-1.03.76-.75,1.04-.28h1.58l1.04.28.76.75.28,1.03v9.6l-.28,1.03-.76.75-1.04.28h-1.4l-1.04-.28-.25-.18-.98.34-.69.12-.5-.06-1.81-.45-.53-.21-.52-.42-.8-.9-.28,1.02-.76.75-1.04.28h-1.58l-1.04-.28-.25-.25-.25.25-1.04.28h-1.64l-1.04-.28-.46-.46-1.5.59-.76.14-.57-.08-2.33-.66-.46-.2-.76-.75-.07-.14-.84-1.74-.21-.89.2-.89.82-1.69.07-.14.16-.16-.27-.27-2.29,6.25-.15.33-.76.75-1.04.28h-1.47l-1.04-.28-.76-.75-.15-.32-1.64-4.45v3.75l-.28,1.03-.76.75-1.04.28h-1.4l-1.04-.28-.25-.18-.98.34-.69.12-.5-.06-1.81-.45-.53-.21-.52-.42-1.1-1.24-.24-.33-.26-.76-.28-2.1-.02-.27v-5.12h-2.09v8.91l-.28,1.03-.76.75-1.04.28h-1.71Z"/>
+          <g>
+            <g class="cls-15">
+              <text class="cls-16" transform="translate(944.95 636.39)"><tspan x="0" y="0">T</tspan></text>
+            </g>
+            <g class="cls-15">
+              <text class="cls-16" transform="translate(956.32 636.39)"><tspan x="0" y="0">u</tspan></text>
+            </g>
+            <g class="cls-15">
+              <text class="cls-16" transform="translate(966.95 636.39)"><tspan x="0" y="0">v</tspan></text>
+            </g>
+            <g class="cls-15">
+              <text class="cls-16" transform="translate(976.83 636.39)"><tspan x="0" y="0">a</tspan></text>
+            </g>
+            <g class="cls-15">
+              <text class="cls-16" transform="translate(987.45 636.39)"><tspan x="0" y="0">l</tspan></text>
+            </g>
+            <g class="cls-15">
+              <text class="cls-16" transform="translate(992.09 636.39)"><tspan x="0" y="0">u</tspan></text>
+            </g>
+          </g>
+        </g>
+        <rect class="cls-1" x="415.31" y="-266.92" width="1116.76" height="1031.21"/>
+        <rect class="cls-1" x="481.61" y="-266.92" width="795.65" height="1031.08"/>
+      </g>
+    </g>
+  </g>
+  <g id="panel">
+    <rect class="cls-14" x="-.15" y="-.55" width="446" height="1080"/>
+  </g>
+  <g id="menu_2" data-name="menu 2">
+    <g id="home">
+      <rect class="cls-12" x="92.66" y="271.35" width="264.4" height="42.03"/>
+      <text class="cls-3" transform="translate(110.68 297.38)"><tspan x="0" y="0">HOME</tspan></text>
+    </g>
+    <g id="what">
+      <rect class="cls-13" x="92.48" y="320.55" width="264.4" height="42.03"/>
+      <text class="cls-4" transform="translate(111.63 346.08)"><tspan x="0" y="0">WH</tspan><tspan class="cls-25" x="22.28" y="0">A</tspan><tspan class="cls-18" x="30.95" y="0">T’S HAPPENING?</tspan></text>
+    </g>
+    <g id="islands">
+      <rect class="cls-12" x="92.66" y="408.7" width="264.4" height="42.03"/>
+      <text class="cls-3" transform="translate(111.63 434.73)"><tspan x="0" y="0">THE ISLANDS</tspan></text>
+    </g>
+    <g id="internal">
+      <rect class="cls-12" x="91.73" y="569.17" width="264.4" height="42.03"/>
+      <text class="cls-3" transform="translate(110.95 596.16)"><tspan x="0" y="0">INTERNA</tspan><tspan class="cls-32" x="59.43" y="0">L</tspan><tspan class="cls-18" x="67.36" y="0" xml:space="preserve"> MIGR</tspan><tspan class="cls-24" x="105.99" y="0">A</tspan><tspan x="114.66" y="0">TION</tspan></text>
+    </g>
+    <g id="external">
+      <rect class="cls-12" x="91.73" y="619.51" width="264.4" height="42.03"/>
+      <text class="cls-3" transform="translate(110.95 645.55)"><tspan x="0" y="0">EXTERNA</tspan><tspan class="cls-32" x="63.9" y="0">L</tspan><tspan x="71.83" y="0" xml:space="preserve"> MIGR</tspan><tspan class="cls-24" x="110.46" y="0">A</tspan><tspan x="119.13" y="0">TION</tspan></text>
+    </g>
+    <g id="next">
+      <rect class="cls-12" x="92.66" y="767.67" width="264.4" height="42.03"/>
+      <text class="cls-3" transform="translate(111.63 792.75)"><tspan x="0" y="0">NEXT STEPS</tspan></text>
+    </g>
+    <circle class="cls-9" cx="224.4" cy="509.01" r="3.42"/>
+    <circle class="cls-9" cx="224.4" cy="520.81" r="3.42"/>
+    <circle class="cls-9" cx="224.4" cy="532.61" r="3.42"/>
+    <circle class="cls-9" cx="224.4" cy="544.41" r="3.42"/>
+    <circle class="cls-9" cx="224.4" cy="461.81" r="3.42"/>
+    <circle class="cls-9" cx="224.4" cy="473.61" r="3.42"/>
+    <circle class="cls-9" cx="224.4" cy="485.41" r="3.42"/>
+    <circle class="cls-9" cx="224.4" cy="497.21" r="3.42"/>
+    <circle class="cls-9" cx="224.4" cy="556.21" r="3.42"/>
+    <circle class="cls-10" cx="224.4" cy="719.28" r="3.42"/>
+    <circle class="cls-10" cx="224.4" cy="731.08" r="3.42"/>
+    <circle class="cls-10" cx="224.4" cy="742.88" r="3.42"/>
+    <circle class="cls-10" cx="224.4" cy="754.68" r="3.42"/>
+    <circle class="cls-10" cx="224.4" cy="672.08" r="3.42"/>
+    <circle class="cls-10" cx="224.4" cy="683.88" r="3.42"/>
+    <circle class="cls-10" cx="224.4" cy="695.68" r="3.42"/>
+    <circle class="cls-10" cx="224.4" cy="707.48" r="3.42"/>
+    <circle class="cls-10" cx="224.4" cy="373" r="3.42"/>
+    <circle class="cls-10" cx="224.4" cy="384.8" r="3.42"/>
+    <circle class="cls-10" cx="224.4" cy="396.6" r="3.42"/>
+  </g>
+  <g id="new_islands" data-name="new islands">
+    <g>
+      <circle id="nanumea" class="cls-8" cx="597.97" cy="214.61" r="15.97"/>
+      <line class="cls-8" x1="598.02" y1="266.56" x2="598.02" y2="230.64"/>
+      <circle id="niutao" class="cls-8" cx="756.87" cy="271.07" r="15.97"/>
+      <line class="cls-8" x1="756.87" y1="322.96" x2="756.87" y2="287.04"/>
+      <circle id="nanumanga" class="cls-8" cx="623.82" cy="293.69" r="15.97"/>
+      <line class="cls-8" x1="623.82" y1="345.58" x2="623.82" y2="309.66"/>
+      <circle id="nui" class="cls-8" cx="731.59" cy="414.76" r="15.97"/>
+      <line class="cls-8" x1="731.59" y1="466.65" x2="731.59" y2="430.73"/>
+      <circle id="vai" class="cls-8" cx="926.59" cy="448.78" r="15.97"/>
+      <line class="cls-8" x1="927.17" y1="501.24" x2="927.17" y2="465.32"/>
+      <circle id="nuku" class="cls-8" cx="882.46" cy="527.11" r="15.97"/>
+      <line class="cls-8" x1="882.46" y1="579" x2="882.46" y2="543.07"/>
+      <circle id="funa" class="cls-8" cx="979.59" cy="568.35" r="15.97"/>
+      <line class="cls-8" x1="979.59" y1="620.24" x2="979.59" y2="584.32"/>
+      <circle class="cls-8" cx="1082.03" cy="700.07" r="15.97"/>
+      <line class="cls-8" x1="1082.03" y1="751.96" x2="1082.03" y2="716.03"/>
+      <circle id="niulakita" class="cls-8" cx="1029.95" cy="880.11" r="15.97"/>
+      <line class="cls-8" x1="1029.95" y1="932" x2="1029.95" y2="896.08"/>
+    </g>
+  </g>
+  <g id="text">
+    <text class="cls-11" transform="translate(1117 372.93)"><tspan class="cls-23"><tspan x="0" y="0">This is the extent of </tspan><tspan class="cls-27" x="162.36" y="0">T</tspan><tspan x="171.04" y="0">uvalu. Even when we’</tspan><tspan class="cls-31" x="345.04" y="0">r</tspan><tspan x="350.71" y="0">e focused on </tspan><tspan class="cls-27" x="460.4" y="0">T</tspan><tspan x="469.08" y="0">uvalu </tspan></tspan><tspan class="cls-23"><tspan x="0" y="21.6">alone, we still can</tspan><tspan class="cls-29" x="142.99" y="21.6">’</tspan><tspan x="147.67" y="21.6">t see all of the 9 islands. </tspan><tspan class="cls-26" x="346.71" y="21.6">T</tspan><tspan x="355.39" y="21.6">uvalu is made up of 3 </tspan></tspan><tspan class="cls-23"><tspan class="cls-29" x="0" y="43.2">r</tspan><tspan x="5.67" y="43.2">eef islands and 6 atolls, or ring-shaped islands. </tspan></tspan><tspan class="cls-23"><tspan x="0" y="86.4">In 2024, the </tspan><tspan class="cls-29" x="100.06" y="86.4">r</tspan><tspan x="105.73" y="86.4">eco</tspan><tspan class="cls-31" x="135.39" y="86.4">r</tspan><tspan x="141.07" y="86.4">ded population was 11,478, classifying it as one of </tspan></tspan><tspan class="cls-23"><tspan x="0" y="108">the least populous countries in the world. </tspan></tspan><tspan class="cls-23"><tspan class="cls-27" x="0" y="151.2">T</tspan><tspan x="8.68" y="151.2">uvalu is also one of the smallest in the world, with a total land a</tspan><tspan class="cls-31" x="516.07" y="151.2">r</tspan><tspan x="521.75" y="151.2">ea </tspan></tspan><tspan class="cls-23"><tspan x="0" y="172.8">of about 10 squa</tspan><tspan class="cls-29" x="136.38" y="172.8">r</tspan><tspan x="142.05" y="172.8">e miles. Its maximum elevation is only 15 feet </tspan></tspan><tspan class="cls-23"><tspan x="0" y="194.4">above sea level, making it particularly vulnerable to envi</tspan><tspan class="cls-29" x="447.06" y="194.4">r</tspan><tspan x="452.73" y="194.4">onmental </tspan></tspan><tspan class="cls-23"><tspan x="0" y="216">issues and climate events, such as </tspan><tspan class="cls-29" x="284.42" y="216">r</tspan><tspan x="290.09" y="216">egular heatwaves, intense cy</tspan><tspan x="522.43" y="216">-</tspan></tspan><tspan class="cls-23"><tspan x="0" y="237.6">clones, saline intrusion, loss of wildlife, and permanent inundation.</tspan></tspan><tspan class="cls-6"><tspan x="0" y="280.8">Scientists p</tspan><tspan class="cls-29" x="100.33" y="280.8">r</tspan><tspan x="107.01" y="280.8">edict that </tspan><tspan class="cls-26" x="194.33" y="280.8">T</tspan><tspan x="203.67" y="280.8">uvalu will be subme</tspan><tspan class="cls-33" x="373" y="280.8">r</tspan><tspan x="379.5" y="280.8">ged within 50 to 100 </tspan></tspan><tspan class="cls-6"><tspan x="0" y="302.4">years and that most low-lying islands will be uninhabitable by </tspan></tspan><tspan class="cls-6"><tspan x="0" y="324">2100, either due to subme</tspan><tspan class="cls-33" x="222.7" y="324">r</tspan><tspan x="229.19" y="324">gence or the health and economic </tspan></tspan><tspan class="cls-6"><tspan x="0" y="345.6">risks that come with disaster and flooding. </tspan></tspan></text>
+  </g>
+  <g id="title">
+    <text id="where_are_Tuvaluans_going_" data-name="where are Tuvaluans  going?" class="cls-5" transform="translate(89.79 181.43) scale(.96 1)"><tspan x="0" y="0">Whe</tspan><tspan class="cls-30" x="69.66" y="0">r</tspan><tspan x="81.9" y="0">e a</tspan><tspan class="cls-30" x="128.96" y="0">r</tspan><tspan class="cls-21" x="141.2" y="0">e </tspan><tspan class="cls-28" x="0" y="31">T</tspan><tspan x="17.13" y="31">uvaluans Going?</tspan></text>
+  </g>
+</svg>

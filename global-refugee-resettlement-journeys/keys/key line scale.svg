@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 201 117">
+  <defs>
+    <style>
+      @import url(https://fonts.googleapis.com/css2?family=Lato&amp;display=swap);
+    
+      .cls-1 {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        stroke-width: 5px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+        stroke: #9ebdb8;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-width: 2.6px;
+      }
+
+      .cls-4 {
+        stroke-width: 3.7px;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        stroke-width: .5px;
+      }
+
+      .cls-6 {
+        stroke-width: 1.8px;
+      }
+
+      .cls-7 {
+        stroke-width: 1.1px;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+    <g style="transform: translate(-20px,0)">
+    <path class="cls-5" d="M94.24,20.14H15.39"/>
+    <path class="cls-7" d="M94.24,36.12H15.39"/>
+    <path class="cls-6" d="M94.24,52.1H15.39"/>
+    <path class="cls-3" d="M94.24,68.08H15.39"/>
+    <path class="cls-4" d="M94.24,84.06H15.39"/>
+    <path class="cls-2" d="M94.24,100.04H15.39"/>
+    <text class="cls-1" transform="translate(99.02 22.59)">
+      <tspan x="0" y="0"> 1–5 refugees</tspan>
+      <tspan x="0" y="16"> 6–21 refugees</tspan>
+      <tspan x="0" y="32"> 22–98 refugees</tspan>
+      <tspan x="0" y="48"> 99–450 refugees</tspan>
+      <tspan x="0" y="64"> 451-2,074 refugees</tspan>
+      <tspan x="0" y="80"> 2,075-9551 refugees</tspan>
+  </text>
+  </g>
+</svg>

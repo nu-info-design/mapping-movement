@@ -1,0 +1,703 @@
+origin,dest_a,flow_a,dest_b,flow_b
+Afghanistan,Egypt,16,Canada,16
+Afghanistan,India,330,Australia,142
+Afghanistan,India,330,Canada,81
+Afghanistan,India,330,United States of America,107
+Afghanistan,Indonesia,751,Australia,217
+Afghanistan,Indonesia,751,Canada,121
+Afghanistan,Indonesia,751,United States of America,413
+Afghanistan,Iran,1403,Australia,507
+Afghanistan,Iran,1403,Finland,756
+Afghanistan,Iran,1403,United Kingdom,90
+Afghanistan,Iran,1403,Italy,50
+Afghanistan,Lebanon,6,Canada,6
+Afghanistan,Sri Lanka,14,United States of America,14
+Afghanistan,Madagascar,11,United States of America,11
+Afghanistan,Malaysia,428,Australia,17
+Afghanistan,Malaysia,428,Canada,148
+Afghanistan,Malaysia,428,Netherlands,20
+Afghanistan,Malaysia,428,New Zealand,34
+Afghanistan,Malaysia,428,United States of America,209
+Afghanistan,Morocco,7,Canada,7
+Afghanistan,Nepal,9,Sweden,9
+Afghanistan,Pakistan,338,Australia,38
+Afghanistan,Pakistan,338,Canada,206
+Afghanistan,Pakistan,338,United Kingdom,11
+Afghanistan,Pakistan,338,Italy,72
+Afghanistan,Pakistan,338,United States of America,11
+Afghanistan,Thailand,21,Canada,8
+Afghanistan,Thailand,21,United States of America,13
+Afghanistan,Türkiye,2963,Australia,285
+Afghanistan,Türkiye,2963,Canada,347
+Afghanistan,Türkiye,2963,Italy,41
+Afghanistan,Türkiye,2963,Norway,36
+Afghanistan,Türkiye,2963,United States of America,2254
+Afghanistan,United Arab Emirates,5,Finland,5
+Burundi,DR Congo,8,Finland,8
+Burundi,Ethiopia,6,France,6
+Burundi,Kenya,31,United States of America,31
+Burundi,Malawi,56,United States of America,56
+Burundi,Mozambique,5,United States of America,5
+Burundi,South Africa,40,United States of America,40
+Burundi,Rwanda,82,Canada,46
+Burundi,Rwanda,82,France,19
+Burundi,Rwanda,82,United States of America,17
+Burundi,Tanzania,80,Canada,22
+Burundi,Tanzania,80,Finland,5
+Burundi,Tanzania,80,France,5
+Burundi,Tanzania,80,United States of America,48
+Burundi,Uganda,72,United States of America,72
+Burundi,Zambia,14,United States of America,14
+Burundi,Zimbabwe,50,United States of America,50
+Central African Republic,Algeria,18,Canada,13
+Central African Republic,Algeria,18,United States of America,5
+Central African Republic,Chad,655,Australia,54
+Central African Republic,Chad,655,Canada,13
+Central African Republic,Chad,655,France,183
+Central African Republic,Chad,655,Norway,12
+Central African Republic,Chad,655,United States of America,393
+Central African Republic,Cameroon,843,Canada,214
+Central African Republic,Cameroon,843,France,357
+Central African Republic,Cameroon,843,United States of America,272
+Central African Republic,DR Congo,5,Canada,5
+Central African Republic,Mauritania,5,United States of America,5
+Central African Republic,Morocco,19,Canada,19
+DR Congo,Algeria,6,United States of America,6
+DR Congo,Burundi,4290,Australia,324
+DR Congo,Burundi,4290,Canada,487
+DR Congo,Burundi,4290,United States of America,3479
+DR Congo,Cameroon,12,Australia,12
+DR Congo,Ethiopia,57,France,15
+DR Congo,Ethiopia,57,United States of America,42
+DR Congo,Kenya,1025,Australia,201
+DR Congo,Kenya,1025,Canada,48
+DR Congo,Kenya,1025,Germany,6
+DR Congo,Kenya,1025,Netherlands,108
+DR Congo,Kenya,1025,Norway,124
+DR Congo,Kenya,1025,United States of America,538
+DR Congo,Malawi,710,Australia,165
+DR Congo,Malawi,710,Canada,58
+DR Congo,Malawi,710,Finland,9
+DR Congo,Malawi,710,Norway,10
+DR Congo,Malawi,710,United States of America,468
+DR Congo,Morocco,18,Canada,9
+DR Congo,Morocco,18,United States of America,9
+DR Congo,Mozambique,129,France,7
+DR Congo,Mozambique,129,United States of America,122
+DR Congo,Namibia,136,Canada,136
+DR Congo,Peru,5,Canada,5
+DR Congo,South Africa,429,Canada,113
+DR Congo,South Africa,429,United States of America,316
+DR Congo,Rwanda,7226,Australia,125
+DR Congo,Rwanda,7226,Belgium,154
+DR Congo,Rwanda,7226,Canada,964
+DR Congo,Rwanda,7226,Denmark,149
+DR Congo,Rwanda,7226,France,222
+DR Congo,Rwanda,7226,Norway,546
+DR Congo,Rwanda,7226,New Zealand,80
+DR Congo,Rwanda,7226,United States of America,4986
+DR Congo,Senegal,6,Finland,6
+DR Congo,Tanzania,7747,Australia,40
+DR Congo,Tanzania,7747,Canada,337
+DR Congo,Tanzania,7747,United States of America,7370
+DR Congo,Uganda,3077,Canada,46
+DR Congo,Uganda,3077,Norway,22
+DR Congo,Uganda,3077,Sweden,155
+DR Congo,Uganda,3077,United States of America,2854
+DR Congo,Zambia,838,Finland,164
+DR Congo,Zambia,838,Sweden,30
+DR Congo,Zambia,838,United States of America,644
+DR Congo,Zimbabwe,636,France,9
+DR Congo,Zimbabwe,636,United States of America,627
+Colombia,Curacao,8,Australia,8
+Colombia,Ecuador,1032,Canada,125
+Colombia,Ecuador,1032,New Zealand,62
+Colombia,Ecuador,1032,United States of America,845
+Colombia,Peru,22,Canada,8
+Colombia,Peru,22,United States of America,14
+Cuba,Colombia,11,United States of America,11
+Cuba,Dominican Republic,5,United States of America,5
+Cuba,Peru,8,United States of America,8
+Cuba,Trinidad and Tobago,76,Australia,9
+Cuba,Trinidad and Tobago,76,Canada,11
+Cuba,Trinidad and Tobago,76,United States of America,56
+Eritrea,Egypt,361,Belgium,8
+Eritrea,Egypt,361,Canada,90
+Eritrea,Egypt,361,France,17
+Eritrea,Egypt,361,United Kingdom,6
+Eritrea,Egypt,361,Germany,106
+Eritrea,Egypt,361,Netherlands,47
+Eritrea,Egypt,361,Portugal,6
+Eritrea,Egypt,361,United States of America,81
+Eritrea,Ethiopia,608,Canada,18
+Eritrea,Ethiopia,608,France,77
+Eritrea,Ethiopia,608,Norway,82
+Eritrea,Ethiopia,608,New Zealand,45
+Eritrea,Ethiopia,608,Sweden,5
+Eritrea,Ethiopia,608,United States of America,381
+Eritrea,Israel,373,Canada,70
+Eritrea,Israel,373,Norway,8
+Eritrea,Israel,373,United States of America,295
+Eritrea,Libya,21,Canada,6
+Eritrea,Libya,21,Norway,15
+Eritrea,Niger,193,Canada,79
+Eritrea,Niger,193,Germany,101
+Eritrea,Niger,193,Netherlands,13
+Eritrea,South Africa,5,United States of America,5
+Eritrea,Rwanda,285,Canada,86
+Eritrea,Rwanda,285,Finland,45
+Eritrea,Rwanda,285,France,27
+Eritrea,Rwanda,285,Norway,31
+Eritrea,Rwanda,285,United States of America,96
+Eritrea,Sudan,217,Canada,200
+Eritrea,Sudan,217,Sweden,17
+Eritrea,Tunisia,6,United States of America,6
+Eritrea,Uganda,13,United States of America,13
+Ethiopia,Egypt,181,Australia,13
+Ethiopia,Egypt,181,Belgium,18
+Ethiopia,Egypt,181,Canada,86
+Ethiopia,Egypt,181,France,11
+Ethiopia,Egypt,181,United Kingdom,10
+Ethiopia,Egypt,181,Germany,9
+Ethiopia,Egypt,181,United States of America,34
+Ethiopia,Indonesia,24,Canada,6
+Ethiopia,Indonesia,24,United States of America,18
+Ethiopia,Kenya,372,Australia,172
+Ethiopia,Kenya,372,Canada,5
+Ethiopia,Kenya,372,Iceland,7
+Ethiopia,Kenya,372,Sweden,8
+Ethiopia,Kenya,372,United States of America,180
+Ethiopia,Lebanon,8,United States of America,8
+Ethiopia,Niger,5,Canada,5
+Ethiopia,South Africa,47,United States of America,47
+Ethiopia,Rwanda,9,Canada,9
+Ethiopia,Sudan,8,Canada,8
+Palestinian,Egypt,5,Canada,5
+Palestinian,Iraq,58,United Kingdom,46
+Palestinian,Iraq,58,United States of America,12
+Palestinian,Malaysia,5,United States of America,5
+Palestinian,Thailand,22,Australia,11
+Palestinian,Thailand,22,Canada,11
+Palestinian,Türkiye,18,United States of America,18
+Guatemala,Mexico,11,Canada,11
+Haiti,Dominican Republic,121,Canada,23
+Haiti,Dominican Republic,121,United States of America,98
+Honduras,Guatemala,38,Canada,9
+Honduras,Guatemala,38,United States of America,29
+Honduras,Mexico,18,Canada,9
+Honduras,Mexico,18,United States of America,9
+Iran,Australia,58,New Zealand,51
+Iran,Australia,58,United States of America,7
+Iran,Indonesia,63,Australia,6
+Iran,Indonesia,63,Canada,7
+Iran,Indonesia,63,United States of America,50
+Iran,Sri Lanka,6,United States of America,6
+Iran,Malaysia,5,Canada,5
+Iran,Papua New Guinea,16,New Zealand,16
+Iran,Türkiye,803,Australia,52
+Iran,Türkiye,803,Canada,40
+Iran,Türkiye,803,United Kingdom,8
+Iran,Türkiye,803,Italy,6
+Iran,Türkiye,803,Portugal,47
+Iran,Türkiye,803,United States of America,650
+Iraq,Egypt,6,Australia,6
+Iraq,Indonesia,55,Australia,5
+Iraq,Indonesia,55,Canada,8
+Iraq,Indonesia,55,New Zealand,22
+Iraq,Indonesia,55,United States of America,20
+Iraq,Jordan,282,Australia,24
+Iraq,Jordan,282,Canada,144
+Iraq,Jordan,282,United States of America,114
+Iraq,Lebanon,345,Australia,245
+Iraq,Lebanon,345,Canada,51
+Iraq,Lebanon,345,United States of America,49
+Iraq,Malaysia,7,Canada,7
+Iraq,Türkiye,1466,Australia,326
+Iraq,Türkiye,1466,Canada,39
+Iraq,Türkiye,1466,United Kingdom,26
+Iraq,Türkiye,1466,United States of America,1075
+Iraq,United Arab Emirates,25,Canada,18
+Iraq,United Arab Emirates,25,United States of America,7
+Myanmar,Bangladesh,236,Canada,84
+Myanmar,Bangladesh,236,United States of America,152
+Myanmar,India,64,Canada,6
+Myanmar,India,64,United States of America,58
+Myanmar,Indonesia,97,Canada,43
+Myanmar,Indonesia,97,United Kingdom,5
+Myanmar,Indonesia,97,New Zealand,7
+Myanmar,Indonesia,97,United States of America,42
+Myanmar,Iran,34,New Zealand,34
+Myanmar,Malaysia,5168,Australia,25
+Myanmar,Malaysia,5168,Canada,227
+Myanmar,Malaysia,5168,France,14
+Myanmar,Malaysia,5168,United Kingdom,7
+Myanmar,Malaysia,5168,Japan,47
+Myanmar,Malaysia,5168,Republic of Korea,5
+Myanmar,Malaysia,5168,Netherlands,21
+Myanmar,Malaysia,5168,Norway,9
+Myanmar,Malaysia,5168,New Zealand,71
+Myanmar,Malaysia,5168,United States of America,4742
+Myanmar,Thailand,1250,Australia,36
+Myanmar,Thailand,1250,Canada,31
+Myanmar,Thailand,1250,New Zealand,21
+Myanmar,Thailand,1250,United States of America,1162
+Nicaragua,Costa Rica,362,United States of America,362
+Nicaragua,Guatemala,29,United States of America,29
+Nicaragua,Honduras,7,United States of America,7
+Nigeria,Cameroon,7,France,7
+Nigeria,Niger,150,Canada,131
+Nigeria,Niger,150,France,10
+Nigeria,Niger,150,United States of America,9
+Pakistan,China,6,Canada,6
+Pakistan,Indonesia,54,Canada,5
+Pakistan,Indonesia,54,New Zealand,9
+Pakistan,Indonesia,54,United States of America,40
+Pakistan,Sri Lanka,112,Australia,40
+Pakistan,Sri Lanka,112,United Kingdom,5
+Pakistan,Sri Lanka,112,United States of America,67
+Pakistan,Madagascar,47,United States of America,47
+Pakistan,Malaysia,560,Australia,7
+Pakistan,Malaysia,560,Canada,101
+Pakistan,Malaysia,560,Netherlands,26
+Pakistan,Malaysia,560,New Zealand,38
+Pakistan,Malaysia,560,United States of America,388
+Pakistan,Thailand,193,Australia,78
+Pakistan,Thailand,193,Canada,5
+Pakistan,Thailand,193,United States of America,110
+Pakistan,Türkiye,13,United States of America,13
+Rwanda,Kenya,6,United States of America,6
+Rwanda,Malawi,12,United States of America,12
+Rwanda,South Africa,20,United States of America,20
+Rwanda,Uganda,39,United States of America,39
+Rwanda,Zimbabwe,36,United States of America,36
+El Salvador,Guatemala,43,United States of America,43
+El Salvador,Mexico,6,Canada,6
+Somalia,Egypt,71,Canada,6
+Somalia,Egypt,71,Germany,28
+Somalia,Egypt,71,Netherlands,6
+Somalia,Egypt,71,United States of America,31
+Somalia,Australia,14,New Zealand,6
+Somalia,Australia,14,United States of America,8
+Somalia,Djibouti,5,Sweden,5
+Somalia,Ethiopia,371,Canada,232
+Somalia,Ethiopia,371,New Zealand,5
+Somalia,Ethiopia,371,United States of America,134
+Somalia,India,87,Australia,5
+Somalia,India,87,Canada,28
+Somalia,India,87,United States of America,54
+Somalia,Indonesia,122,Canada,27
+Somalia,Indonesia,122,United States of America,95
+Somalia,Jordan,76,United States of America,76
+Somalia,Kenya,705,Canada,115
+Somalia,Kenya,705,France,10
+Somalia,Kenya,705,United Kingdom,52
+Somalia,Kenya,705,Germany,205
+Somalia,Kenya,705,Netherlands,7
+Somalia,Kenya,705,United States of America,316
+Somalia,Kuwait,34,United States of America,34
+Somalia,Malaysia,251,Canada,102
+Somalia,Malaysia,251,United States of America,149
+Somalia,Malta,16,United States of America,16
+Somalia,Niger,5,Canada,5
+Somalia,South Africa,306,New Zealand,14
+Somalia,South Africa,306,Sweden,5
+Somalia,South Africa,306,United States of America,287
+Somalia,Rwanda,11,Canada,11
+Somalia,Tanzania,9,Canada,9
+Somalia,Thailand,5,United States of America,5
+Somalia,Uganda,141,United States of America,141
+Somalia,Zambia,8,United States of America,8
+Vietnam,Thailand,124,Australia,5
+Vietnam,Thailand,124,Canada,30
+Vietnam,Thailand,124,New Zealand,7
+Vietnam,Thailand,124,United States of America,82
+South Sudan,Egypt,312,Canada,19
+South Sudan,Egypt,312,France,28
+South Sudan,Egypt,312,Germany,158
+South Sudan,Egypt,312,Netherlands,15
+South Sudan,Egypt,312,Portugal,7
+South Sudan,Egypt,312,United States of America,85
+South Sudan,Ethiopia,97,France,39
+South Sudan,Ethiopia,97,United States of America,58
+South Sudan,Kenya,510,Canada,14
+South Sudan,Kenya,510,France,5
+South Sudan,Kenya,510,Germany,23
+South Sudan,Kenya,510,United States of America,468
+South Sudan,Tanzania,6,United States of America,6
+South Sudan,Uganda,135,Norway,11
+South Sudan,Uganda,135,United States of America,124
+Sudan,Algeria,6,Canada,6
+Sudan,Egypt,1155,Belgium,26
+Sudan,Egypt,1155,Canada,189
+Sudan,Egypt,1155,France,62
+Sudan,Egypt,1155,Germany,405
+Sudan,Egypt,1155,Netherlands,34
+Sudan,Egypt,1155,Norway,7
+Sudan,Egypt,1155,Portugal,17
+Sudan,Egypt,1155,United States of America,415
+Sudan,Chad,822,France,218
+Sudan,Chad,822,Sweden,16
+Sudan,Chad,822,United States of America,588
+Sudan,Ethiopia,55,France,6
+Sudan,Ethiopia,55,United States of America,49
+Sudan,Ghana,99,United States of America,99
+Sudan,Indonesia,77,Canada,14
+Sudan,Indonesia,77,United States of America,63
+Sudan,Jordan,343,Canada,103
+Sudan,Jordan,343,Germany,14
+Sudan,Jordan,343,United States of America,226
+Sudan,Kenya,133,United States of America,133
+Sudan,Libya,243,Canada,151
+Sudan,Libya,243,Finland,9
+Sudan,Libya,243,Norway,83
+Sudan,Lebanon,130,Canada,61
+Sudan,Lebanon,130,Finland,6
+Sudan,Lebanon,130,United States of America,63
+Sudan,Sri Lanka,5,United States of America,5
+Sudan,Malaysia,14,United States of America,14
+Sudan,Niger,164,Canada,55
+Sudan,Niger,164,Finland,5
+Sudan,Niger,164,Germany,52
+Sudan,Niger,164,United States of America,52
+Sudan,Rwanda,188,Canada,50
+Sudan,Rwanda,188,Finland,26
+Sudan,Rwanda,188,France,15
+Sudan,Rwanda,188,Norway,24
+Sudan,Rwanda,188,United States of America,73
+Sudan,Tunisia,18,Canada,5
+Sudan,Tunisia,18,United States of America,13
+Sudan,Türkiye,9,Canada,9
+Syria,Algeria,12,Canada,12
+Syria,Egypt,2047,Belgium,27
+Syria,Egypt,2047,Canada,264
+Syria,Egypt,2047,Finland,5
+Syria,Egypt,2047,France,53
+Syria,Egypt,2047,Germany,501
+Syria,Egypt,2047,Netherlands,22
+Syria,Egypt,2047,Portugal,60
+Syria,Egypt,2047,United States of America,1115
+Syria,Iraq,1137,Australia,128
+Syria,Iraq,1137,Canada,73
+Syria,Iraq,1137,France,29
+Syria,Iraq,1137,Norway,163
+Syria,Iraq,1137,New Zealand,34
+Syria,Iraq,1137,United States of America,710
+Syria,Jordan,9511,Australia,116
+Syria,Jordan,9511,Canada,911
+Syria,Jordan,9511,France,211
+Syria,Jordan,9511,United Kingdom,42
+Syria,Jordan,9511,Germany,125
+Syria,Jordan,9511,Norway,213
+Syria,Jordan,9511,New Zealand,9
+Syria,Jordan,9511,Portugal,6
+Syria,Jordan,9511,Romania,25
+Syria,Jordan,9511,Sweden,79
+Syria,Jordan,9511,United States of America,7774
+Syria,Kuwait,15,Canada,5
+Syria,Kuwait,15,United States of America,10
+Syria,Libya,84,Canada,78
+Syria,Libya,84,Norway,6
+Syria,Lebanon,8295,Australia,263
+Syria,Lebanon,8295,Belgium,19
+Syria,Lebanon,8295,Canada,2262
+Syria,Lebanon,8295,Finland,41
+Syria,Lebanon,8295,France,700
+Syria,Lebanon,8295,Germany,963
+Syria,Lebanon,8295,Italy,9
+Syria,Lebanon,8295,Netherlands,254
+Syria,Lebanon,8295,Norway,591
+Syria,Lebanon,8295,New Zealand,198
+Syria,Lebanon,8295,Romania,78
+Syria,Lebanon,8295,Spain,631
+Syria,Lebanon,8295,Sweden,48
+Syria,Lebanon,8295,Switzerland,83
+Syria,Lebanon,8295,United States of America,2155
+Syria,Malaysia,28,Canada,18
+Syria,Malaysia,28,Republic of Korea,5
+Syria,Malaysia,28,New Zealand,5
+Syria,Morocco,6,United States of America,6
+Syria,Saudi Arabia,82,Canada,29
+Syria,Saudi Arabia,82,United States of America,53
+Syria,Thailand,7,United States of America,7
+Syria,Trinidad and Tobago,6,United States of America,6
+Syria,Türkiye,8286,Australia,165
+Syria,Türkiye,8286,Belgium,6
+Syria,Türkiye,8286,Bulgaria,9
+Syria,Türkiye,8286,Canada,2418
+Syria,Türkiye,8286,Finland,173
+Syria,Türkiye,8286,France,528
+Syria,Türkiye,8286,United Kingdom,72
+Syria,Türkiye,8286,Germany,2098
+Syria,Türkiye,8286,Norway,57
+Syria,Türkiye,8286,Portugal,13
+Syria,Türkiye,8286,Romania,51
+Syria,Türkiye,8286,Spain,302
+Syria,Türkiye,8286,Slovenia,23
+Syria,Türkiye,8286,Switzerland,35
+Syria,Türkiye,8286,United States of America,2336
+Syria,United Arab Emirates,54,Canada,54
+Unknown,Aruba,2,United States of America,2
+Unknown,Algeria,79,Canada,62
+Unknown,Algeria,79,United States of America,17
+Unknown,Egypt,172,Australia,2
+Unknown,Egypt,172,Canada,13
+Unknown,Egypt,172,France,1
+Unknown,Egypt,172,United Kingdom,109
+Unknown,Egypt,172,Germany,16
+Unknown,Egypt,172,Sweden,14
+Unknown,Egypt,172,Switzerland,10
+Unknown,Egypt,172,United States of America,7
+Unknown,Australia,39,New Zealand,37
+Unknown,Australia,39,United States of America,2
+Unknown,Bahrain,1,United States of America,1
+Unknown,Burundi,74,Australia,4
+Unknown,Burundi,74,Canada,17
+Unknown,Burundi,74,United Kingdom,13
+Unknown,Burundi,74,United States of America,40
+Unknown,Benin,7,Germany,4
+Unknown,Benin,7,Norway,3
+Unknown,Bangladesh,3,Sweden,3
+Unknown,Chad,7,Finland,5
+Unknown,Chad,7,France,2
+Unknown,China,18,Canada,4
+Unknown,China,18,United States of America,14
+Unknown,Cameroon,16,Australia,10
+Unknown,Cameroon,16,Canada,1
+Unknown,Cameroon,16,Finland,3
+Unknown,Cameroon,16,United States of America,2
+Unknown,Congo,28,Australia,5
+Unknown,Congo,28,Canada,20
+Unknown,Congo,28,France,3
+Unknown,DR Congo,3,Finland,1
+Unknown,DR Congo,3,France,2
+Unknown,Colombia,45,Australia,3
+Unknown,Colombia,45,Canada,5
+Unknown,Colombia,45,United States of America,37
+Unknown,Costa Rica,3,Canada,3
+Unknown,Cuba,6,Finland,1
+Unknown,Cuba,6,France,3
+Unknown,Cuba,6,United States of America,2
+Unknown,Curacao,2,Australia,2
+Unknown,Djibouti,3,Sweden,3
+Unknown,Dominican Republic,28,Australia,2
+Unknown,Dominican Republic,28,Canada,13
+Unknown,Dominican Republic,28,United States of America,13
+Unknown,Ecuador,50,Australia,4
+Unknown,Ecuador,50,Canada,8
+Unknown,Ecuador,50,New Zealand,2
+Unknown,Ecuador,50,United States of America,36
+Unknown,Ethiopia,139,Canada,18
+Unknown,Ethiopia,139,Finland,1
+Unknown,Ethiopia,139,France,71
+Unknown,Ethiopia,139,Germany,1
+Unknown,Ethiopia,139,Norway,13
+Unknown,Ethiopia,139,Sweden,35
+Unknown,Gambia,2,Finland,1
+Unknown,Gambia,2,Norway,1
+Unknown,Ghana,9,United States of America,9
+Unknown,Grenada,2,Finland,1
+Unknown,Grenada,2,United States of America,1
+Unknown,Guatemala,2169,Australia,20
+Unknown,Guatemala,2169,Canada,25
+Unknown,Guatemala,2169,United States of America,2124
+Unknown,Guinea,10,United States of America,10
+Unknown,"China, Hong Kong SAR",3,Canada,3
+Unknown,Honduras,552,Australia,8
+Unknown,Honduras,552,Canada,33
+Unknown,Honduras,552,United States of America,511
+Unknown,Cote d'Ivoire,10,Sweden,10
+Unknown,India,51,Australia,13
+Unknown,India,51,Canada,8
+Unknown,India,51,Finland,2
+Unknown,India,51,France,3
+Unknown,India,51,United Kingdom,16
+Unknown,India,51,Germany,1
+Unknown,India,51,Netherlands,1
+Unknown,India,51,United States of America,7
+Unknown,Indonesia,249,Australia,12
+Unknown,Indonesia,249,Canada,10
+Unknown,Indonesia,249,United Kingdom,5
+Unknown,Indonesia,249,New Zealand,208
+Unknown,Indonesia,249,United States of America,14
+Unknown,Iran,52,New Zealand,52
+Unknown,Iraq,48,Australia,1
+Unknown,Iraq,48,Finland,2
+Unknown,Iraq,48,United Kingdom,44
+Unknown,Iraq,48,Norway,1
+Unknown,Israel,26,Australia,6
+Unknown,Israel,26,Canada,8
+Unknown,Israel,26,France,6
+Unknown,Israel,26,United States of America,6
+Unknown,Jordan,294,Australia,2
+Unknown,Jordan,294,Belgium,29
+Unknown,Jordan,294,Canada,27
+Unknown,Jordan,294,Finland,1
+Unknown,Jordan,294,United Kingdom,5
+Unknown,Jordan,294,Germany,5
+Unknown,Jordan,294,Ireland,73
+Unknown,Jordan,294,Netherlands,137
+Unknown,Jordan,294,United States of America,15
+Unknown,Kenya,97,Australia,22
+Unknown,Kenya,97,Canada,21
+Unknown,Kenya,97,United Kingdom,14
+Unknown,Kenya,97,Germany,5
+Unknown,Kenya,97,Iceland,4
+Unknown,Kenya,97,Netherlands,1
+Unknown,Kenya,97,Norway,1
+Unknown,Kenya,97,United States of America,29
+Unknown,Kuwait,22,Canada,3
+Unknown,Kuwait,22,Norway,1
+Unknown,Kuwait,22,United States of America,18
+Unknown,Laos,1,Canada,1
+Unknown,Libya,61,Canada,9
+Unknown,Libya,61,Finland,4
+Unknown,Libya,61,United Kingdom,1
+Unknown,Libya,61,Norway,8
+Unknown,Libya,61,Sweden,39
+Unknown,Lebanon,201,Argentina,4
+Unknown,Lebanon,201,Australia,3
+Unknown,Lebanon,201,Canada,30
+Unknown,Lebanon,201,United Kingdom,87
+Unknown,Lebanon,201,Germany,1
+Unknown,Lebanon,201,Ireland,57
+Unknown,Lebanon,201,Netherlands,1
+Unknown,Lebanon,201,Spain,10
+Unknown,Lebanon,201,United States of America,8
+Unknown,Sri Lanka,104,Australia,3
+Unknown,Sri Lanka,104,Canada,10
+Unknown,Sri Lanka,104,New Zealand,60
+Unknown,Sri Lanka,104,United States of America,31
+Unknown,Madagascar,2,United States of America,2
+Unknown,Mauritania,90,Canada,2
+Unknown,Mauritania,90,United States of America,88
+Unknown,Mexico,6,Canada,5
+Unknown,Mexico,6,United States of America,1
+Unknown,Mali,2,France,2
+Unknown,Malaysia,196,Australia,4
+Unknown,Malaysia,196,Canada,26
+Unknown,Malaysia,196,United Kingdom,16
+Unknown,Malaysia,196,Germany,4
+Unknown,Malaysia,196,Norway,4
+Unknown,Malaysia,196,New Zealand,28
+Unknown,Malaysia,196,United States of America,114
+Unknown,Malawi,9,Canada,4
+Unknown,Malawi,9,Finland,4
+Unknown,Malawi,9,United States of America,1
+Unknown,Mongolia,3,Norway,3
+Unknown,Morocco,226,Canada,80
+Unknown,Morocco,226,United States of America,146
+Unknown,Mozambique,4,France,3
+Unknown,Mozambique,4,United States of America,1
+Unknown,Malta,3,United States of America,3
+Unknown,Nepal,7,United States of America,7
+Unknown,Niger,78,Canada,24
+Unknown,Niger,78,Finland,10
+Unknown,Niger,78,France,1
+Unknown,Niger,78,Germany,13
+Unknown,Niger,78,Netherlands,3
+Unknown,Niger,78,Norway,1
+Unknown,Niger,78,United States of America,26
+Unknown,Nauru,15,New Zealand,15
+Unknown,Pakistan,8,Netherlands,3
+Unknown,Pakistan,8,Norway,3
+Unknown,Pakistan,8,New Zealand,2
+Unknown,Peru,36,Canada,2
+Unknown,Peru,36,United States of America,34
+Unknown,Papua New Guinea,20,New Zealand,18
+Unknown,Papua New Guinea,20,United States of America,2
+Unknown,Qatar,8,United States of America,8
+Unknown,South Africa,45,Canada,15
+Unknown,South Africa,45,New Zealand,23
+Unknown,South Africa,45,United States of America,7
+Unknown,Rwanda,25,Canada,2
+Unknown,Rwanda,25,Denmark,3
+Unknown,Rwanda,25,Finland,3
+Unknown,Rwanda,25,France,3
+Unknown,Rwanda,25,Netherlands,5
+Unknown,Rwanda,25,Norway,5
+Unknown,Rwanda,25,United States of America,4
+Unknown,El Salvador,839,Australia,46
+Unknown,El Salvador,839,Canada,11
+Unknown,El Salvador,839,United States of America,782
+Unknown,Saudi Arabia,5,Canada,5
+Unknown,Senegal,9,Australia,1
+Unknown,Senegal,9,Canada,2
+Unknown,Senegal,9,Finland,3
+Unknown,Senegal,9,France,1
+Unknown,Senegal,9,Sweden,2
+Unknown,Singapore,5,Canada,5
+Unknown,Somalia,1,Finland,1
+Unknown,South Sudan,4,Finland,4
+Unknown,Sudan,16,Australia,6
+Unknown,Sudan,16,Canada,6
+Unknown,Sudan,16,United States of America,4
+Unknown,Syria,19,Australia,1
+Unknown,Syria,19,Canada,4
+Unknown,Syria,19,Finland,1
+Unknown,Syria,19,United Kingdom,11
+Unknown,Syria,19,Norway,1
+Unknown,Syria,19,United States of America,1
+Unknown,Tanzania,4,Canada,2
+Unknown,Tanzania,4,United States of America,2
+Unknown,Thailand,95,Australia,42
+Unknown,Thailand,95,Canada,10
+Unknown,Thailand,95,Finland,1
+Unknown,Thailand,95,United Kingdom,10
+Unknown,Thailand,95,United States of America,32
+Unknown,Tajikistan,2,Norway,2
+Unknown,Togo,3,United States of America,3
+Unknown,Trinidad and Tobago,66,Australia,8
+Unknown,Trinidad and Tobago,66,Canada,20
+Unknown,Trinidad and Tobago,66,United States of America,38
+Unknown,Tunisia,41,Canada,8
+Unknown,Tunisia,41,France,7
+Unknown,Tunisia,41,United States of America,26
+Unknown,Türkiye,366,Canada,4
+Unknown,Türkiye,366,United Kingdom,2
+Unknown,Türkiye,366,Italy,4
+Unknown,Türkiye,366,Malta,1
+Unknown,Türkiye,366,Netherlands,1
+Unknown,Türkiye,366,Portugal,85
+Unknown,Türkiye,366,Sweden,11
+Unknown,Türkiye,366,Switzerland,212
+Unknown,Türkiye,366,United States of America,46
+Unknown,United Arab Emirates,14,Canada,8
+Unknown,United Arab Emirates,14,Finland,3
+Unknown,United Arab Emirates,14,Germany,1
+Unknown,United Arab Emirates,14,Norway,1
+Unknown,United Arab Emirates,14,Sweden,1
+Unknown,Uganda,14,Australia,1
+Unknown,Uganda,14,Sweden,2
+Unknown,Uganda,14,United States of America,11
+Unknown,Yemen,8,Canada,4
+Unknown,Yemen,8,Finland,4
+Unknown,Zambia,18,Finland,3
+Unknown,Zambia,18,United States of America,15
+Unknown,Zimbabwe,24,United States of America,24
+Venezuela,Colombia,604,Canada,18
+Venezuela,Colombia,604,United States of America,586
+Venezuela,Costa Rica,34,Canada,5
+Venezuela,Costa Rica,34,United States of America,29
+Venezuela,Dominican Republic,230,Australia,43
+Venezuela,Dominican Republic,230,United States of America,187
+Venezuela,Ecuador,345,Canada,14
+Venezuela,Ecuador,345,New Zealand,5
+Venezuela,Ecuador,345,United States of America,326
+Venezuela,Guatemala,21,United States of America,21
+Venezuela,Honduras,5,Canada,5
+Venezuela,Peru,491,Australia,11
+Venezuela,Peru,491,Canada,32
+Venezuela,Peru,491,United States of America,448
+Venezuela,Trinidad and Tobago,258,Australia,29
+Venezuela,Trinidad and Tobago,258,Canada,30
+Venezuela,Trinidad and Tobago,258,United States of America,199
+Yemen,Egypt,33,Finland,9
+Yemen,Egypt,33,Germany,24
+Yemen,Chad,5,France,5
+Yemen,Indonesia,15,New Zealand,15
+Yemen,Jordan,255,Canada,57
+Yemen,Jordan,255,Germany,12
+Yemen,Jordan,255,Netherlands,8
+Yemen,Jordan,255,United States of America,178
+Yemen,Mauritania,7,United States of America,7
+Yemen,Malaysia,12,Canada,12

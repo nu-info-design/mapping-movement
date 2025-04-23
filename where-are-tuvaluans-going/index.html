@@ -1,14 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tuvalu</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background: white;
+    }
+
+    #svg-container {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .dropdown-container {
+      display: none;
+      position: absolute;
+      top: 20%;
+      left: 81%;
+      max-height: 70px;
+      transform: translateX(-50%);
+      background: #BBDDAC;
+      color: #1B1464;
+      font-family: "Helvetica Neue";
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      z-index: 10;
+    }
+
+    .end-button {
+      display: none;
+      position: absolute;
+      left: 34%;
+      top: 50%;
+      background: #1B1464;
+      color: white;
+      font-family: "Helvetica Neue";
+      padding: 10px 15px;
+      border-radius: 4px;
+      text-decoration: none;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      z-index: 10;
+    }
+
+    #home:hover rect {
+      fill: #1B1464;
+    }
+
+    #home:hover text {
+      fill: white;
+    }
+
+    #what:hover rect {
+      fill: #1B1464;
+    }
+
+    #what:hover text {
+      fill: white;
+    }
+    #islands:hover rect {
+      fill: #1B1464;
+    }
+
+    #islands:hover text {
+      fill: white;
+    }
+    #internal:hover rect {
+      fill: #1B1464;
+    }
+
+    #internal:hover text {
+      fill: white;
+    }
+    #external:hover rect {
+      fill: #1B1464;
+    }
+
+    #external:hover text {
+      fill: white;
+    }
+    #next:hover rect {
+      fill: #1B1464;
+    }
+
+    #next:hover text {
+      fill: white;
+    }
+
+    #next_steps:hover rect {
+      fill: #1B1464;
+    }
+
+    #next_steps:hover text {
+      fill: white;
+    }
+
+    * {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+
+    main {
+        margin: 6em auto;
+        max-width: 700px;
+    }
+
+  </style>
 </head>
 <body>
 
-<h3>Where are Tuvaluans Going?</h3>
+<div id="svg-container"></div>
 
+<div class="dropdown-container">
+  <label for="yearSelect">Select Year:</label>
+  <select id="yearSelect"></select>
+</div>
+
+<a href="https://www.tuvalu.tv/" class="end-button" target="_blank">TUVALU.TV</a>
+
+<script>
+  const svgFiles = [
+    "svgs/t_home.svg",
+    "svgs/t_tuvalu1.svg",
+    "svgs/t_tuvalu2.svg",
+    "svgs/t_tuvalu3.svg",
+    "svgs/t_islands.svg",
+    "svgs/t_internal.svg",
+    "svgs/t_2024.svg",
+    "svgs/t_ending.svg"
+  ];
+
+  let currentIndex = 0;
+  const container = document.getElementById("svg-container");
+  const endButton = document.querySelector(".end-button");
+
+  async function loadSVG(index) {
+    const file = svgFiles[index];
+    try {
+      const res = await fetch(file);
+      const text = await res.text();
+      container.innerHTML = text;
+      currentIndex = index;
+      setupSVGInteractions();
+      checkSVGForDropdown(file);
+      checkSVGForButton(file);
+    } catch (err) {
+      console.error("Error loading SVG:", err);
+    }
+  }
+
+  async function loadSVGByFile(file) {
+    try {
+      const res = await fetch(file);
+      const text = await res.text();
+      container.innerHTML = text;
+      setupSVGInteractions();
+      checkSVGForDropdown(file);
+      checkSVGForButton(file);
+    } catch (err) {
+      console.error("Error loading SVG:", err);
+    }
+  }
+
+  // Clickable island handling
+  function setupSVGInteractions() {
+  // Island buttons
+  const clickableIslands = ["niutao", "nanumanga", "nukulaelae", "funa", "nanumea", "nui", "vai", "nuku", "niulakita"];
+  clickableIslands.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.style.cursor = "pointer";
+      el.addEventListener("click", () => {
+        const path = `svgs/t_${id}.svg`;
+        loadSVGByFile(path);
+      });
+    }
+  });
+
+  // Menu buttons (set listeners after loading each SVG that may contain them)
+  const menuMap = {
+    home: "svgs/t_home.svg",
+    what: "svgs/t_tuvalu1.svg",
+    islands: "svgs/t_islands.svg",
+    internal: "svgs/t_internal.svg",
+    external: "svgs/t_2024.svg",
+    next_steps: "svgs/t_ending.svg",
+    next: "svgs/t_ending.svg"
+  };
+
+  Object.keys(menuMap).forEach(id => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.style.cursor = "pointer";
+      el.addEventListener("click", () => {
+        loadSVGByFile(menuMap[id]);
+      });
+    }
+  });
+}
+
+
+  // Arrow navigation
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight") {
+      currentIndex = (currentIndex + 1) % svgFiles.length;
+      loadSVG(currentIndex);
+    } else if (e.key === "ArrowLeft") {
+      currentIndex = (currentIndex - 1 + svgFiles.length) % svgFiles.length;
+      loadSVG(currentIndex);
+    }
+  });
+
+  const years = [2024, 2020, 2015, 2010, 2005, 2000, 1995, 1990, "speculated"];
+  const svgContainer = document.getElementById("svg-container");
+  const dropdownContainer = document.querySelector(".dropdown-container");
+  const yearSelect = document.getElementById("yearSelect");
+
+  years.forEach(year => {
+    let option = document.createElement("option");
+    option.value = year;
+    option.textContent = year;
+    yearSelect.appendChild(option);
+  });
+
+  function loadSVGForYear(svgFile) {
+    fetch(svgFile)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("SVG file not found");
+        }
+        return response.text();
+      })
+      .then(data => {
+        svgContainer.innerHTML = data;
+        setupSVGInteractions();
+        checkSVGForDropdown(svgFile);
+      })
+      .catch(error => {
+        console.error("Error loading SVG:", error);
+      });
+  }
+
+  function updateSVG(selectedYear) {
+    loadSVGForYear(`svgs/t_${selectedYear}.svg`);
+  }
+
+  function checkSVGForDropdown(svgFile) {
+    const showDropdownFor = [
+      "svgs/t_2024.svg", "svgs/t_2020.svg", "svgs/t_2015.svg", "svgs/t_2010.svg",
+      "svgs/t_2005.svg", "svgs/t_2000.svg", "svgs/t_1995.svg", "svgs/t_1990.svg", "svgs/t_speculated.svg"
+    ];
+    dropdownContainer.style.display = showDropdownFor.includes(svgFile) ? "inline" : "none";
+  }
+
+  function checkSVGForButton(svgFile) {
+    endButton.style.display = (svgFile === "svgs/t_ending.svg") ? "block" : "none";
+  }
+
+  yearSelect.addEventListener("change", (event) => {
+    updateSVG(event.target.value);
+  });
+
+  loadSVG(0); // Initial load
+</script>
 <script src="../assets/nav.js"></script>
 </body>
 </html>

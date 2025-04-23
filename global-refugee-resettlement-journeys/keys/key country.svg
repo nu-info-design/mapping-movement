@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 62">
+  <defs>
+    <style>    
+    @import url(https://fonts.googleapis.com/css2?family=Lato&amp;display=swap);
+
+      .cls-1 {
+        stroke: #987197;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #9ebdb8;
+      }
+
+      .cls-2 {
+        fill: #987197;
+        stroke: #997197;
+      }
+
+      .cls-4 {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        stroke: #9fbdb8;
+      }
+    </style>
+  </defs>
+  <g style="transform: translate(-28px,0)">
+    <circle class="cls-3" cx="62.88" cy="18.3" r="5.46"/>
+    <text class="cls-4" transform="translate(28.42 43.01)">Country of Origin</text>
+    <circle class="cls-1" cx="163.5" cy="18.3" r="5.46"/>
+    <text class="cls-4" transform="translate(126.84 43.01)">Country of Asylum</text>
+    <circle class="cls-2" cx="264.12" cy="18.3" r="5.46"/>
+    <text class="cls-4" transform="translate(215.82 43.01)">Country of Resettlement</text>
+  </g>
+</svg>
