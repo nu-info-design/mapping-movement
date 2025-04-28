@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visualizing Ukraine IDPS</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
     <script src="p5.js"></script>  
-    <script src="sketch.js"></script>
+    <script src="mastermap.js"></script>
+    <script src="spark1.js"></script>
+    <script src="spark2.js"></script>
 </head>
 
 <body>
 
-    <header>
+<div id="page wrapper">
+
+   <header>
 
         <!-- ***TITLE*** -->
         <img id="title-image" src="Title.png" alt="Title"><br>
@@ -24,50 +28,69 @@
             <div id="timeline"></div>
             <button id="next-round" aria-label="Next Round">▶</button>
           </div>
-    
-        
-        <!-- ***ICONS*** -->
-          <div id="info-wrapper">
-            <img id="info-icon" src="info-default.png" alt="Info">
-            <span class="info-tooltip">
-                This project illustrates the evolving landscape of internal displacement in Ukraine 
-                over the past three years of war, focusing on oblast-level arrivals of Internally Displaced 
-                Persons (IDPs). It also explores how measurement methods have advanced and at times, been 
-                challenged. <br> <br> The data source is the International Organization for Migration’s Global 
-                Data Institute, which has conducted 40 rounds of Area Baseline Assessments to track internal 
-                displacement across Ukraine. For more details, visit the Data Biography or the IOM’s website.
-            </span>
-          </div>
-          
-          <div id="iom-wrapper">
-            <a href="https://dtm.iom.int/online-interactive-resources/registered-idp-area-baseline-assessment-dashboard-aba" target="_blank">
-              <img id="iom-icon" src="IOM logo.png" alt="IOM Website">
-            </a>
-            <span class="iom-tooltip">Explore IOM Data</span>
-          </div>
 
-          <div id="databio-wrapper">
-            <a href="https://docs.google.com/document/d/1A7R0Ux2g1r9zhoDLiWRbWKdjVSrgo2eKHjiQ1bpAOSQ/edit?usp=sharing" target="_blank">
-              <img id="databio-icon" src="data bio icon.png" alt="Data Biography">
-            </a>
-            <span class="databio-tooltip">Data Biography</span>
-          </div>
-        
+        <!-- ***ROUND GEO SUMMARY TEXT*** -->
+        <div id="round-summary" class="round-text"></div>
+      
+        <!-- ***LEGEND*** -->
+        <div class="legend">
+         <span class="dot">●</span>
+         <span class="label">5,000 IDPs</span>
+        </div>
 
+
+  
     </header>
 
-    <!-- ***LEGEND*** -->
-     <div class="legend">
-        <span class="dot">●</span>
-        <span class="label">5,000 IDPs</span>
+     <!-- container for map & spark graphs -->
+     <div id = "data-content">
+
+     <!-- ***P5 POLYGON MAP*** -->
+     <div id="p5-polygon-background-map"></div>
+
+     <!-- SPARK GRAPHS -->
+      <div id="spark-graph-container">
+        <div id="spark-master-text"></div>
+        <div id="spark1-text"><p>Total IDPs by Round</p></div>
+        <div id="spark1-holder"></div>
+        <div id="spark2-text"><p>Change in IDPs vs Prior Round</p></div>
+        <div id="spark2-holder"></div>
+        </div>
+      </div>
+     </div>
+
+     
+    <!-- ***FLOATING ICONS*** -->
+    <div id="info-wrapper">
+      <img id="info-icon" src="info-default.png" alt="Info">
+      <span class="info-tooltip">
+          This project illustrates the evolving landscape of internal displacement in Ukraine 
+          over the past three years of war, focusing on oblast-level arrivals of Internally Displaced 
+          Persons (IDPs). It also explores how measurement methods have advanced and at times, been 
+          challenged. <br> <br> The data source is the International Organization for Migration’s Global 
+          Data Institute, which has conducted 40 rounds of Area Baseline Assessments to track internal 
+          displacement across Ukraine. For more details, visit the Data Biography or the IOM’s website.
+      </span>
+    </div>
+    
+    <div id="iom-wrapper">
+      <a href="https://dtm.iom.int/online-interactive-resources/registered-idp-area-baseline-assessment-dashboard-aba" target="_blank">
+        <img id="iom-icon" src="IOM logo.png" alt="IOM Website">
+      </a>
+      <span class="iom-tooltip">Explore IOM Data</span>
     </div>
 
-    <!-- ***P5 POLYGON MAP*** -->
-    <div id="p5-polygon-background-map"></div>
+    <div id="databio-wrapper">
+      <a href="https://docs.google.com/document/d/1A7R0Ux2g1r9zhoDLiWRbWKdjVSrgo2eKHjiQ1bpAOSQ/edit?usp=sharing" target="_blank">
+        <img id="databio-icon" src="data bio icon.png" alt="Data Biography">
+      </a>
+      <span class="databio-tooltip">Data Biography</span>
+    </div>
 
-     <!-- ***ROUND GEO SUMMARY TEXT*** -->
-     <div id="round-summary" class="round-text"></div>
-      
+</div> 
+
 <script src="../assets/nav.js"></script>
+
 </body>
+
 </html>

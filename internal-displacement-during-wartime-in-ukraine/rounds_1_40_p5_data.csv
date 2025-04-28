@@ -1,804 +1,924 @@
-Round,Oblast,Recorded IDPs
-1,Zakarpatska,"184,676"
-2,Lvivska,"66,678"
-2,Zakarpatska,"100,587"
-3,Chernivetska,"74,816"
-3,Ivano-Frankivska,"72,333"
-3,Khmelnytska,"65,833"
-3,Kirovohradska,"75,849"
-3,Lvivska,"141,546"
-3,Vinnytska,"163,427"
-3,Zakarpatska,"118,316"
-3,Zhytomyrska,"94,255"
-4,Chernivetska,"84,940"
-4,Ivano-Frankivska,"124,081"
-4,Khmelnytska,"132,187"
-4,Kirovohradska,"77,622"
-4,Lvivska,"155,228"
-4,Poltavska,"179,648"
-4,Vinnytska,"162,482"
-4,Zakarpatska,"147,614"
-4,Zhytomyrska,"91,658"
-5,Chernivetska,"81,627"
-5,Ivano-Frankivska,"115,817"
-5,Khmelnytska,"122,213"
-5,Kirovohradska,"79,822"
-5,Kyivska,"85,960"
-5,Lvivska,"143,526"
-5,Odeska,"80,870"
-5,Poltavska,"180,161"
-5,Ternopilska,"88,708"
-5,Vinnytska,"171,461"
-5,Volynska,"59,155"
-5,Zakarpatska,"150,184"
-5,Zhytomyrska,"89,746"
-6,Cherkaska,"141,970"
-6,Chernihivska,"76,309"
-6,Chernivetska,"79,581"
-6,Dnipropetrovska,"255,894"
-6,Ivano-Frankivska,"94,053"
-6,Khmelnytska,"115,269"
-6,Kirovohradska,"80,097"
-6,Kyivska,"283,937"
-6,Lvivska,"115,981"
-6,Odeska,"81,937"
-6,Poltavska,"187,831"
-6,Rivnenska,"52,170"
-6,Sumska,"46,117"
-6,Ternopilska,"88,975"
-6,Vinnytska,"176,129"
-6,Volynska,"57,512"
-6,Zakarpatska,"173,168"
-6,Zhytomyrska,"76,482"
-7,Cherkaska,"142,414"
-7,Chernihivska,"76,616"
-7,Chernivetska,"77,284"
-7,Dnipropetrovska,"261,724"
-7,Ivano-Frankivska,"110,823"
-7,Khmelnytska,"111,507"
-7,Kirovohradska,"81,691"
-7,Kyivska,"287,888"
-7,Lvivska,"102,954"
-7,Odeska,"85,051"
-7,Poltavska,"190,310"
-7,Rivnenska,"52,170"
-7,Sumska,"43,240"
-7,Ternopilska,"85,204"
-7,Vinnytska,"177,288"
-7,Volynska,"58,591"
-7,Zakarpatska,"164,164"
-7,Zaporizka,"150,388"
-7,Zhytomyrska,"75,245"
-8,Cherkaska,"143,259"
-8,Chernihivska,"76,906"
-8,Chernivetska,"75,879"
-8,Dnipropetrovska,"272,076"
-8,Ivano-Frankivska,"94,943"
-8,Khmelnytska,"108,796"
-8,Kirovohradska,"82,728"
-8,Kyivska,"293,781"
-8,Lvivska,"106,073"
-8,Odeska,"88,255"
-8,Poltavska,"191,848"
-8,Rivnenska,"63,931"
-8,Sumska,"47,570"
-8,Ternopilska,"82,965"
-8,Vinnytska,"175,862"
-8,Volynska,"58,494"
-8,Zakarpatska,"125,877"
-8,Zaporizka,"161,090"
-8,Zhytomyrska,"74,144"
-9,Cherkaska,"144,447"
-9,Chernihivska,"77,038"
-9,Chernivetska,"73,626"
-9,Dnipropetrovska,"281,693"
-9,Ivano-Frankivska,"45,236"
-9,Khmelnytska,"108,796"
-9,Kirovohradska,"81,202"
-9,Kyivska,"421,589"
-9,Lvivska,"94,502"
-9,Odeska,"92,700"
-9,Poltavska,"193,957"
-9,Rivnenska,"75,047"
-9,Sumska,"51,172"
-9,Ternopilska,"81,919"
-9,Vinnytska,"193,864"
-9,Volynska,"60,136"
-9,Zakarpatska,"175,429"
-9,Zaporizka,"168,102"
-9,Zhytomyrska,"75,301"
-10,Cherkaska,"146,296"
-10,Chernihivska,"77,513"
-10,Chernivetska,"74,245"
-10,Dnipropetrovska,"302,359"
-10,Ivano-Frankivska,"95,862"
-10,Kharkivska,"382,376"
-10,Khmelnytska,"103,672"
-10,Kirovohradska,"94,225"
-10,Kyivska,"460,204"
-10,Lvivska,"125,235"
-10,Mykolaivska,"97,745"
-10,Odeska,"100,848"
-10,Poltavska,"196,995"
-10,Rivnenska,"76,104"
-10,Sumska,"54,661"
-10,Ternopilska,"85,746"
-10,Vinnytska,"180,227"
-10,Volynska,"59,950"
-10,Zakarpatska,"157,983"
-10,Zaporizka,"178,298"
-10,Zhytomyrska,"74,759"
-11,Cherkaska,"146,296"
-11,Chernihivska,"77,513"
-11,Chernivetska,"74,245"
-11,Dnipropetrovska,"302,359"
-11,Ivano-Frankivska,"95,862"
-11,Kharkivska,"382,376"
-11,Khmelnytska,"103,672"
-11,Kirovohradska,"94,225"
-11,Kyivska,"460,204"
-11,Lvivska,"125,235"
-11,Mykolaivska,"97,745"
-11,Odeska,"100,848"
-11,Poltavska,"196,995"
-11,Rivnenska,"76,104"
-11,Sumska,"54,661"
-11,Ternopilska,"85,746"
-11,Vinnytska,"180,227"
-11,Volynska,"59,950"
-11,Zakarpatska,"157,983"
-11,Zaporizka,"178,298"
-11,Zhytomyrska,"74,759"
-12,Cherkaska,"147,546"
-12,Chernihivska,"77,763"
-12,Chernivetska,"73,729"
-12,Dnipropetrovska,"317,914"
-12,Ivano-Frankivska,"102,997"
-12,Kharkivska,"385,788"
-12,Khmelnytska,"102,781"
-12,Kirovohradska,"89,616"
-12,Kyivska,"481,188"
-12,Lvivska,"129,756"
-12,Mykolaivska,"93,851"
-12,Odeska,"106,266"
-12,Poltavska,"199,011"
-12,Rivnenska,"78,152"
-12,Sumska,"57,725"
-12,Ternopilska,"83,505"
-12,Vinnytska,"182,172"
-12,Volynska,"51,585"
-12,Zakarpatska,"162,145"
-12,Zaporizka,"178,654"
-12,Zhytomyrska,"74,460"
-13,Cherkaska,"145,607"
-13,Chernihivska,"78,407"
-13,Chernivetska,"73,306"
-13,Dnipropetrovska,"332,752"
-13,Ivano-Frankivska,"111,113"
-13,Kharkivska,"403,779"
-13,Khmelnytska,"99,534"
-13,Kirovohradska,"90,525"
-13,Kyivska,"502,551"
-13,Lvivska,"110,371"
-13,Mykolaivska,"103,217"
-13,Odeska,"113,630"
-13,Poltavska,"199,678"
-13,Rivnenska,"79,088"
-13,Sumska,"61,722"
-13,Ternopilska,"86,528"
-13,Vinnytska,"177,409"
-13,Volynska,"51,307"
-13,Zakarpatska,"166,316"
-13,Zaporizka,"194,904"
-13,Zhytomyrska,"73,827"
-14,Cherkaska,"149,145"
-14,Chernihivska,"78,890"
-14,Chernivetska,"72,045"
-14,Dnipropetrovska,"342,228"
-14,Ivano-Frankivska,"105,451"
-14,Kharkivska,"413,793"
-14,Khmelnytska,"99,534"
-14,Kirovohradska,"90,119"
-14,Kyivska,"516,073"
-14,Lvivska,"125,376"
-14,Mykolaivska,"103,217"
-14,Odeska,"116,324"
-14,Poltavska,"200,265"
-14,Rivnenska,"79,716"
-14,Sumska,"68,083"
-14,Ternopilska,"82,932"
-14,Vinnytska,"184,803"
-14,Volynska,"51,599"
-14,Zakarpatska,"150,950"
-14,Zaporizka,"197,751"
-14,Zhytomyrska,"72,238"
-15,Cherkaska,"150,090"
-15,Chernihivska,"79,121"
-15,Chernivetska,"72,702"
-15,Dnipropetrovska,"348,623"
-15,Ivano-Frankivska,"96,671"
-15,Kharkivska,"422,390"
-15,Khmelnytska,"95,869"
-15,Kirovohradska,"91,654"
-15,Kyivska,"529,596"
-15,Lvivska,"248,692"
-15,Mykolaivska,"99,525"
-15,Odeska,"120,581"
-15,Poltavska,"201,996"
-15,Rivnenska,"80,985"
-15,Sumska,"69,805"
-15,Ternopilska,"83,506"
-15,Vinnytska,"182,282"
-15,Volynska,"51,307"
-15,Zakarpatska,"155,464"
-15,Zaporizka,"197,462"
-15,Zhytomyrska,"71,522"
-16,Cherkaska,"147,644"
-16,Chernihivska,"79,308"
-16,Chernivetska,"72,373"
-16,Dnipropetrovska,"355,493"
-16,Ivano-Frankivska,"144,319"
-16,Kharkivska,"430,242"
-16,Khmelnytska,"94,638"
-16,Kirovohradska,"91,922"
-16,Kyivska,"533,973"
-16,Lvivska,"256,781"
-16,Mykolaivska,"101,837"
-16,Odeska,"126,200"
-16,Poltavska,"202,751"
-16,Rivnenska,"81,854"
-16,Sumska,"70,659"
-16,Ternopilska,"83,749"
-16,Vinnytska,"183,769"
-16,Volynska,"51,781"
-16,Zakarpatska,"154,987"
-16,Zaporizka,"210,744"
-16,Zhytomyrska,"70,524"
-17,Cherkaska,"146,693"
-17,Chernihivska,"78,947"
-17,Chernivetska,"72,222"
-17,Dnipropetrovska,"359,785"
-17,Ivano-Frankivska,"141,575"
-17,Kharkivska,"437,083"
-17,Khmelnytska,"93,555"
-17,Kirovohradska,"91,852"
-17,Kyivska,"532,461"
-17,Lvivska,"256,954"
-17,Mykolaivska,"110,031"
-17,Odeska,"128,887"
-17,Poltavska,"201,631"
-17,Rivnenska,"82,407"
-17,Sumska,"71,968"
-17,Ternopilska,"84,369"
-17,Vinnytska,"176,654"
-17,Volynska,"51,994"
-17,Zakarpatska,"162,421"
-17,Zaporizka,"196,782"
-17,Zhytomyrska,"70,646"
-18,Cherkaska,"150,976"
-18,Chernihivska,"78,805"
-18,Chernivetska,"71,346"
-18,Dnipropetrovska,"362,832"
-18,Donetska,"40,441"
-18,Ivano-Frankivska,"144,791"
-18,Kharkivska,"442,354"
-18,Khmelnytska,"93,262"
-18,Kirovohradska,"91,500"
-18,Kyivska,"548,770"
-18,Lvivska,"256,775"
-18,Mykolaivska,"110,919"
-18,Odeska,"132,237"
-18,Poltavska,"200,344"
-18,Rivnenska,"82,910"
-18,Sumska,"71,774"
-18,Ternopilska,"83,425"
-18,Vinnytska,"180,533"
-18,Volynska,"51,639"
-18,Zakarpatska,"156,424"
-18,Zaporizka,"200,924"
-18,Zhytomyrska,"70,144"
-19,Cherkaska,"148,995"
-19,Chernihivska,"77,502"
-19,Chernivetska,"70,901"
-19,Dnipropetrovska,"363,729"
-19,Donetska,"41,667"
-19,Ivano-Frankivska,"144,335"
-19,Kharkivska,"442,584"
-19,Khmelnytska,"92,198"
-19,Kirovohradska,"96,026"
-19,Kyivska,"551,272"
-19,Lvivska,"252,050"
-19,Mykolaivska,"113,756"
-19,Odeska,"132,237"
-19,Poltavska,"197,417"
-19,Rivnenska,"83,251"
-19,Sumska,"71,970"
-19,Ternopilska,"82,537"
-19,Vinnytska,"180,007"
-19,Volynska,"51,310"
-19,Zakarpatska,"156,728"
-19,Zaporizka,"200,199"
-19,Zhytomyrska,"69,761"
-20,Cherkaska,"146,186"
-20,Chernihivska,"74,826"
-20,Chernivetska,"67,451"
-20,Dnipropetrovska,"367,089"
-20,Donetska,"45,223"
-20,Ivano-Frankivska,"141,484"
-20,Kharkivska,"456,946"
-20,Khersonska,"1,032"
-20,Khmelnytska,"90,513"
-20,Kirovohradska,"94,484"
-20,Kyivska,"561,888"
-20,Lvivska,"247,067"
-20,Mykolaivska,"115,721"
-20,Odeska,"139,556"
-20,Poltavska,"193,733"
-20,Rivnenska,"58,644"
-20,Sumska,"69,126"
-20,Ternopilska,"80,771"
-20,Vinnytska,"178,572"
-20,Volynska,"50,001"
-20,Zakarpatska,"149,786"
-20,Zaporizka,"156,134"
-20,Zhytomyrska,"68,952"
-21,Cherkaska,"136,066"
-21,Chernihivska,"72,342"
-21,Chernivetska,"87,937"
-21,Dnipropetrovska,"372,279"
-21,Donetska,"67,002"
-21,Ivano-Frankivska,"134,452"
-21,Kharkivska,"467,154"
-21,Khersonska,"10,961"
-21,Khmelnytska,"85,801"
-21,Kirovohradska,"93,504"
-21,Kyivska,"564,726"
-21,Lvivska,"243,877"
-21,Mykolaivska,"117,347"
-21,Odeska,"143,213"
-21,Poltavska,"193,102"
-21,Rivnenska,"57,650"
-21,Sumska,"77,229"
-21,Ternopilska,"78,867"
-21,Vinnytska,"167,988"
-21,Volynska,"57,742"
-21,Zakarpatska,"145,825"
-21,Zaporizka,"166,078"
-21,Zhytomyrska,"67,562"
-22,Cherkaska,"135,291"
-22,Chernihivska,"70,901"
-22,Chernivetska,"86,824"
-22,Dnipropetrovska,"376,307"
-22,Donetska,"71,250"
-22,Ivano-Frankivska,"134,174"
-22,Kharkivska,"475,472"
-22,Khersonska,"10,961"
-22,Khmelnytska,"81,571"
-22,Kirovohradska,"92,705"
-22,Kyivska,"331,662"
-22,Lvivska,"239,652"
-22,Mykolaivska,"119,487"
-22,Odeska,"145,565"
-22,Poltavska,"192,104"
-22,Rivnenska,"55,458"
-22,Sumska,"77,721"
-22,Ternopilska,"77,674"
-22,Vinnytska,"170,181"
-22,Volynska,"54,516"
-22,Zakarpatska,"143,795"
-22,Zaporizka,"168,697"
-22,Zhytomyrska,"66,750"
-23,Cherkaska,"133,896"
-23,Chernihivska,"70,425"
-23,Chernivetska,"86,126"
-23,Dnipropetrovska,"379,857"
-23,Donetska,"74,582"
-23,Ivano-Frankivska,"129,374"
-23,Kharkivska,"483,186"
-23,Khersonska,"10,961"
-23,Khmelnytska,"80,202"
-23,Kirovohradska,"92,156"
-23,Kyivska,"577,775"
-23,Lvivska,"237,062"
-23,Mykolaivska,"119,395"
-23,Odeska,"147,328"
-23,Poltavska,"190,776"
-23,Rivnenska,"54,046"
-23,Sumska,"79,235"
-23,Ternopilska,"76,753"
-23,Vinnytska,"168,123"
-23,Volynska,"53,693"
-23,Zakarpatska,"142,198"
-23,Zaporizka,"171,718"
-23,Zhytomyrska,"65,412"
-24,Cherkaska,"133,717"
-24,Chernihivska,"71,255"
-24,Chernivetska,"85,527"
-24,Dnipropetrovska,"383,112"
-24,Donetska,"78,438"
-24,Ivano-Frankivska,"131,445"
-24,Kharkivska,"491,409"
-24,Khersonska,"22,555"
-24,Khmelnytska,"79,153"
-24,Kirovohradska,"91,417"
-24,Kyivska,"332,216"
-24,Lvivska,"235,973"
-24,Mykolaivska,"121,117"
-24,Odeska,"150,425"
-24,Poltavska,"189,358"
-24,Rivnenska,"53,396"
-24,Sumska,"80,068"
-24,Ternopilska,"75,784"
-24,Vinnytska,"166,724"
-24,Volynska,"52,877"
-24,Zakarpatska,"141,170"
-24,Zaporizka,"149,458"
-24,Zhytomyrska,"64,781"
-25,Cherkaska,"132,933"
-25,Chernihivska,"71,295"
-25,Chernivetska,"84,443"
-25,Dnipropetrovska,"386,553"
-25,Donetska,"82,505"
-25,Ivano-Frankivska,"130,160"
-25,Kharkivska,"500,059"
-25,Khersonska,"25,943"
-25,Khmelnytska,"80,162"
-25,Kirovohradska,"91,089"
-25,Kyivska,"591,332"
-25,Lvivska,"234,945"
-25,Mykolaivska,"115,187"
-25,Odeska,"152,963"
-25,Poltavska,"187,312"
-25,Rivnenska,"52,707"
-25,Sumska,"81,115"
-25,Ternopilska,"74,788"
-25,Vinnytska,"165,007"
-25,Volynska,"52,208"
-25,Zakarpatska,"140,160"
-25,Zaporizka,"152,812"
-25,Zhytomyrska,"64,660"
-26,Cherkaska,"132,260"
-26,Chernihivska,"70,758"
-26,Chernivetska,"84,218"
-26,Dnipropetrovska,"388,845"
-26,Donetska,"86,252"
-26,Ivano-Frankivska,"129,266"
-26,Kharkivska,"510,775"
-26,Khersonska,"26,752"
-26,Khmelnytska,"79,583"
-26,Kirovohradska,"90,826"
-26,Kyivska,"598,638"
-26,Lvivska,"233,933"
-26,Mykolaivska,"117,475"
-26,Odeska,"155,674"
-26,Poltavska,"186,042"
-26,Rivnenska,"51,404"
-26,Sumska,"83,154"
-26,Ternopilska,"74,268"
-26,Vinnytska,"163,295"
-26,Volynska,"51,818"
-26,Zakarpatska,"139,377"
-26,Zaporizka,"158,586"
-26,Zhytomyrska,"64,402"
-27,Cherkaska,"131,286"
-27,Chernihivska,"70,544"
-27,Chernivetska,"83,636"
-27,Dnipropetrovska,"390,420"
-27,Donetska,"89,873"
-27,Ivano-Frankivska,"129,224"
-27,Kharkivska,"337,443"
-27,Khersonska,"28,004"
-27,Khmelnytska,"79,211"
-27,Kirovohradska,"90,274"
-27,Kyivska,"606,143"
-27,Lvivska,"233,052"
-27,Mykolaivska,"118,496"
-27,Odeska,"158,475"
-27,Poltavska,"184,129"
-27,Rivnenska,"51,690"
-27,Sumska,"84,803"
-27,Ternopilska,"73,674"
-27,Vinnytska,"162,156"
-27,Volynska,"50,906"
-27,Zakarpatska,"138,512"
-27,Zaporizka,"161,381"
-27,Zhytomyrska,"63,433"
-28,Cherkaska,"130,280"
-28,Chernihivska,"70,231"
-28,Chernivetska,"82,826"
-28,Dnipropetrovska,"390,307"
-28,Donetska,"93,007"
-28,Ivano-Frankivska,"125,697"
-28,Kharkivska,"342,639"
-28,Khersonska,"27,794"
-28,Khmelnytska,"78,650"
-28,Kirovohradska,"89,310"
-28,Kyivska,"608,989"
-28,Lvivska,"231,618"
-28,Mykolaivska,"118,636"
-28,Odeska,"160,935"
-28,Poltavska,"182,064"
-28,Rivnenska,"51,038"
-28,Sumska,"85,190"
-28,Ternopilska,"73,006"
-28,Vinnytska,"160,533"
-28,Volynska,"50,055"
-28,Zakarpatska,"137,318"
-28,Zaporizka,"163,509"
-28,Zhytomyrska,"62,706"
-29,Cherkaska,"129,508"
-29,Chernihivska,"70,050"
-29,Chernivetska,"82,450"
-29,Dnipropetrovska,"390,682"
-29,Donetska,"95,766"
-29,Ivano-Frankivska,"126,187"
-29,Kharkivska,"348,040"
-29,Khersonska,"29,736"
-29,Khmelnytska,"75,443"
-29,Kirovohradska,"88,732"
-29,Kyivska,"618,403"
-29,Lvivska,"229,605"
-29,Mykolaivska,"119,745"
-29,Odeska,"163,061"
-29,Poltavska,"180,486"
-29,Rivnenska,"50,371"
-29,Sumska,"85,278"
-29,Ternopilska,"72,348"
-29,Vinnytska,"159,196"
-29,Volynska,"49,152"
-29,Zakarpatska,"136,567"
-29,Zaporizka,"165,127"
-29,Zhytomyrska,"61,798"
-30,Cherkaska,"128,863"
-30,Chernihivska,"69,679"
-30,Chernivetska,"81,949"
-30,Dnipropetrovska,"390,671"
-30,Donetska,"99,389"
-30,Ivano-Frankivska,"125,107"
-30,Kharkivska,"353,388"
-30,Khersonska,"30,780"
-30,Khmelnytska,"74,672"
-30,Kirovohradska,"88,130"
-30,Kyivska,"622,537"
-30,Lvivska,"228,737"
-30,Mykolaivska,"121,012"
-30,Odeska,"164,889"
-30,Poltavska,"179,025"
-30,Rivnenska,"49,983"
-30,Sumska,"90,142"
-30,Ternopilska,"71,420"
-30,Vinnytska,"158,453"
-30,Volynska,"48,231"
-30,Zakarpatska,"135,541"
-30,Zaporizka,"167,448"
-30,Zhytomyrska,"60,753"
-31,Cherkaska,"128,175"
-31,Chernihivska,"57,125"
-31,Chernivetska,"81,267"
-31,Dnipropetrovska,"390,322"
-31,Donetska,"100,684"
-31,Ivano-Frankivska,"125,107"
-31,Kharkivska,"356,065"
-31,Khersonska,"31,109"
-31,Khmelnytska,"72,657"
-31,Kirovohradska,"87,614"
-31,Kyivska,"625,268"
-31,Lvivska,"227,395"
-31,Mykolaivska,"121,140"
-31,Odeska,"165,880"
-31,Poltavska,"177,590"
-31,Rivnenska,"49,218"
-31,Sumska,"87,117"
-31,Ternopilska,"70,934"
-31,Vinnytska,"157,368"
-31,Volynska,"47,691"
-31,Zakarpatska,"134,788"
-31,Zaporizka,"167,805"
-31,Zhytomyrska,"59,726"
-32,Cherkaska,"127,541"
-32,Chernihivska,"57,003"
-32,Chernivetska,"80,660"
-32,Dnipropetrovska,"388,976"
-32,Donetska,"101,542"
-32,Ivano-Frankivska,"122,345"
-32,Kharkivska,"357,433"
-32,Khersonska,"31,250"
-32,Khmelnytska,"72,532"
-32,Kirovohradska,"87,269"
-32,Kyivska,"623,070"
-32,Lvivska,"225,635"
-32,Mykolaivska,"120,861"
-32,Odeska,"167,299"
-32,Poltavska,"176,046"
-32,Rivnenska,"49,110"
-32,Sumska,"87,110"
-32,Ternopilska,"70,126"
-32,Vinnytska,"155,959"
-32,Volynska,"47,170"
-32,Zakarpatska,"133,785"
-32,Zaporizka,"167,194"
-32,Zhytomyrska,"59,231"
-33,Cherkaska,"126,544"
-33,Chernihivska,"56,966"
-33,Chernivetska,"79,975"
-33,Dnipropetrovska,"387,653"
-33,Donetska,"102,259"
-33,Ivano-Frankivska,"121,454"
-33,Kharkivska,"358,857"
-33,Khersonska,"31,579"
-33,Khmelnytska,"73,305"
-33,Kirovohradska,"86,366"
-33,Kyivska,"536,485"
-33,Lvivska,"223,902"
-33,Mykolaivska,"120,513"
-33,Odeska,"168,459"
-33,Poltavska,"174,685"
-33,Rivnenska,"48,532"
-33,Sumska,"86,997"
-33,Ternopilska,"69,379"
-33,Vinnytska,"154,368"
-33,Volynska,"46,575"
-33,Zakarpatska,"132,804"
-33,Zaporizka,"166,944"
-33,Zhytomyrska,"58,871"
-34,Cherkaska,"125,518"
-34,Chernihivska,"56,733"
-34,Chernivetska,"78,940"
-34,Dnipropetrovska,"386,396"
-34,Donetska,"100,638"
-34,Ivano-Frankivska,"120,259"
-34,Kharkivska,"361,628"
-34,Khersonska,"31,755"
-34,Khmelnytska,"72,597"
-34,Kirovohradska,"85,356"
-34,Kyivska,"524,412"
-34,Lvivska,"221,410"
-34,Mykolaivska,"120,248"
-34,Odeska,"169,488"
-34,Poltavska,"172,287"
-34,Rivnenska,"48,321"
-34,Sumska,"87,319"
-34,Ternopilska,"68,337"
-34,Vinnytska,"153,037"
-34,Volynska,"46,219"
-34,Zakarpatska,"131,793"
-34,Zaporizka,"165,840"
-34,Zhytomyrska,"58,760"
-35,Cherkaska,"123,522"
-35,Chernihivska,"56,695"
-35,Chernivetska,"77,790"
-35,Dnipropetrovska,"377,837"
-35,Donetska,"102,914"
-35,Ivano-Frankivska,"117,696"
-35,Kharkivska,"384,897"
-35,Khersonska,"31,733"
-35,Khmelnytska,"72,079"
-35,Kirovohradska,"83,688"
-35,Kyivska,"514,817"
-35,Lvivska,"217,479"
-35,Mykolaivska,"118,835"
-35,Odeska,"169,654"
-35,Poltavska,"168,036"
-35,Rivnenska,"46,727"
-35,Sumska,"87,145"
-35,Ternopilska,"67,266"
-35,Vinnytska,"150,610"
-35,Volynska,"45,748"
-35,Zakarpatska,"129,481"
-35,Zaporizka,"163,377"
-35,Zhytomyrska,"58,430"
-36,Cherkaska,"120,880"
-36,Chernihivska,"56,929"
-36,Chernivetska,"87,937"
-36,Dnipropetrovska,"373,301"
-36,Donetska,"105,109"
-36,Ivano-Frankivska,"115,528"
-36,Kharkivska,"388,118"
-36,Khersonska,"32,377"
-36,Khmelnytska,"69,826"
-36,Kirovohradska,"81,801"
-36,Kyivska,"478,231"
-36,Lvivska,"213,144"
-36,Mykolaivska,"116,438"
-36,Odeska,"171,477"
-36,Poltavska,"164,291"
-36,Rivnenska,"46,216"
-36,Sumska,"88,642"
-36,Ternopilska,"66,092"
-36,Vinnytska,"147,875"
-36,Volynska,"44,956"
-36,Zakarpatska,"126,304"
-36,Zaporizka,"160,937"
-36,Zhytomyrska,"58,260"
-37,Cherkaska,"120,195"
-37,Chernihivska,"57,128"
-37,Chernivetska,"75,838"
-37,Dnipropetrovska,"377,713"
-37,Donetska,"104,443"
-37,Ivano-Frankivska,"113,852"
-37,Kharkivska,"388,410"
-37,Khersonska,"32,831"
-37,Khmelnytska,"68,192"
-37,Kirovohradska,"81,326"
-37,Kyivska,"480,189"
-37,Lvivska,"210,118"
-37,Mykolaivska,"115,419"
-37,Odeska,"177,948"
-37,Poltavska,"162,320"
-37,Rivnenska,"45,855"
-37,Sumska,"89,127"
-37,Ternopilska,"65,588"
-37,Vinnytska,"146,628"
-37,Volynska,"44,740"
-37,Zakarpatska,"127,414"
-37,Zaporizka,"160,196"
-37,Zhytomyrska,"58,015"
-38,Cherkaska,"121,664"
-38,Chernihivska,"57,667"
-38,Chernivetska,"75,614"
-38,Dnipropetrovska,"379,133"
-38,Donetska,"96,947"
-38,Ivano-Frankivska,"113,025"
-38,Kharkivska,"390,872"
-38,Khersonska,"32,914"
-38,Khmelnytska,"67,840"
-38,Kirovohradska,"82,960"
-38,Kyivska,"491,490"
-38,Lvivska,"208,694"
-38,Mykolaivska,"114,137"
-38,Odeska,"179,199"
-38,Poltavska,"163,499"
-38,Rivnenska,"45,184"
-38,Sumska,"88,991"
-38,Ternopilska,"65,635"
-38,Vinnytska,"145,905"
-38,Volynska,"44,603"
-38,Zakarpatska,"126,374"
-38,Zaporizka,"159,782"
-38,Zhytomyrska,"58,539"
-39,Cherkaska,"121,260"
-39,Chernihivska,"57,466"
-39,Chernivetska,"75,285"
-39,Dnipropetrovska,"379,610"
-39,Donetska,"94,186"
-39,Ivano-Frankivska,"112,025"
-39,Kharkivska,"392,191"
-39,Khersonska,"33,036"
-39,Khmelnytska,"67,404"
-39,Kirovohradska,"82,530"
-39,Kyivska,"488,817"
-39,Lvivska,"207,109"
-39,Mykolaivska,"113,252"
-39,Odeska,"179,041"
-39,Poltavska,"162,827"
-39,Rivnenska,"44,659"
-39,Sumska,"90,309"
-39,Ternopilska,"64,908"
-39,Vinnytska,"144,638"
-39,Volynska,"43,471"
-39,Zakarpatska,"125,484"
-39,Zaporizka,"159,178"
-39,Zhytomyrska,"56,898"
-40,Cherkaska,"120,825"
-40,Chernihivska,"58,332"
-40,Chernivetska,"74,883"
-40,Dnipropetrovska,"381,002"
-40,Donetska,"93,464"
-40,Ivano-Frankivska,"111,176"
-40,Kharkivska,"391,154"
-40,Khersonska,"33,412"
-40,Khmelnytska,"66,064"
-40,Kirovohradska,"82,357"
-40,Kyivska,"253,803"
-40,Lvivska,"205,918"
-40,Mykolaivska,"112,294"
-40,Odeska,"178,967"
-40,Poltavska,"161,708"
-40,Rivnenska,"43,793"
-40,Sumska,"89,474"
-40,Ternopilska,"64,755"
-40,Vinnytska,"143,633"
-40,Volynska,"43,107"
-40,Zakarpatska,"124,651"
-40,Zaporizka,"158,595"
-40,Zhytomyrska,"56,627"
+Round,Oblast,Recorded IDPs,IDPs remaining from last round,New IDPs,Departed IDPs,% change from last round,Change from last round,% of total IDPs this round,Share of total,Data Collected
+1,Zakarpatska,"184,676",,"184,676",,,1st round collected for this oblast,50%,50% of total recorded IDPs this round,March 9 2022-March 16 2022
+2,Lvivska,"66,678",,"66,678",,,1st round collected for this oblast,20%,20% of total recorded IDPs this round,March 24 2022-April 1 2022
+2,Zakarpatska,"100,587","100,587",,"84,089",-46%,-46% fewer IDPs this round,30%,30% of total recorded IDPs this round,March 24 2022-April 1 2022
+3,Chernivetska,"74,816",,"74,816",,,1st round collected for this oblast,5%,5% of total recorded IDPs this round,April 11 2022 - April 17 2022
+3,Ivano-Frankivska,"72,333",,"72,333",,,1st round collected for this oblast,4%,4% of total recorded IDPs this round,April 11 2022 - April 17 2022
+3,Khmelnytska,"65,833",,"65,833",,,1st round collected for this oblast,4%,4% of total recorded IDPs this round,April 11 2022 - April 17 2022
+3,Kirovohradska,"75,849",,"75,849",,,1st round collected for this oblast,5%,5% of total recorded IDPs this round,April 11 2022 - April 17 2022
+3,Lvivska,"141,546","66,678","74,868",,112%,112% more IDPs this round,9%,9% of total recorded IDPs this round,April 11 2022 - April 17 2022
+3,Vinnytska,"163,427",,"163,427",,,1st round collected for this oblast,10%,10% of total recorded IDPs this round,April 11 2022 - April 17 2022
+3,Zakarpatska,"118,316","100,587","17,729",,18%,18% more IDPs this round,7%,7% of total recorded IDPs this round,April 11 2022 - April 17 2022
+3,Zhytomyrska,"94,255",,"94,255",,,1st round collected for this oblast,6%,6% of total recorded IDPs this round,April 11 2022 - April 17 2022
+4,Chernivetska,"84,940","74,816","10,124",,14%,14% more IDPs this round,4%,4% of total recorded IDPs this round,May 16 2022- May 31 2022
+4,Ivano-Frankivska,"124,081","72,333","51,748",,72%,72% more IDPs this round,5%,5% of total recorded IDPs this round,May 16 2022- May 31 2022
+4,Khmelnytska,"132,187","65,833","66,354",,101%,101% more IDPs this round,6%,6% of total recorded IDPs this round,May 16 2022- May 31 2022
+4,Kirovohradska,"77,622","75,849","1,773",,2%,2% more IDPs this round,3%,3% of total recorded IDPs this round,May 16 2022- May 31 2022
+4,Lvivska,"155,228","141,546","13,682",,10%,10% more IDPs this round,7%,7% of total recorded IDPs this round,May 16 2022- May 31 2022
+4,Poltavska,"179,648",,"179,648",,,1st round collected for this oblast,8%,8% of total recorded IDPs this round,May 16 2022- May 31 2022
+4,Vinnytska,"162,482","162,482",,945,-1%,-1% fewer IDPs this round,7%,7% of total recorded IDPs this round,May 16 2022- May 31 2022
+4,Zakarpatska,"147,614","118,316","29,298",,25%,25% more IDPs this round,6%,6% of total recorded IDPs this round,May 16 2022- May 31 2022
+4,Zhytomyrska,"91,658","91,658",,"2,597",-3%,-3% fewer IDPs this round,4%,4% of total recorded IDPs this round,May 16 2022- May 31 2022
+5,Chernivetska,"81,627","81,627",,"3,313",-4%,-4% fewer IDPs this round,3%,3% of total recorded IDPs this round,June 1 2022-Jun 11 2022
+5,Ivano-Frankivska,"115,817","115,817",,"8,264",-7%,-7% fewer IDPs this round,4%,4% of total recorded IDPs this round,June 1 2022-Jun 11 2022
+5,Khmelnytska,"122,213","122,213",,"9,974",-8%,-8% fewer IDPs this round,4%,4% of total recorded IDPs this round,June 1 2022-Jun 11 2022
+5,Kirovohradska,"79,822","77,622","2,200",,3%,3% more IDPs this round,3%,3% of total recorded IDPs this round,June 1 2022-Jun 11 2022
+5,Kyivska,"85,960",,"85,960",,,1st round collected for this oblast,3%,3% of total recorded IDPs this round,June 1 2022-Jun 11 2022
+5,Lvivska,"143,526","143,526",,"11,702",-8%,-8% fewer IDPs this round,5%,5% of total recorded IDPs this round,June 1 2022-Jun 11 2022
+5,Odeska,"80,870",,"80,870",,,1st round collected for this oblast,3%,3% of total recorded IDPs this round,June 1 2022-Jun 11 2022
+5,Poltavska,"180,161","179,648",513,,0%,0% more IDPs this round,6%,6% of total recorded IDPs this round,June 1 2022-Jun 11 2022
+5,Ternopilska,"88,708",,"88,708",,,1st round collected for this oblast,3%,3% of total recorded IDPs this round,June 1 2022-Jun 11 2022
+5,Vinnytska,"171,461","162,482","8,979",,6%,6% more IDPs this round,6%,6% of total recorded IDPs this round,June 1 2022-Jun 11 2022
+5,Volynska,"59,155",,"59,155",,,1st round collected for this oblast,2%,2% of total recorded IDPs this round,June 1 2022-Jun 11 2022
+5,Zakarpatska,"150,184","147,614","2,570",,2%,2% more IDPs this round,5%,5% of total recorded IDPs this round,June 1 2022-Jun 11 2022
+5,Zhytomyrska,"89,746","89,746",,"1,912",-2%,-2% fewer IDPs this round,3%,3% of total recorded IDPs this round,June 1 2022-Jun 11 2022
+6,Cherkaska,"141,970",,"141,970",,,1st round collected for this oblast,3%,3% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Chernihivska,"76,309",,"76,309",,,1st round collected for this oblast,2%,2% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Chernivetska,"79,581","79,581",,"2,046",-3%,-3% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Dnipropetrovska,"255,894",,"255,894",,,1st round collected for this oblast,6%,6% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Ivano-Frankivska,"94,053","94,053",,"21,764",-19%,-19% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Khmelnytska,"115,269","115,269",,"6,944",-6%,-6% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Kirovohradska,"80,097","79,822",275,,0%,0% more IDPs this round,2%,2% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Kyivska,"283,937","85,960","197,977",,230%,230% more IDPs this round,7%,7% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Lvivska,"115,981","115,981",,"27,545",-19%,-19% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Odeska,"81,937","80,870","1,067",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Poltavska,"187,831","180,161","7,670",,4%,4% more IDPs this round,4%,4% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Rivnenska,"52,170",,"52,170",,,1st round collected for this oblast,1%,1% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Sumska,"46,117",,"46,117",,,1st round collected for this oblast,1%,1% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Ternopilska,"88,975","88,708",267,,0%,0% more IDPs this round,2%,2% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Vinnytska,"176,129","171,461","4,668",,3%,3% more IDPs this round,4%,4% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Volynska,"57,512","57,512",,"1,643",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Zakarpatska,"173,168","150,184","22,984",,15%,15% more IDPs this round,4%,4% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+6,Zhytomyrska,"76,482","76,482",,"13,264",-15%,-15% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jun 13 2022-Jun 26 2022
+7,Cherkaska,"142,414","141,970",444,,0%,0% more IDPs this round,3%,3% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Chernihivska,"76,616","76,309",307,,0%,0% more IDPs this round,2%,2% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Chernivetska,"77,284","77,284",,"2,297",-3%,-3% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Dnipropetrovska,"261,724","255,894","5,830",,2%,2% more IDPs this round,6%,6% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Ivano-Frankivska,"110,823","94,053","16,770",,18%,18% more IDPs this round,2%,2% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Khmelnytska,"111,507","111,507",,"3,762",-3%,-3% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Kirovohradska,"81,691","80,097","1,594",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Kyivska,"287,888","283,937","3,951",,1%,1% more IDPs this round,6%,6% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Lvivska,"102,954","102,954",,"13,027",-11%,-11% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Odeska,"85,051","81,937","3,114",,4%,4% more IDPs this round,2%,2% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Poltavska,"190,310","187,831","2,479",,1%,1% more IDPs this round,4%,4% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Rivnenska,"52,170","52,170",,,0%,no change from last round,1%,1% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Sumska,"43,240","43,240",,"2,877",-6%,-6% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Ternopilska,"85,204","85,204",,"3,771",-4%,-4% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Vinnytska,"177,288","176,129","1,159",,1%,1% more IDPs this round,4%,4% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Volynska,"58,591","57,512","1,079",,2%,2% more IDPs this round,1%,1% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Zakarpatska,"164,164","164,164",,"9,004",-5%,-5% fewer IDPs this round,4%,4% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Zaporizka,"150,388",,"150,388",,,1st round collected for this oblast,3%,3% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+7,Zhytomyrska,"75,245","75,245",,"1,237",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jun 27 2022-Jul 8 2022
+8,Cherkaska,"143,259","142,414",845,,1%,1% more IDPs this round,3%,3% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Chernihivska,"76,906","76,616",290,,0%,0% more IDPs this round,2%,2% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Chernivetska,"75,879","75,879",,"1,405",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Dnipropetrovska,"272,076","261,724","10,352",,4%,4% more IDPs this round,6%,6% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Ivano-Frankivska,"94,943","94,943",,"15,880",-14%,-14% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Khmelnytska,"108,796","108,796",,"2,711",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Kirovohradska,"82,728","81,691","1,037",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Kyivska,"293,781","287,888","5,893",,2%,2% more IDPs this round,6%,6% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Lvivska,"106,073","102,954","3,119",,3%,3% more IDPs this round,2%,2% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Odeska,"88,255","85,051","3,204",,4%,4% more IDPs this round,2%,2% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Poltavska,"191,848","190,310","1,538",,1%,1% more IDPs this round,4%,4% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Rivnenska,"63,931","52,170","11,761",,23%,23% more IDPs this round,1%,1% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Sumska,"47,570","43,240","4,330",,10%,10% more IDPs this round,1%,1% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Ternopilska,"82,965","82,965",,"2,239",-3%,-3% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Vinnytska,"175,862","175,862",,"1,426",-1%,-1% fewer IDPs this round,4%,4% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Volynska,"58,494","58,494",,97,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Zakarpatska,"125,877","125,877",,"38,287",-23%,-23% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Zaporizka,"161,090","150,388","10,702",,7%,7% more IDPs this round,3%,3% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+8,Zhytomyrska,"74,144","74,144",,"1,101",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 12 2022-Jul 24 2022
+9,Cherkaska,"144,447","143,259","1,188",,1%,1% more IDPs this round,3%,3% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Chernihivska,"77,038","76,906",132,,0%,0% more IDPs this round,2%,2% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Chernivetska,"73,626","73,626",,"2,253",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Dnipropetrovska,"281,693","272,076","9,617",,4%,4% more IDPs this round,6%,6% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Ivano-Frankivska,"45,236","45,236",,"49,707",-52%,-52% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Khmelnytska,"108,796","108,796",,,0%,no change from last round,2%,2% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Kirovohradska,"81,202","81,202",,"1,526",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Kyivska,"421,589","293,781","127,808",,44%,44% more IDPs this round,8%,8% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Lvivska,"94,502","94,502",,"11,571",-11%,-11% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Odeska,"92,700","88,255","4,445",,5%,5% more IDPs this round,2%,2% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Poltavska,"193,957","191,848","2,109",,1%,1% more IDPs this round,4%,4% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Rivnenska,"75,047","63,931","11,116",,17%,17% more IDPs this round,2%,2% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Sumska,"51,172","47,570","3,602",,8%,8% more IDPs this round,1%,1% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Ternopilska,"81,919","81,919",,"1,046",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Vinnytska,"193,864","175,862","18,002",,10%,10% more IDPs this round,4%,4% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Volynska,"60,136","58,494","1,642",,3%,3% more IDPs this round,1%,1% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Zakarpatska,"175,429","125,877","49,552",,39%,39% more IDPs this round,4%,4% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Zaporizka,"168,102","161,090","7,012",,4%,4% more IDPs this round,3%,3% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+9,Zhytomyrska,"75,301","74,144","1,157",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Jul 25 2022-Aug 5 2022
+10,Cherkaska,"146,296","144,447","1,849",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Chernihivska,"77,513","77,038",475,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Chernivetska,"74,245","73,626",619,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Dnipropetrovska,"302,359","281,693","20,666",,7%,7% more IDPs this round,5%,5% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Ivano-Frankivska,"95,862","45,236","50,626",,112%,112% more IDPs this round,2%,2% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Kharkivska,"382,376",,"382,376",,,1st round collected for this oblast,6%,6% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Khmelnytska,"103,672","103,672",,"5,124",-5%,-5% fewer IDPs this round,2%,2% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Kirovohradska,"94,225","81,202","13,023",,16%,16% more IDPs this round,2%,2% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Kyivska,"460,204","421,589","38,615",,9%,9% more IDPs this round,7%,7% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Lvivska,"125,235","94,502","30,733",,33%,33% more IDPs this round,2%,2% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Mykolaivska,"97,745",,"97,745",,,1st round collected for this oblast,2%,2% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Odeska,"100,848","92,700","8,148",,9%,9% more IDPs this round,2%,2% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Poltavska,"196,995","193,957","3,038",,2%,2% more IDPs this round,3%,3% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Rivnenska,"76,104","75,047","1,057",,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Sumska,"54,661","51,172","3,489",,7%,7% more IDPs this round,1%,1% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Ternopilska,"85,746","81,919","3,827",,5%,5% more IDPs this round,1%,1% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Vinnytska,"180,227","180,227",,"13,637",-7%,-7% fewer IDPs this round,3%,3% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Volynska,"59,950","59,950",,186,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Zakarpatska,"157,983","157,983",,"17,446",-10%,-10% fewer IDPs this round,3%,3% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Zaporizka,"178,298","168,102","10,196",,6%,6% more IDPs this round,3%,3% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+10,Zhytomyrska,"74,759","74,759",,542,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Aug 8 2022-Aug 19 2022
+11,Cherkaska,"146,296","146,296",,,0%,no change from last round,2%,2% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Chernihivska,"77,513","77,513",,,0%,no change from last round,1%,1% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Chernivetska,"74,245","74,245",,,0%,no change from last round,1%,1% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Dnipropetrovska,"302,359","302,359",,,0%,no change from last round,5%,5% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Ivano-Frankivska,"95,862","95,862",,,0%,no change from last round,2%,2% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Kharkivska,"382,376","382,376",,,0%,no change from last round,6%,6% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Khmelnytska,"103,672","103,672",,,0%,no change from last round,2%,2% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Kirovohradska,"94,225","94,225",,,0%,no change from last round,2%,2% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Kyivska,"460,204","460,204",,,0%,no change from last round,7%,7% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Lvivska,"125,235","125,235",,,0%,no change from last round,2%,2% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Mykolaivska,"97,745","97,745",,,0%,no change from last round,2%,2% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Odeska,"100,848","100,848",,,0%,no change from last round,2%,2% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Poltavska,"196,995","196,995",,,0%,no change from last round,3%,3% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Rivnenska,"76,104","76,104",,,0%,no change from last round,1%,1% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Sumska,"54,661","54,661",,,0%,no change from last round,1%,1% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Ternopilska,"85,746","85,746",,,0%,no change from last round,1%,1% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Vinnytska,"180,227","180,227",,,0%,no change from last round,3%,3% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Volynska,"59,950","59,950",,,0%,no change from last round,1%,1% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Zakarpatska,"157,983","157,983",,,0%,no change from last round,3%,3% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Zaporizka,"178,298","178,298",,,0%,no change from last round,3%,3% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+11,Zhytomyrska,"74,759","74,759",,,0%,no change from last round,1%,1% of total recorded IDPs this round,Aug 22 2022-Sep 2 2022
+12,Cherkaska,"147,546","146,296","1,250",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Chernihivska,"77,763","77,513",250,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Chernivetska,"73,729","73,729",,516,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Dnipropetrovska,"317,914","302,359","15,555",,5%,5% more IDPs this round,5%,5% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Ivano-Frankivska,"102,997","95,862","7,135",,7%,7% more IDPs this round,2%,2% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Kharkivska,"385,788","382,376","3,412",,1%,1% more IDPs this round,6%,6% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Khmelnytska,"102,781","102,781",,891,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Kirovohradska,"89,616","89,616",,"4,609",-5%,-5% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Kyivska,"481,188","460,204","20,984",,5%,5% more IDPs this round,8%,8% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Lvivska,"129,756","125,235","4,521",,4%,4% more IDPs this round,2%,2% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Mykolaivska,"93,851","93,851",,"3,894",-4%,-4% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Odeska,"106,266","100,848","5,418",,5%,5% more IDPs this round,2%,2% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Poltavska,"199,011","196,995","2,016",,1%,1% more IDPs this round,3%,3% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Rivnenska,"78,152","76,104","2,048",,3%,3% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Sumska,"57,725","54,661","3,064",,6%,6% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Ternopilska,"83,505","83,505",,"2,241",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Vinnytska,"182,172","180,227","1,945",,1%,1% more IDPs this round,3%,3% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Volynska,"51,585","51,585",,"8,365",-14%,-14% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Zakarpatska,"162,145","157,983","4,162",,3%,3% more IDPs this round,3%,3% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Zaporizka,"178,654","178,298",356,,0%,0% more IDPs this round,3%,3% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+12,Zhytomyrska,"74,460","74,460",,299,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 5 2022-Sep 18 2022
+13,Cherkaska,"145,607","145,607",,"1,939",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Chernihivska,"78,407","77,763",644,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Chernivetska,"73,306","73,306",,423,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Dnipropetrovska,"332,752","317,914","14,838",,5%,5% more IDPs this round,5%,5% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Ivano-Frankivska,"111,113","102,997","8,116",,8%,8% more IDPs this round,2%,2% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Kharkivska,"403,779","385,788","17,991",,5%,5% more IDPs this round,6%,6% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Khmelnytska,"99,534","99,534",,"3,247",-3%,-3% fewer IDPs this round,2%,2% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Kirovohradska,"90,525","89,616",909,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Kyivska,"502,551","481,188","21,363",,4%,4% more IDPs this round,8%,8% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Lvivska,"110,371","110,371",,"19,385",-15%,-15% fewer IDPs this round,2%,2% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Mykolaivska,"103,217","93,851","9,366",,10%,10% more IDPs this round,2%,2% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Odeska,"113,630","106,266","7,364",,7%,7% more IDPs this round,2%,2% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Poltavska,"199,678","199,011",667,,0%,0% more IDPs this round,3%,3% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Rivnenska,"79,088","78,152",936,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Sumska,"61,722","57,725","3,997",,7%,7% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Ternopilska,"86,528","83,505","3,023",,4%,4% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Vinnytska,"177,409","177,409",,"4,763",-3%,-3% fewer IDPs this round,3%,3% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Volynska,"51,307","51,307",,278,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Zakarpatska,"166,316","162,145","4,171",,3%,3% more IDPs this round,3%,3% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Zaporizka,"194,904","178,654","16,250",,9%,9% more IDPs this round,3%,3% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+13,Zhytomyrska,"73,827","73,827",,633,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 19 2022-Sep 30 2022
+14,Cherkaska,"149,145","145,607","3,538",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Chernihivska,"78,890","78,407",483,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Chernivetska,"72,045","72,045",,"1,261",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Dnipropetrovska,"342,228","332,752","9,476",,3%,3% more IDPs this round,5%,5% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Ivano-Frankivska,"105,451","105,451",,"5,662",-5%,-5% fewer IDPs this round,2%,2% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Kharkivska,"413,793","403,779","10,014",,2%,2% more IDPs this round,6%,6% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Khmelnytska,"99,534","99,534",,,0%,no change from last round,2%,2% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Kirovohradska,"90,119","90,119",,406,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Kyivska,"516,073","502,551","13,522",,3%,3% more IDPs this round,8%,8% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Lvivska,"125,376","110,371","15,005",,14%,14% more IDPs this round,2%,2% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Mykolaivska,"103,217","103,217",,,0%,no change from last round,2%,2% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Odeska,"116,324","113,630","2,694",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Poltavska,"200,265","199,678",587,,0%,0% more IDPs this round,3%,3% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Rivnenska,"79,716","79,088",628,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Sumska,"68,083","61,722","6,361",,10%,10% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Ternopilska,"82,932","82,932",,"3,596",-4%,-4% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Vinnytska,"184,803","177,409","7,394",,4%,4% more IDPs this round,3%,3% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Volynska,"51,599","51,307",292,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Zakarpatska,"150,950","150,950",,"15,366",-9%,-9% fewer IDPs this round,2%,2% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Zaporizka,"197,751","194,904","2,847",,1%,1% more IDPs this round,3%,3% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+14,Zhytomyrska,"72,238","72,238",,"1,589",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 3 2022-Oct 16 2022
+15,Cherkaska,"150,090","149,145",945,,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Chernihivska,"79,121","78,890",231,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Chernivetska,"72,702","72,045",657,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Dnipropetrovska,"348,623","342,228","6,395",,2%,2% more IDPs this round,5%,5% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Ivano-Frankivska,"96,671","96,671",,"8,780",-8%,-8% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Kharkivska,"422,390","413,793","8,597",,2%,2% more IDPs this round,6%,6% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Khmelnytska,"95,869","95,869",,"3,665",-4%,-4% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Kirovohradska,"91,654","90,119","1,535",,2%,2% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Kyivska,"529,596","516,073","13,523",,3%,3% more IDPs this round,8%,8% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Lvivska,"248,692","125,376","123,316",,98%,98% more IDPs this round,4%,4% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Mykolaivska,"99,525","99,525",,"3,692",-4%,-4% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Odeska,"120,581","116,324","4,257",,4%,4% more IDPs this round,2%,2% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Poltavska,"201,996","200,265","1,731",,1%,1% more IDPs this round,3%,3% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Rivnenska,"80,985","79,716","1,269",,2%,2% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Sumska,"69,805","68,083","1,722",,3%,3% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Ternopilska,"83,506","82,932",574,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Vinnytska,"182,282","182,282",,"2,521",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Volynska,"51,307","51,307",,292,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Zakarpatska,"155,464","150,950","4,514",,3%,3% more IDPs this round,2%,2% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Zaporizka,"197,462","197,462",,289,0%,0% fewer IDPs this round,3%,3% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+15,Zhytomyrska,"71,522","71,522",,716,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 17 2022-Oct 28 2022
+16,Cherkaska,"147,644","147,644",,"2,446",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Chernihivska,"79,308","79,121",187,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Chernivetska,"72,373","72,373",,329,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Dnipropetrovska,"355,493","348,623","6,870",,2%,2% more IDPs this round,5%,5% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Ivano-Frankivska,"144,319","96,671","47,648",,49%,49% more IDPs this round,2%,2% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Kharkivska,"430,242","422,390","7,852",,2%,2% more IDPs this round,6%,6% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Khmelnytska,"94,638","94,638",,"1,231",-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Kirovohradska,"91,922","91,654",268,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Kyivska,"533,973","529,596","4,377",,1%,1% more IDPs this round,8%,8% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Lvivska,"256,781","248,692","8,089",,3%,3% more IDPs this round,4%,4% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Mykolaivska,"101,837","99,525","2,312",,2%,2% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Odeska,"126,200","120,581","5,619",,5%,5% more IDPs this round,2%,2% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Poltavska,"202,751","201,996",755,,0%,0% more IDPs this round,3%,3% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Rivnenska,"81,854","80,985",869,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Sumska,"70,659","69,805",854,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Ternopilska,"83,749","83,506",243,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Vinnytska,"183,769","182,282","1,487",,1%,1% more IDPs this round,3%,3% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Volynska,"51,781","51,307",474,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Zakarpatska,"154,987","154,987",,477,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Zaporizka,"210,744","197,462","13,282",,7%,7% more IDPs this round,3%,3% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+16,Zhytomyrska,"70,524","70,524",,998,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 31 2022-Nov 11 2022
+17,Cherkaska,"146,693","146,693",,951,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Chernihivska,"78,947","78,947",,361,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Chernivetska,"72,222","72,222",,151,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Dnipropetrovska,"359,785","355,493","4,292",,1%,1% more IDPs this round,5%,5% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Ivano-Frankivska,"141,575","141,575",,"2,744",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Kharkivska,"437,083","430,242","6,841",,2%,2% more IDPs this round,6%,6% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Khmelnytska,"93,555","93,555",,"1,083",-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Kirovohradska,"91,852","91,852",,70,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Kyivska,"532,461","532,461",,"1,512",0%,0% fewer IDPs this round,8%,8% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Lvivska,"256,954","256,781",173,,0%,0% more IDPs this round,4%,4% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Mykolaivska,"110,031","101,837","8,194",,8%,8% more IDPs this round,2%,2% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Odeska,"128,887","126,200","2,687",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Poltavska,"201,631","201,631",,"1,120",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Rivnenska,"82,407","81,854",553,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Sumska,"71,968","70,659","1,309",,2%,2% more IDPs this round,1%,1% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Ternopilska,"84,369","83,749",620,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Vinnytska,"176,654","176,654",,"7,115",-4%,-4% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Volynska,"51,994","51,781",213,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Zakarpatska,"162,421","154,987","7,434",,5%,5% more IDPs this round,2%,2% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Zaporizka,"196,782","196,782",,"13,962",-7%,-7% fewer IDPs this round,3%,3% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+17,Zhytomyrska,"70,646","70,524",122,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Nov 14 2022-Nov 25 2022
+18,Cherkaska,"150,976","146,693","4,283",,3%,3% more IDPs this round,2%,2% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Chernihivska,"78,805","78,805",,142,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Chernivetska,"71,346","71,346",,876,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Dnipropetrovska,"362,832","359,785","3,047",,1%,1% more IDPs this round,5%,5% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Donetska,"40,441",,"40,441",,,1st round collected for this oblast,1%,1% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Ivano-Frankivska,"144,791","141,575","3,216",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Kharkivska,"442,354","437,083","5,271",,1%,1% more IDPs this round,6%,6% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Khmelnytska,"93,262","93,262",,293,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Kirovohradska,"91,500","91,500",,352,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Kyivska,"548,770","532,461","16,309",,3%,3% more IDPs this round,8%,8% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Lvivska,"256,775","256,775",,179,0%,0% fewer IDPs this round,4%,4% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Mykolaivska,"110,919","110,031",888,,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Odeska,"132,237","128,887","3,350",,3%,3% more IDPs this round,2%,2% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Poltavska,"200,344","200,344",,"1,287",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Rivnenska,"82,910","82,407",503,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Sumska,"71,774","71,774",,194,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Ternopilska,"83,425","83,425",,944,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Vinnytska,"180,533","176,654","3,879",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Volynska,"51,639","51,639",,355,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Zakarpatska,"156,424","156,424",,"5,997",-4%,-4% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Zaporizka,"200,924","196,782","4,142",,2%,2% more IDPs this round,3%,3% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+18,Zhytomyrska,"70,144","70,144",,502,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 28 2022-Dec 11 2022
+19,Cherkaska,"148,995","148,995",,"1,981",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Chernihivska,"77,502","77,502",,"1,303",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Chernivetska,"70,901","70,901",,445,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Dnipropetrovska,"363,729","362,832",897,,0%,0% more IDPs this round,5%,5% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Donetska,"41,667","40,441","1,226",,3%,3% more IDPs this round,1%,1% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Ivano-Frankivska,"144,335","144,335",,456,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Kharkivska,"442,584","442,354",230,,0%,0% more IDPs this round,6%,6% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Khmelnytska,"92,198","92,198",,"1,064",-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Kirovohradska,"96,026","91,500","4,526",,5%,5% more IDPs this round,1%,1% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Kyivska,"551,272","548,770","2,502",,0%,0% more IDPs this round,8%,8% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Lvivska,"252,050","252,050",,"4,725",-2%,-2% fewer IDPs this round,3%,3% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Mykolaivska,"113,756","110,919","2,837",,3%,3% more IDPs this round,2%,2% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Odeska,"132,237","132,237",,,0%,no change from last round,2%,2% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Poltavska,"197,417","197,417",,"2,927",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Rivnenska,"83,251","82,910",341,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Sumska,"71,970","71,774",196,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Ternopilska,"82,537","82,537",,888,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Vinnytska,"180,007","180,007",,526,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Volynska,"51,310","51,310",,329,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Zakarpatska,"156,728","156,424",304,,0%,0% more IDPs this round,2%,2% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Zaporizka,"200,199","200,199",,725,0%,0% fewer IDPs this round,3%,3% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+19,Zhytomyrska,"69,761","69,761",,383,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 12 2022-Dec 25 2022
+20,Cherkaska,"146,186","146,186",,"2,809",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Chernihivska,"74,826","74,826",,"2,676",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Chernivetska,"67,451","67,451",,"3,450",-5%,-5% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Dnipropetrovska,"367,089","363,729","3,360",,1%,1% more IDPs this round,5%,5% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Donetska,"45,223","41,667","3,556",,9%,9% more IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Ivano-Frankivska,"141,484","141,484",,"2,851",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Kharkivska,"456,946","442,584","14,362",,3%,3% more IDPs this round,6%,6% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Khersonska,"1,032",,"1,032",,,1st round collected for this oblast,0%,0% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Khmelnytska,"90,513","90,513",,"1,685",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Kirovohradska,"94,484","94,484",,"1,542",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Kyivska,"561,888","551,272","10,616",,2%,2% more IDPs this round,8%,8% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Lvivska,"247,067","247,067",,"4,983",-2%,-2% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Mykolaivska,"115,721","113,756","1,965",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Odeska,"139,556","132,237","7,319",,6%,6% more IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Poltavska,"193,733","193,733",,"3,684",-2%,-2% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Rivnenska,"58,644","58,644",,"24,607",-30%,-30% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Sumska,"69,126","69,126",,"2,844",-4%,-4% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Ternopilska,"80,771","80,771",,"1,766",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Vinnytska,"178,572","178,572",,"1,435",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Volynska,"50,001","50,001",,"1,309",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Zakarpatska,"149,786","149,786",,"6,942",-4%,-4% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Zaporizka,"156,134","156,134",,"44,065",-22%,-22% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+20,Zhytomyrska,"68,952","68,952",,809,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2023-Jan 31 2023
+21,Cherkaska,"136,066","136,066",,"10,120",-7%,-7% fewer IDPs this round,2%,2% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Chernihivska,"72,342","72,342",,"2,484",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Chernivetska,"87,937","67,451","20,486",,30%,30% more IDPs this round,1%,1% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Dnipropetrovska,"372,279","367,089","5,190",,1%,1% more IDPs this round,5%,5% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Donetska,"67,002","45,223","21,779",,48%,48% more IDPs this round,1%,1% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Ivano-Frankivska,"134,452","134,452",,"7,032",-5%,-5% fewer IDPs this round,2%,2% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Kharkivska,"467,154","456,946","10,208",,2%,2% more IDPs this round,6%,6% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Khersonska,"10,961","1,032","9,929",,962%,962% more IDPs this round,0%,0% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Khmelnytska,"85,801","85,801",,"4,712",-5%,-5% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Kirovohradska,"93,504","93,504",,980,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Kyivska,"564,726","561,888","2,838",,1%,1% more IDPs this round,8%,8% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Lvivska,"243,877","243,877",,"3,190",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Mykolaivska,"117,347","115,721","1,626",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Odeska,"143,213","139,556","3,657",,3%,3% more IDPs this round,2%,2% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Poltavska,"193,102","193,102",,631,0%,0% fewer IDPs this round,3%,3% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Rivnenska,"57,650","57,650",,994,-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Sumska,"77,229","69,126","8,103",,12%,12% more IDPs this round,1%,1% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Ternopilska,"78,867","78,867",,"1,904",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Vinnytska,"167,988","167,988",,"10,584",-6%,-6% fewer IDPs this round,2%,2% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Volynska,"57,742","50,001","7,741",,15%,15% more IDPs this round,1%,1% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Zakarpatska,"145,825","145,825",,"3,961",-3%,-3% fewer IDPs this round,2%,2% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Zaporizka,"166,078","156,134","9,944",,6%,6% more IDPs this round,2%,2% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+21,Zhytomyrska,"67,562","67,562",,"1,390",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 11 2023-Feb 28 2023
+22,Cherkaska,"135,291","135,291",,775,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Chernihivska,"70,901","70,901",,"1,441",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Chernivetska,"86,824","86,824",,"1,113",-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Dnipropetrovska,"376,307","372,279","4,028",,1%,1% more IDPs this round,6%,6% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Donetska,"71,250","67,002","4,248",,6%,6% more IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Ivano-Frankivska,"134,174","134,174",,278,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Kharkivska,"475,472","467,154","8,318",,2%,2% more IDPs this round,7%,7% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Khersonska,"10,961","10,961",,,0%,no change from last round,0%,0% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Khmelnytska,"81,571","81,571",,"4,230",-5%,-5% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Kirovohradska,"92,705","92,705",,799,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Kyivska,"331,662","331,662",,"233,064",-41%,-41% fewer IDPs this round,5%,5% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Lvivska,"239,652","239,652",,"4,225",-2%,-2% fewer IDPs this round,4%,4% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Mykolaivska,"119,487","117,347","2,140",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Odeska,"145,565","143,213","2,352",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Poltavska,"192,104","192,104",,998,-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Rivnenska,"55,458","55,458",,"2,192",-4%,-4% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Sumska,"77,721","77,229",492,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Ternopilska,"77,674","77,674",,"1,193",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Vinnytska,"170,181","167,988","2,193",,1%,1% more IDPs this round,3%,3% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Volynska,"54,516","54,516",,"3,226",-6%,-6% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Zakarpatska,"143,795","143,795",,"2,030",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Zaporizka,"168,697","166,078","2,619",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+22,Zhytomyrska,"66,750","66,750",,812,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2023-Mar 31 2023
+23,Cherkaska,"133,896","133,896",,"1,395",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Chernihivska,"70,425","70,425",,476,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Chernivetska,"86,126","86,126",,698,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Dnipropetrovska,"379,857","376,307","3,550",,1%,1% more IDPs this round,5%,5% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Donetska,"74,582","71,250","3,332",,5%,5% more IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Ivano-Frankivska,"129,374","129,374",,"4,800",-4%,-4% fewer IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Kharkivska,"483,186","475,472","7,714",,2%,2% more IDPs this round,7%,7% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Khersonska,"10,961","10,961",,,0%,no change from last round,0%,0% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Khmelnytska,"80,202","80,202",,"1,369",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Kirovohradska,"92,156","92,156",,549,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Kyivska,"577,775","331,662","246,113",,74%,74% more IDPs this round,8%,8% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Lvivska,"237,062","237,062",,"2,590",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Mykolaivska,"119,395","119,395",,92,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Odeska,"147,328","145,565","1,763",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Poltavska,"190,776","190,776",,"1,328",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Rivnenska,"54,046","54,046",,"1,412",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Sumska,"79,235","77,721","1,514",,2%,2% more IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Ternopilska,"76,753","76,753",,921,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Vinnytska,"168,123","168,123",,"2,058",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Volynska,"53,693","53,693",,823,-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Zakarpatska,"142,198","142,198",,"1,597",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Zaporizka,"171,718","168,697","3,021",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+23,Zhytomyrska,"65,412","65,412",,"1,338",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2023-Apr 30 2023
+24,Cherkaska,"133,717","133,717",,179,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Chernihivska,"71,255","70,425",830,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Chernivetska,"85,527","85,527",,599,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Dnipropetrovska,"383,112","379,857","3,255",,1%,1% more IDPs this round,6%,6% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Donetska,"78,438","74,582","3,856",,5%,5% more IDPs this round,1%,1% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Ivano-Frankivska,"131,445","129,374","2,071",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Kharkivska,"491,409","483,186","8,223",,2%,2% more IDPs this round,7%,7% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Khersonska,"22,555","10,961","11,594",,106%,106% more IDPs this round,0%,0% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Khmelnytska,"79,153","79,153",,"1,049",-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Kirovohradska,"91,417","91,417",,739,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Kyivska,"332,216","332,216",,"245,559",-43%,-43% fewer IDPs this round,5%,5% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Lvivska,"235,973","235,973",,"1,089",0%,0% fewer IDPs this round,3%,3% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Mykolaivska,"121,117","119,395","1,722",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Odeska,"150,425","147,328","3,097",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Poltavska,"189,358","189,358",,"1,418",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Rivnenska,"53,396","53,396",,650,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Sumska,"80,068","79,235",833,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Ternopilska,"75,784","75,784",,969,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Vinnytska,"166,724","166,724",,"1,399",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Volynska,"52,877","52,877",,816,-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Zakarpatska,"141,170","141,170",,"1,028",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Zaporizka,"149,458","149,458",,"22,260",-13%,-13% fewer IDPs this round,2%,2% of total recorded IDPs this round,May 1 2023-May 31 2023
+24,Zhytomyrska,"64,781","64,781",,631,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,May 1 2023-May 31 2023
+25,Cherkaska,"132,933","132,933",,784,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Chernihivska,"71,295","71,255",40,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Chernivetska,"84,443","84,443",,"1,084",-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Dnipropetrovska,"386,553","383,112","3,441",,1%,1% more IDPs this round,5%,5% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Donetska,"82,505","78,438","4,067",,5%,5% more IDPs this round,1%,1% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Ivano-Frankivska,"130,160","130,160",,"1,285",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Kharkivska,"500,059","491,409","8,650",,2%,2% more IDPs this round,7%,7% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Khersonska,"25,943","22,555","3,388",,15%,15% more IDPs this round,0%,0% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Khmelnytska,"80,162","79,153","1,009",,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Kirovohradska,"91,089","91,089",,328,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Kyivska,"591,332","332,216","259,116",,78%,78% more IDPs this round,8%,8% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Lvivska,"234,945","234,945",,"1,028",0%,0% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Mykolaivska,"115,187","115,187",,"5,930",-5%,-5% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Odeska,"152,963","150,425","2,538",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Poltavska,"187,312","187,312",,"2,046",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Rivnenska,"52,707","52,707",,689,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Sumska,"81,115","80,068","1,047",,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Ternopilska,"74,788","74,788",,996,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Vinnytska,"165,007","165,007",,"1,717",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Volynska,"52,208","52,208",,669,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Zakarpatska,"140,160","140,160",,"1,010",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Zaporizka,"152,812","149,458","3,354",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+25,Zhytomyrska,"64,660","64,660",,121,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jun 1 2023-Jun 30 2023
+26,Cherkaska,"132,260","132,260",,673,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Chernihivska,"70,758","70,758",,537,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Chernivetska,"84,218","84,218",,225,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Dnipropetrovska,"388,845","386,553","2,292",,1%,1% more IDPs this round,5%,5% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Donetska,"86,252","82,505","3,747",,5%,5% more IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Ivano-Frankivska,"129,266","129,266",,894,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Kharkivska,"510,775","500,059","10,716",,2%,2% more IDPs this round,7%,7% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Khersonska,"26,752","25,943",809,,3%,3% more IDPs this round,0%,0% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Khmelnytska,"79,583","79,583",,579,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Kirovohradska,"90,826","90,826",,263,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Kyivska,"598,638","591,332","7,306",,1%,1% more IDPs this round,8%,8% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Lvivska,"233,933","233,933",,"1,012",0%,0% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Mykolaivska,"117,475","115,187","2,288",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Odeska,"155,674","152,963","2,711",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Poltavska,"186,042","186,042",,"1,270",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Rivnenska,"51,404","51,404",,"1,303",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Sumska,"83,154","81,115","2,039",,3%,3% more IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Ternopilska,"74,268","74,268",,520,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Vinnytska,"163,295","163,295",,"1,712",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Volynska,"51,818","51,818",,390,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Zakarpatska,"139,377","139,377",,783,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Zaporizka,"158,586","152,812","5,774",,4%,4% more IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+26,Zhytomyrska,"64,402","64,402",,258,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2023-Jul 31 2023
+27,Cherkaska,"131,286","131,286",,974,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Chernihivska,"70,544","70,544",,214,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Chernivetska,"83,636","83,636",,582,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Dnipropetrovska,"390,420","388,845","1,575",,0%,0% more IDPs this round,6%,6% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Donetska,"89,873","86,252","3,621",,4%,4% more IDPs this round,1%,1% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Ivano-Frankivska,"129,224","129,224",,42,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Kharkivska,"337,443","337,443",,"173,332",-34%,-34% fewer IDPs this round,5%,5% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Khersonska,"28,004","26,752","1,252",,5%,5% more IDPs this round,0%,0% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Khmelnytska,"79,211","79,211",,372,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Kirovohradska,"90,274","90,274",,552,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Kyivska,"606,143","598,638","7,505",,1%,1% more IDPs this round,9%,9% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Lvivska,"233,052","233,052",,881,0%,0% fewer IDPs this round,3%,3% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Mykolaivska,"118,496","117,475","1,021",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Odeska,"158,475","155,674","2,801",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Poltavska,"184,129","184,129",,"1,913",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Rivnenska,"51,690","51,404",286,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Sumska,"84,803","83,154","1,649",,2%,2% more IDPs this round,1%,1% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Ternopilska,"73,674","73,674",,594,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Vinnytska,"162,156","162,156",,"1,139",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Volynska,"50,906","50,906",,912,-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Zakarpatska,"138,512","138,512",,865,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Zaporizka,"161,381","158,586","2,795",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+27,Zhytomyrska,"63,433","63,433",,969,-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Aug 1 2023-Aug 31 2023
+28,Cherkaska,"130,280","130,280",,"1,006",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Chernihivska,"70,231","70,231",,313,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Chernivetska,"82,826","82,826",,810,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Dnipropetrovska,"390,307","390,307",,113,0%,0% fewer IDPs this round,6%,6% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Donetska,"93,007","89,873","3,134",,3%,3% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Ivano-Frankivska,"125,697","125,697",,"3,527",-3%,-3% fewer IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Kharkivska,"342,639","337,443","5,196",,2%,2% more IDPs this round,5%,5% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Khersonska,"27,794","27,794",,210,-1%,-1% fewer IDPs this round,0%,0% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Khmelnytska,"78,650","78,650",,561,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Kirovohradska,"89,310","89,310",,964,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Kyivska,"608,989","606,143","2,846",,0%,0% more IDPs this round,9%,9% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Lvivska,"231,618","231,618",,"1,434",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Mykolaivska,"118,636","118,496",140,,0%,0% more IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Odeska,"160,935","158,475","2,460",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Poltavska,"182,064","182,064",,"2,065",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Rivnenska,"51,038","51,038",,652,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Sumska,"85,190","84,803",387,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Ternopilska,"73,006","73,006",,668,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Vinnytska,"160,533","160,533",,"1,623",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Volynska,"50,055","50,055",,851,-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Zakarpatska,"137,318","137,318",,"1,194",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Zaporizka,"163,509","161,381","2,128",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+28,Zhytomyrska,"62,706","62,706",,727,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2023-Sep 30 2023
+29,Cherkaska,"129,508","129,508",,772,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Chernihivska,"70,050","70,050",,181,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Chernivetska,"82,450","82,450",,376,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Dnipropetrovska,"390,682","390,307",375,,0%,0% more IDPs this round,6%,6% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Donetska,"95,766","93,007","2,759",,3%,3% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Ivano-Frankivska,"126,187","125,697",490,,0%,0% more IDPs this round,2%,2% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Kharkivska,"348,040","342,639","5,401",,2%,2% more IDPs this round,5%,5% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Khersonska,"29,736","27,794","1,942",,7%,7% more IDPs this round,0%,0% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Khmelnytska,"75,443","75,443",,"3,207",-4%,-4% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Kirovohradska,"88,732","88,732",,578,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Kyivska,"618,403","608,989","9,414",,2%,2% more IDPs this round,9%,9% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Lvivska,"229,605","229,605",,"2,013",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Mykolaivska,"119,745","118,636","1,109",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Odeska,"163,061","160,935","2,126",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Poltavska,"180,486","180,486",,"1,578",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Rivnenska,"50,371","50,371",,667,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Sumska,"85,278","85,190",88,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Ternopilska,"72,348","72,348",,658,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Vinnytska,"159,196","159,196",,"1,337",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Volynska,"49,152","49,152",,903,-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Zakarpatska,"136,567","136,567",,751,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Zaporizka,"165,127","163,509","1,618",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+29,Zhytomyrska,"61,798","61,798",,908,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Oct 1 2023-Oct 31 2023
+30,Cherkaska,"128,863","128,863",,645,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Chernihivska,"69,679","69,679",,371,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Chernivetska,"81,949","81,949",,501,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Dnipropetrovska,"390,671","390,671",,11,0%,0% fewer IDPs this round,6%,6% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Donetska,"99,389","95,766","3,623",,4%,4% more IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Ivano-Frankivska,"125,107","125,107",,"1,080",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Kharkivska,"353,388","348,040","5,348",,2%,2% more IDPs this round,5%,5% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Khersonska,"30,780","29,736","1,044",,4%,4% more IDPs this round,0%,0% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Khmelnytska,"74,672","74,672",,771,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Kirovohradska,"88,130","88,130",,602,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Kyivska,"622,537","618,403","4,134",,1%,1% more IDPs this round,9%,9% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Lvivska,"228,737","228,737",,868,0%,0% fewer IDPs this round,3%,3% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Mykolaivska,"121,012","119,745","1,267",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Odeska,"164,889","163,061","1,828",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Poltavska,"179,025","179,025",,"1,461",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Rivnenska,"49,983","49,983",,388,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Sumska,"90,142","85,278","4,864",,6%,6% more IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Ternopilska,"71,420","71,420",,928,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Vinnytska,"158,453","158,453",,743,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Volynska,"48,231","48,231",,921,-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Zakarpatska,"135,541","135,541",,"1,026",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Zaporizka,"167,448","165,127","2,321",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+30,Zhytomyrska,"60,753","60,753",,"1,045",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2023-Nov 30 2023
+31,Cherkaska,"128,175","128,175",,688,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Chernihivska,"57,125","57,125",,"12,554",-18%,-18% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Chernivetska,"81,267","81,267",,682,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Dnipropetrovska,"390,322","390,322",,349,0%,0% fewer IDPs this round,6%,6% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Donetska,"100,684","99,389","1,295",,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Ivano-Frankivska,"125,107","125,107",,,0%,no change from last round,2%,2% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Kharkivska,"356,065","353,388","2,677",,1%,1% more IDPs this round,5%,5% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Khersonska,"31,109","30,780",329,,1%,1% more IDPs this round,0%,0% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Khmelnytska,"72,657","72,657",,"2,015",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Kirovohradska,"87,614","87,614",,516,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Kyivska,"625,268","622,537","2,731",,0%,0% more IDPs this round,9%,9% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Lvivska,"227,395","227,395",,"1,342",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Mykolaivska,"121,140","121,012",128,,0%,0% more IDPs this round,2%,2% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Odeska,"165,880","164,889",991,,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Poltavska,"177,590","177,590",,"1,435",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Rivnenska,"49,218","49,218",,765,-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Sumska,"87,117","87,117",,"3,025",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Ternopilska,"70,934","70,934",,486,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Vinnytska,"157,368","157,368",,"1,085",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Volynska,"47,691","47,691",,540,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Zakarpatska,"134,788","134,788",,753,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Zaporizka,"167,805","167,448",357,,0%,0% more IDPs this round,2%,2% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+31,Zhytomyrska,"59,726","59,726",,"1,027",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Dec 1 2023-Dec 31 2023
+32,Cherkaska,"127,541","127,541",,634,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Chernihivska,"57,003","57,003",,122,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Chernivetska,"80,660","80,660",,607,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Dnipropetrovska,"388,976","388,976",,"1,346",0%,0% fewer IDPs this round,6%,6% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Donetska,"101,542","100,684",858,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Ivano-Frankivska,"122,345","122,345",,"2,762",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Kharkivska,"357,433","356,065","1,368",,0%,0% more IDPs this round,5%,5% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Khersonska,"31,250","31,109",141,,0%,0% more IDPs this round,0%,0% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Khmelnytska,"72,532","72,532",,125,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Kirovohradska,"87,269","87,269",,345,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Kyivska,"623,070","623,070",,"2,198",0%,0% fewer IDPs this round,9%,9% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Lvivska,"225,635","225,635",,"1,760",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Mykolaivska,"120,861","120,861",,279,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Odeska,"167,299","165,880","1,419",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Poltavska,"176,046","176,046",,"1,544",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Rivnenska,"49,110","49,110",,108,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Sumska,"87,110","87,110",,7,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Ternopilska,"70,126","70,126",,808,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Vinnytska,"155,959","155,959",,"1,409",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Volynska,"47,170","47,170",,521,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Zakarpatska,"133,785","133,785",,"1,003",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Zaporizka,"167,194","167,194",,611,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+32,Zhytomyrska,"59,231","59,231",,495,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 2024-Jan 31 2024
+33,Cherkaska,"126,544","126,544",,997,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Chernihivska,"56,966","56,966",,37,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Chernivetska,"79,975","79,975",,685,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Dnipropetrovska,"387,653","387,653",,"1,323",0%,0% fewer IDPs this round,6%,6% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Donetska,"102,259","101,542",717,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Ivano-Frankivska,"121,454","121,454",,891,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Kharkivska,"358,857","357,433","1,424",,0%,0% more IDPs this round,5%,5% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Khersonska,"31,579","31,250",329,,1%,1% more IDPs this round,0%,0% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Khmelnytska,"73,305","72,532",773,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Kirovohradska,"86,366","86,366",,903,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Kyivska,"536,485","536,485",,"86,585",-14%,-14% fewer IDPs this round,8%,8% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Lvivska,"223,902","223,902",,"1,733",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Mykolaivska,"120,513","120,513",,348,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Odeska,"168,459","167,299","1,160",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Poltavska,"174,685","174,685",,"1,361",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Rivnenska,"48,532","48,532",,578,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Sumska,"86,997","86,997",,113,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Ternopilska,"69,379","69,379",,747,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Vinnytska,"154,368","154,368",,"1,591",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Volynska,"46,575","46,575",,595,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Zakarpatska,"132,804","132,804",,981,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Zaporizka,"166,944","166,944",,250,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+33,Zhytomyrska,"58,871","58,871",,360,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Feb 1 2024-Feb 29 2024
+34,Cherkaska,"125,518","125,518",,"1,026",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Chernihivska,"56,733","56,733",,233,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Chernivetska,"78,940","78,940",,"1,035",-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Dnipropetrovska,"386,396","386,396",,"1,257",0%,0% fewer IDPs this round,6%,6% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Donetska,"100,638","100,638",,"1,621",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Ivano-Frankivska,"120,259","120,259",,"1,195",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Kharkivska,"361,628","358,857","2,771",,1%,1% more IDPs this round,5%,5% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Khersonska,"31,755","31,579",176,,1%,1% more IDPs this round,0%,0% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Khmelnytska,"72,597","72,597",,708,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Kirovohradska,"85,356","85,356",,"1,010",-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Kyivska,"524,412","524,412",,"12,073",-2%,-2% fewer IDPs this round,8%,8% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Lvivska,"221,410","221,410",,"2,492",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Mykolaivska,"120,248","120,248",,265,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Odeska,"169,488","168,459","1,029",,1%,1% more IDPs this round,3%,3% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Poltavska,"172,287","172,287",,"2,398",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Rivnenska,"48,321","48,321",,211,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Sumska,"87,319","86,997",322,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Ternopilska,"68,337","68,337",,"1,042",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Vinnytska,"153,037","153,037",,"1,331",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Volynska,"46,219","46,219",,356,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Zakarpatska,"131,793","131,793",,"1,011",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Zaporizka,"165,840","165,840",,"1,104",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+34,Zhytomyrska,"58,760","58,760",,111,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Mar 1 2024-Mar 31 2024
+35,Cherkaska,"123,522","123,522",,"1,996",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Chernihivska,"56,695","56,695",,38,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Chernivetska,"77,790","77,790",,"1,150",-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Dnipropetrovska,"377,837","377,837",,"8,559",-2%,-2% fewer IDPs this round,6%,6% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Donetska,"102,914","100,638","2,276",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Ivano-Frankivska,"117,696","117,696",,"2,563",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Kharkivska,"384,897","361,628","23,269",,6%,6% more IDPs this round,6%,6% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Khersonska,"31,733","31,733",,22,0%,0% fewer IDPs this round,0%,0% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Khmelnytska,"72,079","72,079",,518,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Kirovohradska,"83,688","83,688",,"1,668",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Kyivska,"514,817","514,817",,"9,595",-2%,-2% fewer IDPs this round,8%,8% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Lvivska,"217,479","217,479",,"3,931",-2%,-2% fewer IDPs this round,3%,3% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Mykolaivska,"118,835","118,835",,"1,413",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Odeska,"169,654","169,488",166,,0%,0% more IDPs this round,3%,3% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Poltavska,"168,036","168,036",,"4,251",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Rivnenska,"46,727","46,727",,"1,594",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Sumska,"87,145","87,145",,174,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Ternopilska,"67,266","67,266",,"1,071",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Vinnytska,"150,610","150,610",,"2,427",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Volynska,"45,748","45,748",,471,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Zakarpatska,"129,481","129,481",,"2,312",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Zaporizka,"163,377","163,377",,"2,463",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+35,Zhytomyrska,"58,430","58,430",,330,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Apr 1 2024-Apr 30 2024
+36,Cherkaska,"120,880","120,880",,"2,642",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Chernihivska,"56,929","56,695",234,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Chernivetska,"87,937","77,790","10,147",,13%,13% more IDPs this round,1%,1% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Dnipropetrovska,"373,301","373,301",,"4,536",-1%,-1% fewer IDPs this round,6%,6% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Donetska,"105,109","102,914","2,195",,2%,2% more IDPs this round,2%,2% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Ivano-Frankivska,"115,528","115,528",,"2,168",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Kharkivska,"388,118","384,897","3,221",,1%,1% more IDPs this round,6%,6% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Khersonska,"32,377","31,733",644,,2%,2% more IDPs this round,0%,0% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Khmelnytska,"69,826","69,826",,"2,253",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Kirovohradska,"81,801","81,801",,"1,887",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Kyivska,"478,231","478,231",,"36,586",-7%,-7% fewer IDPs this round,7%,7% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Lvivska,"213,144","213,144",,"4,335",-2%,-2% fewer IDPs this round,3%,3% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Mykolaivska,"116,438","116,438",,"2,397",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Odeska,"171,477","169,654","1,823",,1%,1% more IDPs this round,3%,3% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Poltavska,"164,291","164,291",,"3,745",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Rivnenska,"46,216","46,216",,511,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Sumska,"88,642","87,145","1,497",,2%,2% more IDPs this round,1%,1% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Ternopilska,"66,092","66,092",,"1,174",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Vinnytska,"147,875","147,875",,"2,735",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Volynska,"44,956","44,956",,792,-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Zakarpatska,"126,304","126,304",,"3,177",-2%,-2% fewer IDPs this round,2%,2% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Zaporizka,"160,937","160,937",,"2,440",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+36,Zhytomyrska,"58,260","58,260",,170,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,May 1 2024-Jun 30 2024
+37,Cherkaska,"120,195","120,195",,685,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Chernihivska,"57,128","56,929",199,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Chernivetska,"75,838","75,838",,"12,099",-14%,-14% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Dnipropetrovska,"377,713","373,301","4,412",,1%,1% more IDPs this round,6%,6% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Donetska,"104,443","104,443",,666,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Ivano-Frankivska,"113,852","113,852",,"1,676",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Kharkivska,"388,410","388,118",292,,0%,0% more IDPs this round,6%,6% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Khersonska,"32,831","32,377",454,,1%,1% more IDPs this round,0%,0% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Khmelnytska,"68,192","68,192",,"1,634",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Kirovohradska,"81,326","81,326",,475,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Kyivska,"480,189","478,231","1,958",,0%,0% more IDPs this round,7%,7% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Lvivska,"210,118","210,118",,"3,026",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Mykolaivska,"115,419","115,419",,"1,019",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Odeska,"177,948","171,477","6,471",,4%,4% more IDPs this round,3%,3% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Poltavska,"162,320","162,320",,"1,971",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Rivnenska,"45,855","45,855",,361,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Sumska,"89,127","88,642",485,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Ternopilska,"65,588","65,588",,504,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Vinnytska,"146,628","146,628",,"1,247",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Volynska,"44,740","44,740",,216,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Zakarpatska,"127,414","126,304","1,110",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Zaporizka,"160,196","160,196",,741,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+37,Zhytomyrska,"58,015","58,015",,245,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jul 1 2024-Aug 31 2024
+38,Cherkaska,"121,664","120,195","1,469",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Chernihivska,"57,667","57,128",539,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Chernivetska,"75,614","75,614",,224,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Dnipropetrovska,"379,133","377,713","1,420",,0%,0% more IDPs this round,6%,6% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Donetska,"96,947","96,947",,"7,496",-7%,-7% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Ivano-Frankivska,"113,025","113,025",,827,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Kharkivska,"390,872","388,410","2,462",,1%,1% more IDPs this round,6%,6% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Khersonska,"32,914","32,831",83,,0%,0% more IDPs this round,0%,0% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Khmelnytska,"67,840","67,840",,352,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Kirovohradska,"82,960","81,326","1,634",,2%,2% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Kyivska,"491,490","480,189","11,301",,2%,2% more IDPs this round,7%,7% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Lvivska,"208,694","208,694",,"1,424",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Mykolaivska,"114,137","114,137",,"1,282",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Odeska,"179,199","177,948","1,251",,1%,1% more IDPs this round,3%,3% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Poltavska,"163,499","162,320","1,179",,1%,1% more IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Rivnenska,"45,184","45,184",,671,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Sumska,"88,991","88,991",,136,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Ternopilska,"65,635","65,588",47,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Vinnytska,"145,905","145,905",,723,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Volynska,"44,603","44,603",,137,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Zakarpatska,"126,374","126,374",,"1,040",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Zaporizka,"159,782","159,782",,414,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+38,Zhytomyrska,"58,539","58,015",524,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Sep 1 2024-Oct 31 2024
+39,Cherkaska,"121,260","121,260",,404,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Chernihivska,"57,466","57,466",,201,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Chernivetska,"75,285","75,285",,329,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Dnipropetrovska,"379,610","379,133",477,,0%,0% more IDPs this round,6%,6% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Donetska,"94,186","94,186",,"2,761",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Ivano-Frankivska,"112,025","112,025",,"1,000",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Kharkivska,"392,191","390,872","1,319",,0%,0% more IDPs this round,6%,6% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Khersonska,"33,036","32,914",122,,0%,0% more IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Khmelnytska,"67,404","67,404",,436,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Kirovohradska,"82,530","82,530",,430,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Kyivska,"488,817","488,817",,"2,673",-1%,-1% fewer IDPs this round,7%,7% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Lvivska,"207,109","207,109",,"1,585",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Mykolaivska,"113,252","113,252",,885,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Odeska,"179,041","179,041",,158,0%,0% fewer IDPs this round,3%,3% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Poltavska,"162,827","162,827",,672,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Rivnenska,"44,659","44,659",,525,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Sumska,"90,309","88,991","1,318",,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Ternopilska,"64,908","64,908",,727,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Vinnytska,"144,638","144,638",,"1,267",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Volynska,"43,471","43,471",,"1,132",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Zakarpatska,"125,484","125,484",,890,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Zaporizka,"159,178","159,178",,604,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+39,Zhytomyrska,"56,898","56,898",,"1,641",-3%,-3% fewer IDPs this round,1%,1% of total recorded IDPs this round,Nov 1 2024-Dec 31 2024
+40,Cherkaska,"120,825","120,825",,435,0%,0% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Chernihivska,"58,332","57,466",866,,2%,2% more IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Chernivetska,"74,883","74,883",,402,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Dnipropetrovska,"381,002","379,610","1,392",,0%,0% more IDPs this round,6%,6% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Donetska,"93,464","93,464",,722,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Ivano-Frankivska,"111,176","111,176",,849,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Kharkivska,"391,154","391,154",,"1,037",0%,0% fewer IDPs this round,6%,6% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Khersonska,"33,412","33,036",376,,1%,1% more IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Khmelnytska,"66,064","66,064",,"1,340",-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Kirovohradska,"82,357","82,357",,173,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Kyivska,"253,803","253,803",,"235,014",-48%,-48% fewer IDPs this round,4%,4% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Lvivska,"205,918","205,918",,"1,191",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Mykolaivska,"112,294","112,294",,958,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Odeska,"178,967","178,967",,74,0%,0% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Poltavska,"161,708","161,708",,"1,119",-1%,-1% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Rivnenska,"43,793","43,793",,866,-2%,-2% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Sumska,"89,474","89,474",,835,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Ternopilska,"64,755","64,755",,153,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Vinnytska,"143,633","143,633",,"1,005",-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Volynska,"43,107","43,107",,364,-1%,-1% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Zakarpatska,"124,651","124,651",,833,-1%,-1% fewer IDPs this round,2%,2% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Zaporizka,"158,595","158,595",,583,0%,0% fewer IDPs this round,3%,3% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+40,Zhytomyrska,"56,627","56,627",,271,0%,0% fewer IDPs this round,1%,1% of total recorded IDPs this round,Jan 1 - Feb 28 2025
+1,Crimskaya,0,0,0,,,,,,Jan 1 - Feb 28 2025
+2,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+3,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+4,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+5,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+6,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+7,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+8,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+9,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+10,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+11,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+12,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+13,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+14,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+15,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+16,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+17,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+18,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+19,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+20,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+21,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+22,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+23,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+24,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+25,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+26,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+27,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+28,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+29,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+30,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+31,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+32,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+33,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+34,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+35,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+36,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+37,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+38,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+39,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+40,Crimskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+1,Luhanskaya,0,0,0,,,,,,Jan 1 - Feb 28 2025
+2,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+3,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+4,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+5,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+6,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+7,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+8,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+9,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+10,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+11,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+12,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+13,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+14,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+15,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+16,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+17,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+18,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+19,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+20,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+21,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+22,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+23,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+24,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+25,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+26,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+27,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+28,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+29,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+30,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+31,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+32,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+33,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+34,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+35,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+36,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+37,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+38,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+39,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+40,Luhanskaya,0,0,,,,,,,Jan 1 - Feb 28 2025
+1,Total,"184,676",0,"184,676",,,1st round collected for this oblast,,,March 9 2022-March 16 2022
+2,Total,"167,265","167,265",,"17,411",-9%,-9% fewer IDPs this round,,,March 24 2022-April 1 2022
+3,Total,"806,375","167,265","639,110",,382%,382% more IDPs this round,,,April 11 2022 - April 17 2022
+4,Total,"1,155,460","806,375","349,085",,43%,43% more IDPs this round,,,May 16 2022- May 31 2022
+5,Total,"1,449,250","1,155,460","293,790",,25%,25% more IDPs this round,,,June 1 2022-Jun 11 2022
+6,Total,"2,183,412","1,449,250","734,162",,51%,51% more IDPs this round,,,Jun 13 2022-Jun 26 2022
+7,Total,"2,334,552","2,183,412","151,140",,7%,7% more IDPs this round,,,Jun 27 2022-Jul 8 2022
+8,Total,"2,324,477","2,324,477",,"10,075",0%,0% fewer IDPs this round,,,Jul 12 2022-Jul 24 2022
+9,Total,"2,495,756","2,324,477","171,279",,7%,7% more IDPs this round,,,Jul 25 2022-Aug 5 2022
+10,Total,"3,125,303","2,495,756","629,547",,25%,25% more IDPs this round,,,Aug 8 2022-Aug 19 2022
+11,Total,"3,125,303","3,125,303",,,0%,no change from last round,,,Aug 22 2022-Sep 2 2022
+12,Total,"3,176,604","3,125,303","51,301",,2%,2% more IDPs this round,,,Sep 5 2022-Sep 18 2022
+13,Total,"3,255,571","3,176,604","78,967",,2%,2% more IDPs this round,,,Sep 19 2022-Sep 30 2022
+14,Total,"3,300,532","3,255,571","44,961",,1%,1% more IDPs this round,,,Oct 3 2022-Oct 16 2022
+15,Total,"3,449,843","3,300,532","149,311",,5%,5% more IDPs this round,,,Oct 17 2022-Oct 28 2022
+16,Total,"3,545,548","3,449,843","95,705",,3%,3% more IDPs this round,,,Oct 31 2022-Nov 11 2022
+17,Total,"3,548,917","3,545,548","3,369",,0%,0% more IDPs this round,,,Nov 14 2022-Nov 25 2022
+18,Total,"3,623,125","3,548,917","74,208",,2%,2% more IDPs this round,,,Nov 28 2022-Dec 11 2022
+19,Total,"3,620,432","3,620,432",,"2,693",0%,0% fewer IDPs this round,,,Dec 12 2022-Dec 25 2022
+20,Total,"3,555,185","3,555,185",,"65,247",-2%,-2% fewer IDPs this round,,,Jan 1 2023-Jan 31 2023
+21,Total,"3,608,704","3,555,185","53,519",,2%,2% more IDPs this round,,,Feb 11 2023-Feb 28 2023
+22,Total,"3,378,718","3,378,718",,"229,986",-6%,-6% fewer IDPs this round,,,Mar 1 2023-Mar 31 2023
+23,Total,"3,624,279","3,378,718","245,561",,7%,7% more IDPs this round,,,Apr 1 2023-Apr 30 2023
+24,Total,"3,381,375","3,381,375",,"242,904",-7%,-7% fewer IDPs this round,,,May 1 2023-May 31 2023
+25,Total,"3,650,338","3,381,375","268,963",,8%,8% more IDPs this round,,,Jun 1 2023-Jun 30 2023
+26,Total,"3,677,601","3,650,338","27,263",,1%,1% more IDPs this round,,,Jul 1 2023-Jul 31 2023
+27,Total,"3,516,765","3,516,765",,"160,836",-4%,-4% fewer IDPs this round,,,Aug 1 2023-Aug 31 2023
+28,Total,"3,516,338","3,516,338",,427,0%,0% fewer IDPs this round,,,Sep 1 2023-Sep 30 2023
+29,Total,"3,527,731","3,516,338","11,393",,0%,0% more IDPs this round,,,Oct 1 2023-Oct 31 2023
+30,Total,"3,540,799","3,527,731","13,068",,0%,0% more IDPs this round,,,Nov 1 2023-Nov 30 2023
+31,Total,"3,522,045","3,522,045",,"18,754",-1%,-1% fewer IDPs this round,,,Dec 1 2023-Dec 31 2023
+32,Total,"3,509,147","3,509,147",,"12,898",0%,0% fewer IDPs this round,,,Jan 1 2024-Jan 31 2024
+33,Total,"3,413,472","3,413,472",,"95,675",-3%,-3% fewer IDPs this round,,,Feb 1 2024-Feb 29 2024
+34,Total,"3,387,291","3,387,291",,"26,181",-1%,-1% fewer IDPs this round,,,Mar 1 2024-Mar 31 2024
+35,Total,"3,366,456","3,366,456",,"20,835",-1%,-1% fewer IDPs this round,,,Apr 1 2024-Apr 30 2024
+36,Total,"3,314,669","3,314,669",,"51,787",-2%,-2% fewer IDPs this round,,,May 1 2024-Jun 30 2024
+37,Total,"3,303,485","3,303,485",,"11,184",0%,0% fewer IDPs this round,,,Jul 1 2024-Aug 31 2024
+38,Total,"3,310,668","3,303,485","7,183",,0%,0% more IDPs this round,,,Sep 1 2024-Oct 31 2024
+39,Total,"3,295,584","3,295,584",,"15,084",0%,0% fewer IDPs this round,,,Nov 1 2024-Dec 31 2024
+40,Total,"3,049,994","3,049,994",,"245,590",-7%,-7% fewer IDPs this round,,,Jan 1 - Feb 28 2025

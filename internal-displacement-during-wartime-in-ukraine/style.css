@@ -1,19 +1,26 @@
-/***** TOP-LEVEL *****/
-/***** TOP-LEVEL *****/
-/***** TOP-LEVEL *****/
+/***** TOP/TITLE *****/
+/***** TOP/TITLE *****/
+/***** TOP/TITLE *****/
 
 body {
     background-color: #DFE6F2;
-    text-align: center;
+    margin: 0;
     padding: 20px;
     font-family: 'Oswald', sans-serif;
 }
 
-canvas {
-    display: block;
-    margin: auto;
+header {
+  text-align: center;
 }
 
+#page-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+}
 
 #title-image {
   width: 230px;
@@ -28,33 +35,10 @@ canvas {
   content: url('Title-Ukraine.png');
 }
 
-#round-summary,
-.legend {
-  color: #073763;
-  font-family: 'Oswald';
-  font-weight: 400;
-  font-size: 15px;
-  text-align: center;
-}
 
-#round-summary {
-  margin-top: 20px;
-  position: relative;
-}
-
-.legend {
-  margin-bottom: 30px;
-}
-
-.dot{
-  font-size: 18px;
-  color: #6681EA;
-}
-
-
-/***** FONTS *****/
-/***** FONTS *****/
-/***** FONTS *****/
+/* FONTS */
+/* FONTS */
+/* FONTS */
 
 @font-face {
   font-family: 'NAMU Style Pro';
@@ -63,13 +47,7 @@ canvas {
   font-style: normal;
 }
 
-/* Misto does not work :(
-@font-face {
-  font-family: 'Misto';
-  src: url('Misto.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-} */
+/* Misto did not work, so title is currently image */ 
 
 
 /***** TIMELINE *****/
@@ -165,9 +143,80 @@ canvas {
 }
   
 
-/***** TOP-RIGHT ICONS *****/
-/***** TOP-RIGHT ICONS *****/
-/***** TOP-RIGHT ICONS *****/
+
+/***** MAP & GRAPHS LAYOUT *****/ 
+/***** MAP & GRAPHS LAYOUT *****/ 
+/***** MAP & GRAPHS LAYOUT *****/ 
+
+#data-content {
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+}
+
+#spark-graph-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  padding: 10px;
+  margin-left: 80px;
+  flex-shrink: 0;
+}
+
+#spark-graph-container img {
+  width: 100%; 
+  height: auto;
+  margin-left: 5px;
+}
+
+#spark-master-text{
+  font-family: 'Oswald';
+  font-weight: 400px;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 30px; 
+  color: #073763;
+}
+
+/* background-color: #6681EA;  /* Background color */
+/*  color: #F8FF7F;  /* Text color */
+/*  padding: 2px 6px;  /* Padding around the text */
+/*  border-radius: 4px;  /* Rounded corners */ 
+
+#spark1-text,
+#spark2-text {
+  font-family: 'Oswald';
+  font-weight: 200px;
+  font-size: 16px;
+  text-align: left;
+  color: #073763;
+}
+
+#spark1-text p, #spark2-text p {
+  margin: 0; /* Reset default margins */
+  padding: 0; /* Reset any padding */
+}
+
+/* P5 MAP */
+/* P5 MAP */
+/* P5 MAP */
+
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+.dot{
+font-size: 18px;
+color: #6681EA;
+}
+
+
+/***** FLOATING ICONS *****/
+/***** FLOATING ICONS *****/
+/***** FLOATING ICONS *****/
 
 
 /* WRAPPERS & POSITION */
@@ -272,4 +321,26 @@ canvas {
   width: 19px;
   height: 19px;
   margin-top: 1.5px;
+}
+
+
+/* ROUND GEO DATA */
+
+#round-summary,
+.legend {
+  color: #073763;
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+}
+
+#round-summary {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.legend {
+  margin-bottom: 30px;
 }
